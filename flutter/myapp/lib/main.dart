@@ -55,3 +55,54 @@ class RandomWordsState extends State<RandomWords> {
       );
     }
 }
+
+
+class PetCard extends StatelessWidget{
+   final PetCardViewModel data;
+   const PetCard({
+     Key key,
+     this.data,
+   }):super(key:key);
+   Widget renderCover() {
+    
+  }
+
+  Widget renderUserInfo() {
+    
+  }
+
+  Widget renderPublishContent() {
+  
+  }
+
+  Widget renderInteractionArea() {
+   
+  }
+    @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(8),
+        boxShadow: [
+          BoxShadow(
+            blurRadius: 6,
+            spreadRadius: 4,
+            color: Color.fromARGB(20, 0, 0, 0),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          this.renderCover(),
+          this.renderUserInfo(),
+          this.renderPublishContent(),
+          this.renderInteractionArea(),
+        ],
+      ),
+    );
+  }
+
+}

@@ -1,108 +1,103 @@
-
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(new MyApp());
 
-class MyApp extends StatelessWidget{
-  @override 
-  Widget build(BuildContext context){
-    return MaterialApp(
-      title:'test',
-      home: RandomWords()
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+      title: 'Flutter Demo',
+      theme: new ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: new MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
-class RandomWords extends StatefulWidget {
-  @override
-  RandomWordsState createState() => RandomWordsState();
-}
-class RandomWordsState extends State<RandomWords> {
-  final _suggestions = <WordPair>[];
-  final _biggerFont = const TextStyle(fontSize: 18.0);
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+  final String title;
 
+  @override
+  _MyHomePageState createState() => new _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text(widget.title),
+      ),
+      body: new Center(
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new Text(
+              'You have pushed the button this many times:',
+            ),
+            new Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.display1,
+            ),
+            FlatButton(
+              child: Text("open new route"),
+              textColor: Colors.blue,
+              onPressed: () {
+                //导航到新路由   
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new NewRoute();
+                  }));
+                },
+              ),
+            RandomWordsWidget()
+          ],
+        ),
+      ),
+      floatingActionButton: new FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: new Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+
+
+class NewRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Startup Name Generator'),
+        title: Text("New route"),
       ),
-      body: _buildSuggestions(),
+      body: Center(
+        child: Text("This is new route"),
+      ),
     );
   }
-
-  Widget _buildSuggestions() {
-    return ListView.builder(
-        padding: const EdgeInsets.all(16.0),
-        itemBuilder: /*1*/ (context, i) {
-          if (i.isOdd) return Divider(); /*2*/
-
-          final index = i ~/ 2; /*3*/
-          if (index >= _suggestions.length) {
-            _suggestions.addAll(generateWordPairs().take(10)); /*4*/
-          }
-          return _buildRow(_suggestions[index]);
-        });
-  }  
-
-  Widget _buildRow(WordPair pair) {
-      return ListTile(
-        title: Text(
-          pair.asPascalCase,
-          style: _biggerFont,
-        ),
-      );
-    }
 }
 
-
-class PetCard extends StatelessWidget{
-   final PetCardViewModel data;
-   const PetCard({
-     Key key,
-     this.data,
-   }):super(key:key);
-   Widget renderCover() {
-    
-  }
-
-  Widget renderUserInfo() {
-    
-  }
-
-  Widget renderPublishContent() {
-  
-  }
-
-  Widget renderInteractionArea() {
-   
-  }
-    @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(8),
-        boxShadow: [
-          BoxShadow(
-            blurRadius: 6,
-            spreadRadius: 4,
-            color: Color.fromARGB(20, 0, 0, 0),
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: <Widget>[
-          this.renderCover(),
-          this.renderUserInfo(),
-          this.renderPublishContent(),
-          this.renderInteractionArea(),
-        ],
-      ),
+//english_words
+class RandomWordsWidget extends StatelessWidget{
+  @override 
+  Widget build(BuildContext context){
+    //生成随机字符串
+    final wordPair = new WordPair.random();
+    return Padding(
+      padding:const EdgeInsets.all(8.0),
+      child:new Text(wordPair.toString())
     );
   }
-
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import './Login.dart';
 import './Registration.dart';
+import './Payment.dart';
 
 void main() => runApp(new MyApp());
 
@@ -70,6 +71,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push( context,
                 new MaterialPageRoute(builder: (context) {
                         return new RegistrationRoute();
+                  }));
+                },
+              ),
+            FlatButton(
+              child: Text("Payment"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new Payment();
                   }));
                 },
               ),

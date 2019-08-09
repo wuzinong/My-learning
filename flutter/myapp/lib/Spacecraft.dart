@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 class Spacecraft {
@@ -97,4 +98,20 @@ class Shape {
     print('I don\'t recognize $typeName');
     return null;
   }
+}
+
+class _HandleRequst{
+   
+    void postRequest(){
+      HttpClient httpClient = new HttpClient();
+      HttpClientRequest request = await httpClient.getUrl('https://www.baidu.com');
+      Uri uri = Uri(scheme: "https",host:"wwww.baidu.com",queryParameters: {
+          "xx":"xx"
+      });
+      request.headers.add("user-agent","test");
+      String payload = "";
+      request.add(utf8.encode(payload));
+    }
+
+
 }

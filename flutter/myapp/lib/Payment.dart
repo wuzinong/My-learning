@@ -9,15 +9,16 @@ class Payment extends StatelessWidget{
           title:Text("支付")
         ),
         body:Center(
-          child:Column(
+          child:Row(
               //主轴上设置居中
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               //交叉轴(水平方向)设置从左开始
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                  RaisedButton(
                         padding: EdgeInsets.all(15.0),
-                        child: Text("信用卡"),
+                        child: Text("credit card"),
                         color: Theme
                             .of(context)
                             .primaryColor,

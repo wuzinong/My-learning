@@ -29,6 +29,7 @@ class _FocusTestRouteState extends State<FocusTestRoute> {
   FocusNode focusNode1 = new FocusNode();
   FocusNode focusNode2 = new FocusNode();
   FocusScopeNode focusScopeNode;
+  bool pwdShow = false; //密码是否显示明文
 
   @override
   Widget build(BuildContext context) {
@@ -50,8 +51,18 @@ class _FocusTestRouteState extends State<FocusTestRoute> {
             decoration: InputDecoration(
                 labelText: "密码",
                 hintText: "您的登录密码",
-                prefixIcon: Icon(Icons.lock)
+                prefixIcon: Icon(Icons.lock),
+                suffixIcon: IconButton(
+                      icon: Icon(
+                          pwdShow ? Icons.visibility_off : Icons.visibility),
+                      onPressed: () {
+                        setState(() {
+                          pwdShow = !pwdShow;
+                        });
+                      },
+                ),
             ),
+            obscureText: !pwdShow,
           ),
         //  TextField(
         //     keyboardType: TextInputType.emailAddress,

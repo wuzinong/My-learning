@@ -56,7 +56,14 @@ class LoginPage extends Component{
                     placeholder="Please enter your password"
                 />
                 <View>
-
+                     <Button
+                         title="Go back"
+                         onPress={() => this.props.navigation.goBack()}
+                      />
+                      <Button
+                         title="Go back"
+                         onPress={() => this.props.navigation.goBack()}
+                      />
                 </View>
             </View>
         );

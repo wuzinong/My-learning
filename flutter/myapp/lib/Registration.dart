@@ -26,7 +26,7 @@ class _FormTestRouteState extends State<FormTestRoute> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text("Form Test"),
+        title:Text("用户注册"),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),

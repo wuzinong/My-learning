@@ -3,6 +3,11 @@ import 'package:english_words/english_words.dart';
 import './Login.dart';
 import './Registration.dart';
 import './Payment.dart';
+import './WorkDescription.dart';
+import './TakeOrder.dart';
+import './MyWorkDetail.dart';
+import './TaskComplete.dart';
+import './Comments.dart';
 
 void main() => runApp(new MyApp());
 
@@ -54,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.display1,
             ),
             FlatButton(
-              child: Text("Login page"),
+              child: Text("登录"),
               textColor: Colors.blue,
               onPressed: () {
                 //导航到新路由   
@@ -65,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
               ),
             FlatButton(
-              child: Text("Registration page"),
+              child: Text("注册"),
               textColor: Colors.blue,
               onPressed: () {
                 Navigator.push( context,
@@ -75,12 +80,62 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
               ),
             FlatButton(
-              child: Text("Payment"),
+              child: Text("付款"),
               textColor: Colors.blue,
               onPressed: () {
                 Navigator.push( context,
                 new MaterialPageRoute(builder: (context) {
                         return new Payment();
+                  }));
+                },
+              ),
+            FlatButton(
+              child: Text("工作描述"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new WorkDescription();
+                  }));
+                },
+              ),
+           FlatButton(
+              child: Text("接单"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new TakeOrder();
+                  }));
+                },
+              ),
+            FlatButton(
+              child: Text("我发布的工作详情"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new MyWorkDetail();
+                  }));
+                },
+              ),
+            FlatButton(
+              child: Text("服务完成确认"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new TaskComplete();
+                  }));
+                },
+              ),
+            FlatButton(
+              child: Text("评价页面"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new Comments();
                   }));
                 },
               ),

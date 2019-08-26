@@ -8,7 +8,8 @@ class Payment extends StatelessWidget{
         appBar:AppBar(
           title:Text("支付")
         ),
-        body:Center(
+        body:Padding(
+          padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
           child:Row(
               //主轴上设置居中
               mainAxisSize: MainAxisSize.max,
@@ -18,7 +19,7 @@ class Payment extends StatelessWidget{
               children: <Widget>[
                  RaisedButton(
                         padding: EdgeInsets.all(15.0),
-                        child: Text("credit card"),
+                        child: Text("信用卡"),
                         color: Theme
                             .of(context)
                             .primaryColor,
@@ -28,7 +29,7 @@ class Payment extends StatelessWidget{
                       ),
                  RaisedButton(
                         padding: EdgeInsets.all(15.0),
-                        child: Text("Pay now"),
+                        child: Text("Paynow"),
                         color: Theme
                             .of(context)
                             .primaryColor,

@@ -33,24 +33,46 @@ class CommentsState extends State<Comments>{
                       Container(
                         width:150,
                         child:RaisedButton(
-                        padding: EdgeInsets.all(15.0),
-                        child: Text("上门速度"),
-                        color: Theme
-                            .of(context)
-                            .primaryColor,
-                        textColor: Colors.white,
-                        onPressed: () {
-                        },
-                      )
-                      ),
-                       Container(
-                        width:200,
-                        child:TextField(
-                          controller: _controller,
-                          decoration: new InputDecoration(
-                            hintText: '工作内容描述',
-                          ),
+                          padding: EdgeInsets.all(15.0),
+                          child: Text("上门速度"),
+                          color: Theme
+                              .of(context)
+                              .primaryColor,
+                          textColor: Colors.white,
+                          onPressed: () {
+                          },
                         )
+                      ),
+                      Container(
+                        child:Row(
+                        children:<Widget>[
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            )
+                        ]
+                      )
                       )
                    ],
                  ),
@@ -70,14 +92,34 @@ class CommentsState extends State<Comments>{
                         },
                       )
                       ),
-                       Container(
-                        width:200,
-                        child:TextField(
-                          controller: _controller,
-                          decoration: new InputDecoration(
-                            hintText: '工作内容描述',
-                          ),
-                        )
+                      Row(
+                        children:<Widget>[
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            )
+                        ]
                       )
                    ],
                  ),
@@ -97,14 +139,34 @@ class CommentsState extends State<Comments>{
                         },
                       )
                       ),
-                       Container(
-                        width:200,
-                        child:TextField(
-                          controller: _controller,
-                          decoration: new InputDecoration(
-                            hintText: '工作内容描述',
-                          ),
-                        )
+                      Row(
+                        children:<Widget>[
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            ),
+                            IconButton(
+                                  icon: Icon(Icons.star_border),
+                                  onPressed: () {
+                                  },
+                            )
+                        ]
                       )
                    ],
                  )

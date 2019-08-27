@@ -31,7 +31,7 @@ class CommentsState extends State<Comments>{
                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                    children: <Widget>[
                       Container(
-                        width:150,
+                        width:120,
                         child:RaisedButton(
                           padding: EdgeInsets.all(15.0),
                           child: Text("上门速度"),
@@ -43,8 +43,7 @@ class CommentsState extends State<Comments>{
                           },
                         )
                       ),
-                      Container(
-                        child:Row(
+                      Row(
                         children:<Widget>[
                             IconButton(
                                   icon: Icon(Icons.star_border),
@@ -73,14 +72,13 @@ class CommentsState extends State<Comments>{
                             )
                         ]
                       )
-                      )
                    ],
                  ),
                  Row(
                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                    children: <Widget>[
                       Container(
-                        width:150,
+                        width:120,
                         child:RaisedButton(
                         padding: EdgeInsets.all(15.0),
                         child: Text("服务态度"),
@@ -127,7 +125,7 @@ class CommentsState extends State<Comments>{
                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                    children: <Widget>[
                       Container(
-                        width:150,
+                        width:120,
                         child:RaisedButton(
                         padding: EdgeInsets.all(15.0),
                         child: Text("工作质量，可在保质期后评"),

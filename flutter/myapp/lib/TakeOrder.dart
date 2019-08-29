@@ -13,10 +13,12 @@ class TakeOrder extends StatelessWidget{
           child:Column(
               //主轴上设置居中
               mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
                  width:350,
+                 margin:EdgeInsets.only(bottom:20),
                  child:RaisedButton(
                         padding: EdgeInsets.all(15.0),
                         child: Text("安排师傅失败，退款"),

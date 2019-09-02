@@ -1,24 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
 
 
 class MyPublishedWorks extends StatefulWidget{
   
   MypublishedWorksState createState() => new MypublishedWorksState();
-  @override
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //      appBar:AppBar(
-  //         title:Text("我发布的工作")
-  //       ),
-  //      body:Padding(
-  //         padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),  
-  //         child: ListView(
-  //           scrollDirection: Axis.vertical,
-  //           children: <Widget>[],
-  //         ),
-  //       )
-  //   );
-  // }
 }
 
 class MypublishedWorksState extends State<MyPublishedWorks>{
@@ -28,12 +14,16 @@ class MypublishedWorksState extends State<MyPublishedWorks>{
 
   void initState() {
     super.initState();
-    // _retrieveData();
+    _retrieveData();
   }
 
   @override
   Widget build(BuildContext context) {
-    return ListView.separated(
+    return Scaffold(
+      appBar: AppBar(
+        title:Text("我发布的工作")
+      ),
+      body:ListView.separated(
       itemCount:_words.length,
       itemBuilder: (context,index){
         //如果到了表尾
@@ -41,7 +31,7 @@ class MypublishedWorksState extends State<MyPublishedWorks>{
           //不足100条，继续获取数据
           if(_words.length <= 100){
             //获取数据
-            // _retrieveData();
+            _retrieveData();
             //加载时显示loading
             return Container(
               padding:const EdgeInsets.all(16.0),
@@ -65,6 +55,33 @@ class MypublishedWorksState extends State<MyPublishedWorks>{
          //显示单词列表项
         return ListTile(title: Text(_words[index]));
       },
+      separatorBuilder: (context, index) => Divider(height: .0),
+    )
     );
   }
+
+   List<String> generateWordPairs(){
+       var result = [""];
+       for(int i=0;i<20;i++){
+         result.add(new WordPair.random().toString());
+       }
+       result.removeAt(0);
+       return result;
+   }
+
+   void _retrieveData() {
+    var data = generateWordPairs();
+    Future.delayed(Duration(seconds: 2)).then((e) {
+      _words.insertAll(_words.length - 1,
+          //每次生成20个单词
+          data
+      );
+      // if(mounted){
+        setState(() {
+            _words = _words;
+        });
+      // }
+    });
+  }
+  
 }

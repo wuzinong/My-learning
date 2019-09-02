@@ -19,15 +19,17 @@ class MyWorkDetail extends StatelessWidget{
                  Row(
                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                    children: <Widget>[
-                      Container(
+                      Expanded(
+                        child: Container(
                         width:400,
                         child:TextField(
                           controller: _controller,
+                          maxLines: 3,
                           decoration: new InputDecoration(
                             hintText: '文字描述',
                           ),
                         )
-                      )
+                      ))
                    ],
                  ),
                  RaisedButton(

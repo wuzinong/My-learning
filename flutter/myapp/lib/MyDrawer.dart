@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './Login.dart';
+import './main.dart';
 
 
 
@@ -13,7 +14,7 @@ class MyDrawer extends StatelessWidget{
                 textColor: Colors.blue,
                 onPressed: () {
                   Navigator.of(context).pop();
-                  Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new LoginRoute()));
+                  Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new MyApp()));
                 }
               ),
               FlatButton(

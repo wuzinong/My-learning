@@ -8,6 +8,8 @@ import './TakeOrder.dart';
 import './MyWorkDetail.dart';
 import './TaskComplete.dart';
 import './Comments.dart';
+import './WorkStation.dart';
+
 
 void main() => runApp(new MyApp());
 
@@ -136,6 +138,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push( context,
                 new MaterialPageRoute(builder: (context) {
                         return new Comments();
+                  }));
+                },
+              ),
+            FlatButton(
+              child: Text("工作台页面"),
+              textColor: Colors.blue,
+              onPressed: () {
+                Navigator.push( context,
+                new MaterialPageRoute(builder: (context) {
+                        return new WorkStation();
                   }));
                 },
               ),

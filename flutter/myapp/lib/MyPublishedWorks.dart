@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import './MyWorkDetail.dart';
 
 
 class MyPublishedWorks extends StatefulWidget{
@@ -9,8 +10,8 @@ class MyPublishedWorks extends StatefulWidget{
 
 class MypublishedWorksState extends State<MyPublishedWorks>{
 
-  static const loadingTag = "##loading##"; //表尾标记
-  var _words = <String>[loadingTag];
+  // static const loadingTag = "##loading##"; //表尾标记
+  var _words = <String>[""];
 
   void initState() {
     super.initState();
@@ -27,7 +28,7 @@ class MypublishedWorksState extends State<MyPublishedWorks>{
       itemCount:_words.length,
       itemBuilder: (context,index){
         //如果到了表尾
-        if(_words[index] == loadingTag){
+        if(index >= _words.length-1){
           //不足100条，继续获取数据
           if(_words.length <= 100){
             //获取数据
@@ -53,7 +54,16 @@ class MypublishedWorksState extends State<MyPublishedWorks>{
         }
 
          //显示单词列表项
-        return ListTile(title: Text(_words[index]));
+        return ListTile(
+          title: Text(_words[index]),
+          leading:Icon(Icons.description),
+          trailing:Icon(Icons.arrow_right),
+          subtitle: Text("This is the sub title for the record"),
+          onTap: () {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new MyWorkDetail()));
+                }
+          );
       },
       separatorBuilder: (context, index) => Divider(height: .0),
     )

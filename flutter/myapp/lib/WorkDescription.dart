@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './MyPublishedWorks.dart';
 
 
 
@@ -116,6 +117,10 @@ class WorkDescriptionState extends State<WorkDescription>{
                             .primaryColor,
                         textColor: Colors.white,
                         onPressed: () {
+                             Navigator.push( context,
+                              new MaterialPageRoute(builder: (context) {
+                                      return new MyPublishedWorks();
+                              }));
                         },
                       )
               ],

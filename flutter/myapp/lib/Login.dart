@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './Registration.dart';
+import './WorkStation.dart';
 
 //Login page
 class LoginRoute extends StatelessWidget {
@@ -38,7 +38,7 @@ class _FocusTestRouteState extends State<FocusTestRoute> {
       child: Column(
         children: <Widget>[
           TextField(
-            autofocus: true, 
+            // autofocus: true, 
             focusNode: focusNode1,//关联focusNode1
             decoration: InputDecoration(
                 labelText: "用户名",
@@ -76,7 +76,10 @@ class _FocusTestRouteState extends State<FocusTestRoute> {
           Builder(builder: (ctx) {
             return Column(
               children: <Widget>[
-                RaisedButton(
+                Container(
+                    width: 300.0,
+                    margin:EdgeInsets.only(top:20.0),
+                    child:RaisedButton(
                     color: Colors.blue,
                     highlightColor: Colors.blue[700],
                     colorBrightness: Brightness.dark,
@@ -86,9 +89,10 @@ class _FocusTestRouteState extends State<FocusTestRoute> {
                     onPressed: () {
                           Navigator.push( context,
                           new MaterialPageRoute(builder: (context) {
-                                  return new RegistrationRoute();
+                                  return new WorkStation();
                           }));
                     },
+                )
                 ),
                 // RaisedButton.icon(
                 //   icon: Icon(Icons.send),

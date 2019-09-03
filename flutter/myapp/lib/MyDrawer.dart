@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './Login.dart';
+import './WorkDescription.dart';
 import './main.dart';
 import './MyInfo.dart';
 import './MyPublishedWorks.dart';
@@ -23,6 +23,14 @@ class MyDrawer extends StatelessWidget{
                 onPressed: () {
                   Navigator.of(context).pop();
                   Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new MyPublishedWorks()));
+                }
+              ),
+              FlatButton(
+                child: Text("发布工作"),
+                textColor: Colors.blue,
+                onPressed: () {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new WorkDescription()));
                 }
               ),
               FlatButton(

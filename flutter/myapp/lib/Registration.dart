@@ -36,7 +36,6 @@ class _FormTestRouteState extends State<FormTestRoute> {
           child: Column(
             children: <Widget>[
               TextFormField(
-                  autofocus: true,
                   controller: _unameController,
                   decoration: InputDecoration(
                       labelText: "用户名",
@@ -51,8 +50,7 @@ class _FormTestRouteState extends State<FormTestRoute> {
                   }
 
               ),
-                 TextFormField(
-                  autofocus: true,
+              TextFormField(
                   controller: _vCode,
                   decoration: InputDecoration(
                       labelText: "验证码",

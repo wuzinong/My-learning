@@ -50,7 +50,7 @@ class WorkDescriptionState extends State<WorkDescription>{
                             .primaryColor,
                         textColor: Colors.white,
                         onPressed: () {
-                           Navigator.of(context).pop();
+                          Navigator.of(context).pop();
                           Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new ImageUpload()));
                         },
                       )
@@ -79,7 +79,7 @@ class WorkDescriptionState extends State<WorkDescription>{
                             .primaryColor,
                         textColor: Colors.white,
                         onPressed: () {
-                          Navigator.of(context).pop();
+                          // Navigator.of(context).pop();
                           Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new Map()));
                         },
                       )

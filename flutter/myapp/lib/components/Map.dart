@@ -68,8 +68,8 @@ class _TestAppState extends State<Map> {
       home: Scaffold(
         body: Center(
           child: Container(
-            width: 200,
-            height: 200,
+            width: double.infinity,
+            height: double.infinity,
             child: FlutterMap(
               options: MapOptions(
                 center: LatLng(45.5231, -122.6765),

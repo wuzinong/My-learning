@@ -152,8 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   }));
                 },
               ),
-            RandomWordsWidget(),
-            GetImages()
+            RandomWordsWidget()
           ],
         ),
       ),
@@ -182,16 +181,16 @@ class RandomWordsWidget extends StatelessWidget{
 }
 
 //images
-class GetImages extends StatelessWidget{
-  @override 
-  Widget build(BuildContext context){
-    //  return new DecoratedBox(
-    //     decoration: new BoxDecoration(
-    //       image: new DecorationImage(
-    //         image: new AssetImage('images/test.jpg')
-    //       )
-    //     )
-    //  );
-     return Image.asset('images/text.jpg');
-  }
-}
+// class GetImages extends StatelessWidget{
+//   @override 
+//   Widget build(BuildContext context){
+//     //  return new DecoratedBox(
+//     //     decoration: new BoxDecoration(
+//     //       image: new DecorationImage(
+//     //         image: new AssetImage('images/test.jpg')
+//     //       )
+//     //     )
+//     //  );
+//      return Image.asset('images/text.jpg');
+//   }
+// }

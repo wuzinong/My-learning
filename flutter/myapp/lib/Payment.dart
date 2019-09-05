@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'components/Alipay.dart';
+import 'components/Wechatpay.dart';
+import 'components/CreditCard.dart';
 
 class Payment extends StatelessWidget{
   
@@ -25,6 +28,10 @@ class Payment extends StatelessWidget{
                             .primaryColor,
                         textColor: Colors.white,
                         onPressed: () {
+                           Navigator.push( context,
+                            new MaterialPageRoute(builder: (context) {
+                                  return new CreditCard();
+                            }));
                         },
                       ),
                  RaisedButton(
@@ -36,7 +43,37 @@ class Payment extends StatelessWidget{
                         textColor: Colors.white,
                         onPressed: () {
                         },
-                      )
+                      ),
+                RaisedButton(
+                        padding: EdgeInsets.all(15.0),
+                        child: Text("Alipay"),
+                        color: Theme
+                            .of(context)
+                            .primaryColor,
+                        textColor: Colors.white,
+                        onPressed: () {
+                          Navigator.push( context,
+                          new MaterialPageRoute(builder: (context) {
+                                  return new Alipay();
+                            }));
+                
+                        },
+                ),
+                RaisedButton(
+                        padding: EdgeInsets.all(15.0),
+                        child: Text("WechatPay"),
+                        color: Theme
+                            .of(context)
+                            .primaryColor,
+                        textColor: Colors.white,
+                        onPressed: () {
+                          Navigator.push( context,
+                          new MaterialPageRoute(builder: (context) {
+                                  return new Wechatpay();
+                            }));
+                
+                        },
+                )
               ],
            )
         )

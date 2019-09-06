@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'components/RatingBar.dart';
 
@@ -10,13 +12,28 @@ class Comments extends StatefulWidget {
 
 class CommentsState extends State<Comments> {
   final TextEditingController _controller = new TextEditingController();
-  String speed;
-  String attitude;
-  String quality;
+  double speed;
+  double attitude;
+  double quality;
+  void initState() {
+    super.initState();
+    setState(() {
+         speed=3.4;
+         attitude=4.5;
+         quality=5.9;
+    });
+  }
+
+  submitScores(){
+      print(speed);
+      print(attitude);
+      print(quality);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("工作描述")),
+        appBar: AppBar(title: Text("评分")),
         body: Padding(
             padding:
                 const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
@@ -27,29 +44,116 @@ class CommentsState extends State<Comments> {
               //交叉轴(水平方向)设置从左开始
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Row(
+                Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Container(
-                        width: 120,
-                        child: RaisedButton(
-                          padding: EdgeInsets.all(15.0),
-                          child: Text("上门速度"),
-                          color: Theme.of(context).primaryColor,
-                          textColor: Colors.white,
-                          onPressed: () {},
-                        )),
+                        child: Row(
+                          children: <Widget>[
+                            Container(
+                              margin: EdgeInsets.only(bottom:20.0),
+                              child: Text(
+                                "上门速度:",
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.fromLTRB(10.0, 0, 10,20),
+                              child: Text(
+                                speed.toString(),
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.only(bottom:20.0),
+                              child: Text(
+                                "分",
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            )
+                          ],
+                        )
+                    ),
                     Row(children: <Widget>[
                       RatingBar(
-                        value: 0,
+                        value: speed,
                         size: 30,
-                        padding: 5,
+                        padding: 25,
                         nomalImage: 'images/star_nomal.png',
                         selectImage: 'images/star.png',
                         selectAble: true,
                         onRatingUpdate: (value) {
-                          attitude = value;
-                          print(value);
+                          setState(() {
+                            speed = double.parse(value);
+                          });
+                          submitScores();
+                        },
+                        maxRating: 10,
+                        count: 5,
+                      ),
+                    ])
+                  ],
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Container(
+                        child: Row(
+                          children: <Widget>[
+                            Container(
+                              margin: EdgeInsets.only(bottom:20.0),
+                              child: Text(
+                                "服务态度:",
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.fromLTRB(10.0, 0, 10,20),
+                              child: Text(
+                                attitude.toString(),
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.only(bottom:20.0),
+                              child: Text(
+                                "分",
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            )
+                          ],
+                        )
+                    ),
+                    Row(children: <Widget>[
+                      RatingBar(
+                        value: attitude,
+                        size: 30,
+                        padding: 25,
+                        nomalImage: 'images/star_nomal.png',
+                        selectImage: 'images/star.png',
+                        selectAble: true,
+                        onRatingUpdate: (value) {
+                          attitude =double.parse(value);
                           setState(() {});
                         },
                         maxRating: 10,
@@ -58,61 +162,58 @@ class CommentsState extends State<Comments> {
                     ])
                   ],
                 ),
-                Row(
+                Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Container(
-                        width: 120,
-                        child: RaisedButton(
-                          padding: EdgeInsets.all(15.0),
-                          child: Text("服务态度"),
-                          color: Theme.of(context).primaryColor,
-                          textColor: Colors.white,
-                          onPressed: () {},
-                        )),
-                     Row(children: <Widget>[
-                      RatingBar(
-                        value: 0,
-                        size: 30,
-                        padding: 5,
-                        nomalImage: 'images/star_nomal.png',
-                        selectImage: 'images/star.png',
-                        selectAble: true,
-                        onRatingUpdate: (value) {
-                          attitude = value;
-                          print(value);
-                          setState(() {});
-                        },
-                        maxRating: 10,
-                        count: 5,
-                      ),
-                    ])
-                  ],
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    Container(
-                        width: 120,
-                        child: RaisedButton(
-                          padding: EdgeInsets.all(15.0),
-                          child: Text("工作质量，可在保质期后评"),
-                          color: Theme.of(context).primaryColor,
-                          textColor: Colors.white,
-                          onPressed: () {},
-                        )),
+                        child: Row(
+                          children: <Widget>[
+                            Container(
+                              margin: EdgeInsets.only(bottom:20.0),
+                              child: Text(
+                                "工作质量，可在保质期后评:",
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.fromLTRB(10.0, 0, 10,20),
+                              child: Text(
+                                quality.toString(),
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.only(bottom:20.0),
+                              child: Text(
+                                "分",
+                                style: TextStyle(
+                                  color:Colors.black,
+                                  fontSize: 18.0
+                                ),
+                              ),
+                            )
+                          ],
+                        )
+                    ),
                     Row(children: <Widget>[
                       RatingBar(
-                        value: 0,
+                        value: quality,
                         size: 30,
-                        padding: 5,
+                        padding: 25,
                         nomalImage: 'images/star_nomal.png',
                         selectImage: 'images/star.png',
                         selectAble: true,
                         onRatingUpdate: (value) {
-                          quality = value;
-                          print(value);
-                          setState(() {});
+                          setState(() {
+                            quality = double.parse(value);
+                          });
                         },
                         maxRating: 10,
                         count: 5,

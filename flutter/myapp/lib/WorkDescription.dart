@@ -14,6 +14,21 @@ class WorkDescription extends StatefulWidget {
 
 class WorkDescriptionState extends State<WorkDescription>{
   final TextEditingController _controller = new TextEditingController();
+  List<Widget> picList = new List();
+  var _image;
+
+  @override
+  void initState() { 
+    super.initState();
+  }
+
+  void onUpload(val){
+      print(val);
+      setState(() {
+         _image = val; 
+      });
+  }
+
   @override 
   Widget build(BuildContext context){
      return Scaffold(
@@ -59,13 +74,19 @@ class WorkDescriptionState extends State<WorkDescription>{
                    ],
                  ),
                  Row(
-                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                    children: <Widget>[
-                     UpImg(),
-                     UpImg(),
-                     UpImg(),
-                     UpImg(),
-                     UpImg()
+                     Center(
+                        child: _image == null
+                            ? Text('No image selected.')
+                            : Image.file(_image),
+                      ),
+                     Wrap(
+                        spacing:0,
+                        runSpacing: 5,
+                        children: <Widget>[
+                            UpImg(callBack:(value)=>onUpload(value)),
+                        ],
+                      ),
                    ],
                  ),
                  Row(

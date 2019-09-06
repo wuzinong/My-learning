@@ -55,6 +55,11 @@ class _ImageUploadState extends State<ImageUpload>{
           msg: "图片上传成功",
           gravity: ToastGravity.CENTER,
           textColor: Colors.grey);
+    }else{
+      Fluttertoast.showToast(
+          msg: "上传失败，请检查网络是否畅通",
+          gravity: ToastGravity.CENTER,
+          textColor: Colors.grey);
     }
   }
 }

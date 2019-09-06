@@ -27,7 +27,7 @@ class CommentsState extends State<Comments> {
   submitScores(){
       print(speed);
       print(attitude);
-      print(quality);
+      print(speed);
   }
 
   @override

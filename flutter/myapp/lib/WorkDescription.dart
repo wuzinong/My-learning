@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import './MyPublishedWorks.dart';
-import './components/ImageUpload.dart';
-import './components/Map.dart';
+import 'MyPublishedWorks.dart';
+import 'components/ImageUpload.dart';
+import 'components/Map.dart';
+import 'components/UpImg.dart';
 
 class WorkDescription extends StatefulWidget {
   WorkDescription({Key key}) : super(key: key);
@@ -55,6 +56,16 @@ class WorkDescriptionState extends State<WorkDescription>{
                         },
                       )
                       )
+                   ],
+                 ),
+                 Row(
+                   mainAxisAlignment: MainAxisAlignment.spaceAround,
+                   children: <Widget>[
+                     UpImg(),
+                     UpImg(),
+                     UpImg(),
+                     UpImg(),
+                     UpImg()
                    ],
                  ),
                  Row(

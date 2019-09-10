@@ -30,7 +30,7 @@ class _UpImgState extends State<UpImg>{
  }
 
    void getImage() async {
-    var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+    File image = await ImagePicker.pickImage(source: ImageSource.gallery);
     // _upLoadImage(image);
     // return image;
     widget.callBack(image);

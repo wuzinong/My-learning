@@ -24,8 +24,12 @@ class WorkDescriptionState extends State<WorkDescription>{
 
   void onUpload(val){
       print(val);
+      picList.add(new Container(
+        child: Image.file(val),
+      ));
       setState(() {
          _image = val; 
+         picList = picList;
       });
   }
 
@@ -73,13 +77,11 @@ class WorkDescriptionState extends State<WorkDescription>{
                       )
                    ],
                  ),
-                 Row(
+                 Column(
                    children: <Widget>[
-                     Center(
-                        child: _image == null
-                            ? Text('No image selected.')
-                            : Image.file(_image),
-                      ),
+                     Column(
+                       children: picList,
+                     ),
                      Wrap(
                         spacing:0,
                         runSpacing: 5,

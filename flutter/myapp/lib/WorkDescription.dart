@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'MyPublishedWorks.dart';
 import 'components/ImageUpload.dart';
-import 'components/Map.dart';
 import 'components/UpImg.dart';
+import 'components/GetLocationPage.dart';
 
 class WorkDescription extends StatefulWidget {
   WorkDescription({Key key}) : super(key: key);
@@ -113,9 +113,7 @@ class WorkDescriptionState extends State<WorkDescription>{
                             .primaryColor,
                         textColor: Colors.white,
                         onPressed: () {
-                          // Navigator.of(context).pop();
-                          Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new Map()));
-                        },
+                          Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new GetLocationPage()));                        },
                       )
                       )
                    ],
@@ -142,6 +140,7 @@ class WorkDescriptionState extends State<WorkDescription>{
                             .primaryColor,
                         textColor: Colors.white,
                         onPressed: () {
+                          Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => new GetLocationPage()));
                         },
                       )
                       )

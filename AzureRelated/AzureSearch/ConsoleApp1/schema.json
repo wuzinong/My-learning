@@ -1,0 +1,15 @@
+{
+  "name": "productindex",
+  "scoringProfiles": [
+    {
+      "name": "testScoring",
+      "text": {
+        "weights": {
+          "Name": 50,
+          "Summary": 20,
+          "Provider": 5
+        }
+      }
+    }
+  ]
+}

@@ -1,1 +1,3 @@
+install Microsoft.Azure.Search
+
 https://docs.microsoft.com/en-us/azure/search/search-create-service-portal

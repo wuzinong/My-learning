@@ -1,0 +1,4321 @@
+﻿{
+  "results": [
+    {
+      "id": "025a5011-d880-446b-a592-a1f6afb9113a",
+      "name": "Smart Cable Guard",
+      "urls": {
+        "primary": "smart-cable-guard",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "MV cables ",
+          "asset": {
+            "_ref": "image-761725a0ac87851109ada051ad620036adf271ac-1134x300-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 16,
+        "summary": { "text": "Online monitoring system for MV cables that improves the reliability of distribution network resulting in better SAIDI and SAIFI figures and insight in the condition of assets." }
+      }
+    },
+    {
+      "id": "032f4ed3-e332-4f5e-88fe-320601f0006d",
+      "name": "T-REX for Energy Project Finance",
+      "urls": {
+        "primary": "t-rex",
+        "aliases": null
+      },
+      "provider": {
+        "name": "T-REX",
+        "description": "T-REX is the leading provider of managed data services and financial software for renewable energy markets. With T-REX, professionals can analyze and accurately price the risk associated with issuing and investing in renewables. By eliminating manual processes and automating workflow, T-REX enhances efficiency and transparency across the entire investment lifecycle, from developers to lenders to the end investor. \n\n\n",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-b16484536b59b2f90403ab610ea4a86c0c8ccb8b-2860x720-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Solar panel",
+          "asset": {
+            "_ref": "image-463ed209075bd6cd8c7c6893a7b0e8d445ddabd6-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.53037994498736485,
+            "width": 0.19522776572668116,
+            "x": 0.38611713665943614,
+            "y": 0.43663856400623174
+          }
+        },
+        "sorting": 2,
+        "summary": { "text": "T-REX is a platform for financial modeling, analytics, collaboration, and data tools to optimize the investment lifecycle of renewable energy assets.\n\n" }
+      }
+    },
+    {
+      "id": "049d7465-8216-4d60-a096-3af50497c733",
+      "name": "INSTATRUST™",
+      "urls": {
+        "primary": "instatrust-tm",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Fields with solar panels",
+          "asset": {
+            "_ref": "image-ad344806ba94615776a8c9cb7eb6481abd604c33-1945x797-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0.41119483315392868,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.42625690531396693,
+            "width": 0.11948331539289588,
+            "x": 0.68191603875134532,
+            "y": 0.4973681509418072
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "Instatrust is a global digital marketplace & online tender tool for renewable energy procurement. It connects corporates buyers with renewable energy providers in an easy way & bring instant Trust." }
+      }
+    },
+    {
+      "id": "0bce69ff-33cd-437f-975e-84f6e7e66918",
+      "name": "Automation Test 01 for Marketplace",
+      "urls": {
+        "primary": "automation-test-01-for-marketplace",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "mainImage": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-4cc86cc23c897ff7e834635d4ee972528b3e47e3-940x550-jpg",
+            "_type": "reference"
+          }
+        },
+        "summary": { "text": "It is for test" }
+      }
+    },
+    {
+      "id": "1e6e0c17-4df1-407d-bb25-6b53f65def4f",
+      "name": "Forecaster",
+      "urls": {
+        "primary": "forecaster",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Dark clouds are gathering over wind plant.",
+          "asset": {
+            "_ref": "image-6b96e0f483a7e068c61521e9eb9aef251ecde4fc-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 13,
+        "summary": { "text": "We offer real-time, 24/7 predictions of wind and solar power for a single plant, a fleet, or market, extended up to 15 days and updated as frequently as every 5 minutes." }
+      }
+    },
+    {
+      "id": "1fd8f385-385a-4bcf-9c86-54e2277ca980",
+      "name": "ShipWeight",
+      "urls": {
+        "primary": "shipweight",
+        "aliases": null
+      },
+      "provider": {
+        "name": "ShipWeight",
+        "description": "BAS Engineering has been in the business of weight engineering for more than 20 years, serving designers, yards and navies all over the world.  ShipWeight has been our main product from the very start of the company.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-fabe884a502be8ec657b631b385dd982bed08598-1007x258-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Ship on open sea",
+          "asset": {
+            "_ref": "image-bf0f062e84fc134a49539544c7436726cc98a14d-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.798734262137442,
+            "width": 0.28416485900216926,
+            "x": 0.63449023861171361,
+            "y": 0.600632868931279
+          }
+        },
+        "sorting": 23,
+        "summary": { "text": "A weight management tool providing faster, more accurate weight and centre of gravity estimations, as well as safer, more structured weight follow-up during design & construction\n\n" }
+      }
+    },
+    {
+      "id": "203e9cc5-9d8a-40be-b7fa-662060c11c69",
+      "name": "Rig",
+      "urls": {
+        "primary": "rig",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Deloitte Digital",
+        "description": "We have created a new model for a new age: a creative digital consultancy. That means bringing together all the creative and technology capabilities, business acumen and industry insight needed to help transform our clients’ businesses. With our end-to-end capabilities, clients bring their greatest ambitions, knowing we will bring new business visions to life.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a9e786c80195d0b4ebfad4f90f75078bb0b27847-200x92-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "screenshot of the Rig schedule",
+          "asset": {
+            "_ref": "image-b8437023f7a3fbea0839fe70ecf9d6893b085b16-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 6,
+        "summary": { "text": "Cloud based tool for optimization of rig portfolios in the well construction process. Drag & drop, integrates with enterprise solutions, automated distributions to stakeholders." }
+      }
+    },
+    {
+      "id": "2535bf0e-96b0-4e6b-ab9a-05bc09267568",
+      "name": "Data Management Advisory Service",
+      "urls": {
+        "primary": "data-management-advisory-service",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Man walking past a large set of graphs and statistics",
+          "asset": {
+            "_ref": "image-8315a84af1beb5e90b90cf8be538af81eef306e8-799x600-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.388690270581463,
+            "left": 0,
+            "right": 0,
+            "top": 0.07589810017271155
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.22031951640759856,
+            "width": 0.17789291882556141,
+            "x": 0.380829015544041,
+            "y": 0.37695308002302785
+          }
+        },
+        "sorting": 10,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-b47cbd33f88dc8757be10e599dc617023c30374d-450x450-png",
+              "_type": "reference"
+            }
+          },
+          "text": "We provide customers with guidance to plan, develop, and implement maturity improvements and risk mitigation activities, so that they can adapt and reinforce their capabilities."
+        }
+      }
+    },
+    {
+      "id": "2c49251c-38ad-4d69-b283-2f1f9ddf3fcb",
+      "name": "TCarta Bathymetry",
+      "urls": {
+        "primary": "tcarta-bathymetry",
+        "aliases": null
+      },
+      "provider": {
+        "name": "TCarta",
+        "description": "TCarta’s mission is to improve geo-data accessibility and availability through use of innovative technologies. With an experienced team of data scientists, project managers, GIS professionals, and satellite remote sensing experts, TCarta are now leveraging their heritage and success within the marine sector to land and air applications.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-676a0803122e3ff22aae1b953fa4c7fb11a132c6-178x80-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "landscape in red green yellow and blue",
+          "asset": {
+            "_ref": "image-027cfacf83363f6027d53311ae31f388b29e97cd-1200x350-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 4,
+        "summary": { "text": "Bathymetry data at multiple resolutions to suit your budget and applications. Off-the-shelf, and in a ready to use format for all marine and maritime requirements." }
+      }
+    },
+    {
+      "id": "2d9f3bcf-1ef5-4fe7-accf-f34e989ffbe8",
+      "name": "Port Arrival Prediction (ETA)",
+      "urls": {
+        "primary": "port-arrival-prediction",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            },
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            },
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ],
+          "types": []
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "map showing trajectory of ship",
+          "asset": {
+            "_ref": "image-d3f4c8709a3332a39c1a64c43465db03644601fd-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.14796237316850336,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.31937308342488496,
+            "width": 0.072120559741657417,
+            "x": 0.71636167922497429,
+            "y": 0.47040752536629937
+          }
+        },
+        "sorting": 62,
+        "summary": { "text": "Estimated Times of Arrival for the world's commercial fleet\n\n" }
+      }
+    },
+    {
+      "id": "2deb0869-f86f-4e5b-b268-f35da804ef0d",
+      "name": "In:Range",
+      "urls": {
+        "primary": "in-range",
+        "aliases": null
+      },
+      "provider": {
+        "name": "ScanReach",
+        "description": "ScanReach is a Maritime IoT company based in Bergen, Norway. Over the last four years we have developed a wireless connectivity platform enabling personnel and asset control in complex and confined steel environments.\n\nA major barrier for digital innovation within the maritime and offshore industry has been removed and paving the way for addressing problems and needs in new ways. ScanReach is located on the west coast of Norway, close to some of the harshest environments in the world.\n\nOur technology and solutions have been developed and thoroughly tested in these demanding environments in close cooperation with the Royal Norwegian Navy and the maritime and offshore industry.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-363d3378ceeba4cc1a1c8440c7d602a09670df78-1200x135-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Sea",
+          "asset": {
+            "_ref": "image-9346b28a285b258fc6e4bccb6917c67145ab0a18-2400x600-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 1,
+            "width": 0.98952206673842868,
+            "x": 0.49723896663078571,
+            "y": 0.5
+          }
+        },
+        "sorting": 4,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-ec14fb8512b432422b86dd58079bc82ae4d6b0cf-1200x350-jpg",
+              "_type": "reference"
+            }
+          },
+          "text": "In:Range utilizes smart wireless IoT sensor technology providing on-board emergency response teams with an immediate overview and position of all personnel in real time inside your vessel or rig.\n\n"
+        }
+      }
+    },
+    {
+      "id": "310fce44-7b56-400e-b9a6-73bba136d25b",
+      "name": "Data Quality as a Service",
+      "urls": {
+        "primary": "data-quality-as-a-service",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ],
+          "types": []
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "A set of graphs in front of woman in suit",
+          "asset": {
+            "_ref": "image-b4e1fed7aff3fc0a716fe7400b974d26e0c45392-1348x899-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.34214542411263726,
+            "left": 0,
+            "right": 0,
+            "top": 0.1501501501501501
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.28124846157633038,
+            "width": 0.15081967213114791,
+            "x": 0.5344262295081964,
+            "y": 0.31785063752276843
+          }
+        },
+        "sorting": 31,
+        "summary": { "text": "Interactive dashboards for customer data visualizing data quality metrics. Can work on static data or live streams." }
+      }
+    },
+    {
+      "id": "319f4c06-c5f9-4138-b53a-c5b3df5f35d8",
+      "name": "DUMMY: Kontiki Cargo",
+      "urls": {
+        "primary": "dummy-kontiki-cargo",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Wind wind wind (DUMMY)",
+        "description": "Wind data fabric arundo arundo camo analytics",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-46f2658ae953904ca8b363991a9d1c8b9725cd44-512x512-jpg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "badges": [
+          {
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-4a742900e006a565991b447502f178b06db56906-225x225-png",
+                "_type": "reference"
+              }
+            },
+            "name": "DUMMY: Verified by Veracity"
+          },
+          {
+            "description": [
+              {
+                "_key": "e9d35be52750",
+                "_type": "block",
+                "children": [
+                  {
+                    "_key": "e9d35be527500",
+                    "_type": "span",
+                    "marks": [],
+                    "text": "desc"
+                  }
+                ],
+                "markDefs": [],
+                "style": "normal"
+              }
+            ],
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-b385c321a119d3eb75a260da412e470bde4c4b26-15x15-svg",
+                "_type": "reference"
+              }
+            },
+            "name": "validated",
+            "summary": "test summa"
+          }
+        ],
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Our cargo ship",
+          "asset": {
+            "_ref": "image-72b0352eb14c6c2b84f6d43af53bad52726df918-1200x800-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.28802542618950044,
+            "width": 0.33435582822085919,
+            "x": 0.83282208588957041,
+            "y": 0.55000002341557819
+          }
+        },
+        "sorting": 0,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-46f2658ae953904ca8b363991a9d1c8b9725cd44-512x512-jpg",
+              "_type": "reference"
+            },
+            "crop": {
+              "_type": "sanity.imageCrop",
+              "bottom": 0.014516129032257963,
+              "left": 0.63387096774193563,
+              "right": 0.012903225806451535,
+              "top": 0.64999999999999969
+            },
+            "hotspot": {
+              "_type": "sanity.imageHotspot",
+              "height": 0.31129032258064515,
+              "width": 0.30000000000000004,
+              "x": 0.78387096774193565,
+              "y": 0.80564516129032226
+            }
+          },
+          "text": "How to send cargo to the easter island with our Kontiki raft. Data fabric."
+        }
+      }
+    },
+    {
+      "id": "331fce80-75dc-4b03-99ad-56de9577ae8d",
+      "name": "[TC] Veracity Data Fabric",
+      "urls": {
+        "primary": "veracity-data-fabric-secure-data-sharing",
+        "aliases": [ "8ad08065-7fa8-475f-9055-83067132c022" ]
+      },
+      "provider": {
+        "name": "Veracity by DNV GL",
+        "description": "Veracity aims to create an ecosystem to bring together all the key players in the maritime, oil&gas and energy industries, to drive business innovation and digital transformation. We aim to drive down the cost of innovation and collaboration, as well as the cost of deploying new services and solutions.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {},
+        "mainImage": {
+          "_type": "image",
+          "altText": "Data Fabric illustration image",
+          "asset": {
+            "_ref": "image-410f8fd545ee0cbb526884a8ac75c237c62d7d20-1200x349-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.23574783693733922,
+            "width": 0.058796731358528337,
+            "x": 0.15306435137895791,
+            "y": 0.40446285129078174
+          }
+        },
+        "sorting": 807,
+        "summary": {
+          "image": { "_type": "image" },
+          "text": "Easy and secure sharing of data. Manage access, run analytics, share and combine data in a trusted ecosystem."
+        }
+      }
+    },
+    {
+      "id": "38bfac18-b2e2-44fe-af8e-e29f387b2690",
+      "name": "Sesam Insight",
+      "urls": {
+        "primary": "sesam-insight",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "computer screen with 3D model",
+          "asset": {
+            "_ref": "image-f32d0c5c993aefa72a4ce45c57588a7422fc6a1a-1200x350-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 37,
+        "summary": { "text": "Sesam Insight allows easy collaboration and sharing of structural engineering models. All stakeholders benefit from web-based 3D visualization of analysis models and results.\n\n" }
+      }
+    },
+    {
+      "id": "3a99f811-3edd-49da-b235-143cc91c28ea",
+      "name": "DUMMY: Amy Test",
+      "urls": {
+        "primary": "dummy-amy-test",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "badges": [],
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ],
+          "types": []
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "A red car",
+          "asset": {
+            "_ref": "image-9aa9cdb3c198322c4325f71bc1ff3875a8b4de4a-1600x900-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.0923623445825934,
+            "left": 0.273,
+            "right": 0.064999999999999947,
+            "top": 0.28774422735346378
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0,
+            "width": 0,
+            "x": 0.52100000000000024,
+            "y": 0.5
+          }
+        },
+        "sorting": 0,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-c205f4559d9d8cf29286ab0eb6f7b32f3c95d9ee-1021x481-jpg",
+              "_type": "reference"
+            },
+            "crop": {
+              "_type": "sanity.imageCrop",
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0
+            },
+            "hotspot": {
+              "_type": "sanity.imageHotspot",
+              "height": 0.44963411252442231,
+              "width": 0.18444666001994012,
+              "x": 0.092223330009970059,
+              "y": 0.51058395937453016
+            }
+          },
+          "text": "The CX-5 is one of the best small SUVs. "
+        }
+      }
+    },
+    {
+      "id": "3c0939e3-d4fb-4a0d-ba12-b103f39a4776",
+      "name": "Pressure Safety Valve Manager",
+      "urls": {
+        "primary": "pressure-safety-valve-manager",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Three yellow valves",
+          "asset": {
+            "_ref": "image-83a30b85c3382b43e01a5a5a9d1e9439a36ec9c4-1200x350-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 24,
+        "summary": { "text": "A smarter approach to pressure safety valve data management and maintenance optimisation achieves cost savings without compromising safety.\n\n" }
+      }
+    },
+    {
+      "id": "41022f30-a04c-4944-9dc4-4ac830ac47da",
+      "name": "Safety Will",
+      "urls": {
+        "primary": "safety-will",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "The worker is welding the machine",
+          "asset": {
+            "_ref": "image-c4848342beeeb01c137bb8b3a6a215fb59193c42-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 54,
+        "summary": { "text": "Safety culture assessment tool that helps to assess and benchmark the safety culture level in your workplace, aiming to improve your organization’s safety performance." }
+      }
+    },
+    {
+      "id": "45134edb-467a-47d4-b18a-34c34901bca0",
+      "name": "SurfLoad – Pipeline Surface Loading Calculator",
+      "urls": {
+        "primary": "surfload-pipeline-surface-loading-calculator",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "categories": [
+            {
+              "key": "analytics",
+              "name": "Analytics"
+            }
+          ],
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ],
+          "types": [
+            {
+              "key": "software-as-a-service-saas",
+              "name": "Software as a Service (SaaS)"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-bdf8353944443f7a3c5b01c326d9553e322134d8-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.48222458508621818,
+            "width": 0.21614349775784775,
+            "x": 0.73497757847533585,
+            "y": 0.564721926864223
+          }
+        },
+        "sorting": 113,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-562d6ad4b3da59a193ed4fcb847db68d15f85e1b-200x200-png",
+              "_type": "reference"
+            }
+          },
+          "text": "SurfLoad is a cloud-based finite element calculator that is used to deter-mine pipeline stresses due to soil loads and surface loading within con-struction, agriculture or highway traffic scenarios."
+        }
+      }
+    },
+    {
+      "id": "457282f8-279c-48ec-ac79-37050494bf5f",
+      "name": "Ship Implementation Plan",
+      "urls": {
+        "primary": "ship-implementation-plan",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Prepare Ship Implementation Plans to ensure smooth transition into 2020",
+          "asset": {
+            "_ref": "image-210671b3f8de14bd17f7bc82a17ecc23f5715b67-6860x4573-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.41117588176411723,
+            "width": 0.17647058823529493,
+            "x": 0.50000000000000022,
+            "y": 0.546615242693674
+          }
+        },
+        "sorting": 25,
+        "summary": { "text": "Ship Implementation Plan is a tool offering user-friendly and efficient preparation of SIP and fleet overview.\n\n" }
+      }
+    },
+    {
+      "id": "45806c12-25bc-485d-8109-a1741d5d81f4",
+      "name": "Turbine Technology Reviews",
+      "urls": {
+        "primary": "turbine-technology-reviews",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "badges": [
+          {
+            "image": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-4a742900e006a565991b447502f178b06db56906-225x225-png",
+                "_type": "reference"
+              }
+            },
+            "name": "DUMMY: Verified by Veracity"
+          }
+        ],
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "wind turbines",
+          "asset": {
+            "_ref": "image-010b1ad21980e3e0a1a3c61e2f88e795a66cd17a-4288x2207-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 10,
+        "summary": { "text": "Independent opinions and comprehensive technology reviews of wind turbine models.\n\n" }
+      }
+    },
+    {
+      "id": "4e193833-e90d-4437-b91c-ad195be15d75",
+      "name": "Camo Analytics",
+      "urls": {
+        "primary": "camo-analytics-process-performance-optimisation",
+        "aliases": [ "8911a08e-dc04-4f91-b8e9-4f2005b78831" ]
+      },
+      "provider": {
+        "name": "Camo Analytics",
+        "description": "Camo is the leader in industrial analytics and the preferred partner for industry leaders digitizing their value chain. With our world class industrial analytics platform, we have helped companies optimise process and performance through innovative analytical solutions for decades. The platform is built on our outstanding analytical pedigree, proprietary software and commercial success.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-5f53793da1a5891b8da2299d2d18e4c8c512ef37-600x174-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Oil platform at night",
+          "asset": {
+            "_ref": "image-b04ea85e5d424e5d87ee909c37e43b7982ece9dc-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.28082191780821836,
+            "width": 0.10409145129224545,
+            "x": 0.3775271770881703,
+            "y": 0.50369905932921233
+          }
+        },
+        "sorting": 3,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-88b2a8c178a1c36c82afc32f91a5356ebee2c51f-300x300-png",
+              "_type": "reference"
+            }
+          },
+          "text": "Camo delivers an industrial analytics platform for real-time data processing and analytics-driven solutions enabling companies "
+        }
+      }
+    },
+    {
+      "id": "4ffd3d67-6e8e-4032-b8da-c65f5fd284cb",
+      "name": "DUMMY: Apple Product (Single trial plan test)",
+      "urls": {
+        "primary": "dummy-apple-product",
+        "aliases": [ "apple-product" ]
+      },
+      "provider": {
+        "name": "DUMMY: Fantastic Provider",
+        "description": "This provider is fantastic!",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-84e6a1e4ef6d8ca69b4df18aaa5f75d11fef264a-300x300-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {},
+        "mainImage": {
+          "_type": "image",
+          "altText": "This is a glorious cat!",
+          "asset": {
+            "_ref": "image-6136bdf73cf0bddd81f7e6155917f1353a78a5e6-474x334-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 0,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-6136bdf73cf0bddd81f7e6155917f1353a78a5e6-474x334-jpg",
+              "_type": "reference"
+            }
+          },
+          "text": "This is the content for the card!"
+        }
+      }
+    },
+    {
+      "id": "51309e7b-ca19-471a-aa3f-c4d8ea37f6dc",
+      "name": "Assets Monitoring from Space",
+      "urls": {
+        "primary": "assets-monitoring-from-space",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Satellite image showing nature",
+          "asset": {
+            "_ref": "image-d33ae08b4ca77f16f12c516b3eda7cd4a5da0fd2-1283x768-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.68300929839391278,
+            "width": 0.27747252747252787,
+            "x": 0.550824175824175,
+            "y": 0.3943364327979717
+          }
+        },
+        "sorting": 11,
+        "summary": { "text": "DNV GL provides solutions for geographical areas monitoring, searching anomalous behavior and manage risks of customers assets based on multi sensors satellite images acquisitions." }
+      }
+    },
+    {
+      "id": "5426c958-5c1b-4ea7-ac10-f2b873b82564",
+      "name": "Renewables GeoPlatform",
+      "urls": {
+        "primary": "renewables-geoplatform",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Wind farm and solar panels",
+          "asset": {
+            "_ref": "image-94b6b036625abbea8a95357b83639baebbdbd500-5000x1458-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 38,
+        "summary": { "text": "One-stop geospatial data and services platform to accelerate renewable energy project development.\n\n" }
+      }
+    },
+    {
+      "id": "5627d67c-5e94-4bd5-b156-6199dd7f4ce3",
+      "name": "Spottitt Environment",
+      "urls": {
+        "primary": "spottitt-environment",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Spottitt",
+        "description": "Spottitt specializes in the provision of self-service satellite imagery and analytics for the energy, environment and infrastructure sectors.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-bee70a1577cb367639a076a066e5d28279cdbfc8-293x85-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "a satellite's -eye view of the earth",
+          "asset": {
+            "_ref": "image-94b8289117d76d40dc8a004afa03c00f8a2102b9-1000x667-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 5,
+        "summary": { "text": "We provide cost efficient environmental analyses derived from satellite imagery. Do the analyses you want, on the image of your choice, at any global location." }
+      }
+    },
+    {
+      "id": "570880c4-5376-4fdb-8a25-327028878659",
+      "name": "[TC] DNV GL Oil and gas standards and recommended practices",
+      "urls": {
+        "primary": "dnv-gl-oil-and-gas-standards-and-recommended-practices",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ],
+          "types": [
+            {
+              "key": "software-as-a-service-saas",
+              "name": "Software as a Service (SaaS)"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Two DNV GL industry workers facing away and overlooking the shipyard",
+          "asset": {
+            "_ref": "image-712f112350ef0216b45dabe8d7a0b152774ba082-7151x4912-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.013495687951503133,
+            "left": 0,
+            "right": 0,
+            "top": 0.18837453311935817
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.74126121664372935,
+            "width": 1,
+            "x": 0.5,
+            "y": 0.59352533973354649
+          }
+        },
+        "sorting": 5070,
+        "summary": { "text": "40 years of knowledge within safety, efficiency, sustainability of projects and operations." }
+      }
+    },
+    {
+      "id": "57313834-0c77-4175-9324-2e133c301c95",
+      "name": "  Analytic Innovation Centre – Analytic Services",
+      "urls": {
+        "primary": "analytic-innovation-centre-analytic-services",
+        "aliases": [ "9bb8650f-7319-4426-bfb3-e742150eeed3" ]
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Ship model being discussed and pointed at by hands",
+          "asset": {
+            "_ref": "image-c01f6763e3715f400034b5b24ee2a15ecf4c0670-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.7928526775640955,
+            "width": 0.13885898815931091,
+            "x": 0.477395048439182,
+            "y": 0.58507836457188955
+          }
+        },
+        "sorting": 8,
+        "summary": { "text": "Data science consulting, data engineering, model & solution development, strategic advice, data science maturity assessment and introductory training/advice" }
+      }
+    },
+    {
+      "id": "579b18a7-fb63-442c-849c-307bb301023c",
+      "name": "CUI Manager",
+      "urls": {
+        "primary": "cui-manager",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Oil refinery",
+          "asset": {
+            "_ref": "image-d5d7eb0c36905bbf0bf8ba92a636ef259b744320-7968x5244-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.35692025261491578,
+            "width": 0.28752260397829943,
+            "x": 0.72503576968426964,
+            "y": 0.3824383998793548
+          }
+        },
+        "sorting": 8,
+        "summary": { "text": "Optimise your strategy by implementing an efficient CUI risk management system enabling continues improvement by learning from cross industry experience." }
+      }
+    },
+    {
+      "id": "59487690-8b7d-4570-9ca7-3da893db6f92",
+      "name": "Bluester",
+      "urls": {
+        "primary": "bluester",
+        "aliases": [ "5e5e0094-0569-4e4d-81ab-17d5fe43516f" ]
+      },
+      "provider": {
+        "name": "Bluester",
+        "description": "We believe in people cooperating and working together. We dedicate our creativity to connect people. We want to make business safe, transparent and easy. We base all our decisions on sincerity and integrity.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-62d93951aefb1a6e8d1198c85bef083e229ccad7-200x53-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "badges": [],
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Multiple ships on the open sea",
+          "asset": {
+            "_ref": "image-9f3ae49a9329fd24cb58df9be87d7503c246bc4c-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 36,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-410c8d742b2cd436a15e9a5a4254cdd350c551e2-450x450-png",
+              "_type": "reference"
+            }
+          },
+          "text": "Buy Maritime Support Services online. Close to 10,000 Service Providers offer technical services. No need to pay intermediaries."
+        }
+      }
+    },
+    {
+      "id": "5b5c6648-e4c8-48e6-9e26-3749350c469f",
+      "name": "MyCDA – the Competent Design Authority Service",
+      "urls": {
+        "primary": "mycda",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Pipeline on grass field",
+          "asset": {
+            "_ref": "image-585cb092a444cebf505e5df0308670fadfb03f61-1230x351-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 44,
+        "summary": { "text": "DNVGL's verification of the ongoing competencies of natural gas onshore design approvers and appraisers.\n" }
+      }
+    },
+    {
+      "id": "5f7ea54c-072c-4e67-a12c-f53d080378c1",
+      "name": "Energy Laboratory Services Portal",
+      "urls": {
+        "primary": "energy-laboratory-services-portal",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Solar developer standing in front of The PV Components.",
+          "asset": {
+            "_ref": "image-1afa52f61118729b560517aaf01677d141e757d8-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.8002507962225196,
+            "width": 0.095801937567276244,
+            "x": 0.84660925726587666,
+            "y": 0.4001253981112598
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "Data-sharing platform for PV component manufacturers and DNV GL PVEL Downstream Partners." }
+      }
+    },
+    {
+      "id": "6003e7d5-e744-4c43-875d-702b2a276765",
+      "name": "Ballast Water Management Plan (BWMP) Generator",
+      "urls": {
+        "primary": "ballast-water-management-plan-generator",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Ballast water flushing out of ship",
+          "asset": {
+            "_ref": "image-5f7532c99d3873b2ff98d292b9c06d3a0667e962-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.46608147548078532,
+            "width": 0.062432723358449918,
+            "x": 0.75188374596340213,
+            "y": 0.33724138951464633
+          }
+        },
+        "sorting": 99,
+        "summary": { "text": "The Ballast Water Management Plan Generator supports ship owners and managers to prepare plans in an easy and fast way." }
+      }
+    },
+    {
+      "id": "600b1274-6cbf-4e5a-b1ae-335765f7907c",
+      "name": "[TC] Container certification",
+      "urls": {
+        "primary": "container-certification",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Container certification",
+          "asset": {
+            "_ref": "image-2c0468dc768c35f08fe781901cd1efbdea60f158-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 1,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-05eff101edf27693905f2032c27587ebed9b0cf1-450x450-png",
+              "_type": "reference"
+            }
+          },
+          "text": "Incorporating over thirty years of technical expertise, we provide informative, instant design feedback giving a faster, more predictable route to certification."
+        }
+      }
+    },
+    {
+      "id": "60a723ad-d061-45e4-8d40-4fac3f18a6f2",
+      "name": "EAS_TEST_Purchase",
+      "urls": {
+        "primary": "eas_test_notselfsub",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "label": {
+          "backgroundColor": "#e3d224",
+          "name": "Dummy label",
+          "textColor": "#383d40"
+        },
+        "mainImage": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e327b9cef04abddbbe1568e440059fa8fde16c77-940x550-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "Product description balabala" }
+      }
+    },
+    {
+      "id": "6120e6eb-6ccf-48d8-a03c-46f41817c459",
+      "name": "Hybrid Sensor Technology",
+      "urls": {
+        "primary": "hybrid-sensor-technology",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "3D models of ship",
+          "asset": {
+            "_ref": "image-51bc263dbc7031d224f598b84d1926e54f747af1-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 27,
+        "summary": { "text": "Hybrid sensor technology extrapolates data from a few sensors on an asset to every structural element at accuracy to support decision making." }
+      }
+    },
+    {
+      "id": "6222d082-ca65-44ea-8e78-ec4091aed0ae",
+      "name": "IGS – IHM Green Server",
+      "urls": {
+        "primary": "igs-ihm-green-server",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Ship on open sea with a white grid overlay",
+          "asset": {
+            "_ref": "image-bcbc79a537f33cdf4c9eaedd7fb72d6339eab302-1200x349-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 395,
+        "summary": { "text": "Hybrid sensor technology extrapolates data from a few sensors on an asset to every structural element at accuracy to support decision making.\n\n" }
+      }
+    },
+    {
+      "id": "6a4736a8-835b-4dde-98c1-05d6ab85ca0c",
+      "name": "Some test",
+      "urls": {
+        "primary": "digital-paint-report-coat-cost-optimization-monitoring",
+        "aliases": [ "21d3540e-64fb-4f29-8f44-69db4044ee64", "DPR_test" ]
+      },
+      "provider": {
+        "name": "SteelCorr",
+        "description": "SteelCorr DMCC is a Dubai based Paint consultancy founded in 2014. Founder is a NACE certified Protective Coating Specialist & Sr. Corrosion Technologist and a FROSIO certified Paint Inspector with over 2 decades of experience in the Corrosion & Coatings industry.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-efcc0b056e67c68d6f28b7f345ad90b0e44e9862-1574x1085-jpg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ],
+          "types": [
+            {
+              "key": "software-as-a-service-saas",
+              "name": "Software as a Service (SaaS)"
+            },
+            {
+              "key": "free",
+              "name": "Free"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Ship in dock",
+          "asset": {
+            "_ref": "image-83b42e6ed932c1450cefe5a41dc964bae74acbc9-530x310-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 68,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-7da62c4fb82fe21d234254a8a09411919c15c9cb-450x450-png",
+              "_type": "reference"
+            }
+          },
+          "text": "DPR solution helps you document all required performance parameters & photos on a collaborative platform. test test test test test test test"
+        }
+      }
+    },
+    {
+      "id": "6bcf33fd-9175-4971-97ff-a10606a08cc7",
+      "name": "Cisco Kinetic",
+      "urls": {
+        "primary": "cisco-kinetic",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Cisco",
+        "description": "Cisco is the worldwide leader that has been making the Internet work since 1984 and helps seize the opportunities of tomorrow by proving that amazing things can happen when you connect the unconnected. Our people, products, and partners help society securely connect and seize tomorrow's digital opportunity today.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-16dd11c684ba9f0176e0325b6feb3a09ef7a6eff-774x538-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Worker talking into walkie talkie while looking at container ship",
+          "asset": {
+            "_ref": "image-c60c81f4893c44e60b2b88a5de5630cb829b8388-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.6226959484203165,
+            "width": 0.11087190527448858,
+            "x": 0.554897739504845,
+            "y": 0.68865202578984175
+          }
+        },
+        "sorting": 3,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-e65bb618e2efe346be6bb4755ed106c489a797f6-150x150-png",
+              "_type": "reference"
+            }
+          },
+          "text": "Count on the Kinetic platform and industrial grade network equipment to help securely connect your devices and systems. Add compute power in the network. "
+        }
+      }
+    },
+    {
+      "id": "773d05c6-118f-4566-a1cf-43947007e379",
+      "name": "Arundo Maritime Suite powered by Veracity",
+      "urls": {
+        "primary": "arundo-maritime-suite-powered-by-veracity",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Arundo Analytics",
+        "description": "We focus on deploying advanced data models, and managing their health and performance, so they run like high-reliability websites with seamless results for business users. We can deploy and manage data models on edge devices in remote or rugged areas. With Arundo, industrial operators can finally find value in data.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-0efc8854d2fd440b75c99b690544dc7d8ce48300-300x80-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Illustration of ships connected through cloud technology",
+          "asset": {
+            "_ref": "image-5e8834256a4fb3133f95997a52da0b1495e898f0-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.86192930780559629,
+            "width": 0.3080357142857138,
+            "x": 0.34263392857142877,
+            "y": 0.43096465390279814
+          }
+        },
+        "sorting": 13,
+        "summary": { "text": "Remote Operation by DNVGL/Arundo brings advanced analytics to ship and shore, allowing mariners to easily connect, visualize, and analyze critical data." }
+      }
+    },
+    {
+      "id": "77c39923-94a1-4966-9134-7cb398183eff",
+      "name": "AGR Software",
+      "urls": {
+        "primary": "AGR-Software",
+        "aliases": null
+      },
+      "provider": {
+        "name": "AGR",
+        "description": "At AGR, we are highly experienced in developing software for use within the oil and gas industry. Each of our systems is applied in-house at AGR which means they are tried, tested and trusted, providing real results for our clients. AGR’s software tools are continuously developed on the feedback from its end-users. AGR Software is based in Oslo Norway but serving a global market consisting of Oil an Gas companies as well as Service companies across the world.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-eb8303926bd687afa20484bfd4305edf35705a78-160x80-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Dark background with colourful product icons floating",
+          "asset": {
+            "_ref": "image-dd81eac09fc3c8fa7ad1e0689a3ce6f31c82196c-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.63749218573716782,
+            "width": 0.10010764262647999,
+            "x": 0.6420882669537149,
+            "y": 0.43711599140338581
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "P1™ provides a rigorous, standardised and systematic approach to many of the key elements of successful well construction." }
+      }
+    },
+    {
+      "id": "7bf29dd6-6fe4-442f-9d2b-310aa8bebfb1",
+      "name": "Data Usage Risk Assessment",
+      "urls": {
+        "primary": "data-usage-risk-assessment",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Digital index on a black background",
+          "asset": {
+            "_ref": "image-95bc135ce597ab47a93b4427bef805f1053c08cc-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.65103444194141424,
+            "width": 0.071044133476856827,
+            "x": 0.54843918191603858,
+            "y": 0.32551722097070712
+          }
+        },
+        "sorting": 13,
+        "summary": { "text": "This service helps understand what poor quality data can lead to and what impact such data can have on business activities and decision making." }
+      }
+    },
+    {
+      "id": "8146e779-d7a6-4983-badc-448cf4ce953a",
+      "name": "Renewables Benchmarking",
+      "urls": {
+        "primary": "renewables-benchmarking",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Finger touching screen with index on it",
+          "asset": {
+            "_ref": "image-275f08f2401fa164eef59728327573a5e75584c7-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 17,
+        "summary": { "text": "Energy\nRenewables Benchmarking\nCompare your wind farm against DNV GL’s anonymized database.\n\n" }
+      }
+    },
+    {
+      "id": "820cbcd6-06c3-433e-a193-5b39cdae3c22",
+      "name": "[TC] DNV GL Noble Denton marine services warranty standards",
+      "urls": {
+        "primary": "dnv-gl-noble-denton-marine-services-warranty-standards",
+        "aliases": [ "5c506248-701d-497e-9e2b-f288cf703e94" ]
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ],
+          "types": [
+            {
+              "key": "software-as-a-service-saas",
+              "name": "Software as a Service (SaaS)"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Oil platform being",
+          "asset": {
+            "_ref": "image-f26da0b1ebb5d5e8a30786bab85fd477410f5cf7-1199x350-jpg",
+            "_type": "reference"
+          },
+          "caption": "ddq",
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.33167155024781814,
+            "width": 0.10133368939528739,
+            "x": 0.39912254585301876,
+            "y": 0.24117824087733286
+          }
+        },
+        "sorting": 743,
+        "summary": { "text": "Access our marine warranty standards on marine operations (DNVGL-ST-N001) and site specific assessment of mobile offshore units (DNVGL-ST-N002) including clarifications." }
+      }
+    },
+    {
+      "id": "830c08d7-ec26-4999-bff2-36279f8465cb",
+      "name": "HACyberLogix",
+      "urls": {
+        "primary": "hacyberlogix",
+        "aliases": null
+      },
+      "provider": {
+        "name": "HudsonCyber",
+        "description": "HudsonCyber leverages extensive knowledge, skills, and expertise from the cyber and maritime industry risk domains. HudsonCyber offers technology-agnostic, 360° integrated cybersecurity strategies and guidance to maritime transportation organizations of all sizes to assist them in understanding, managing, and mitigating their enterprise cyber risks today and in the future.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-1627cdf6eb6d72ffe9eb90d46e682d942c5f7ed1-740x181-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Map of the world in blue with glowing white lines",
+          "asset": {
+            "_ref": "image-0ce3a95d3218b5382794f78eabcbdc29481c74d3-1140x238-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0.18191603875134557,
+            "right": 0.0010764262648008671,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.82404570671524335,
+            "width": 0.076426264800861024,
+            "x": 0.75296017222820277,
+            "y": 0.56727664155005442
+          }
+        },
+        "sorting": 11,
+        "summary": { "text": "HACyberLogix is a cloud-based tool that empowers shipping companies to quickly and economically assess (and re-assess), baseline and benchmark the cybersecurity capability of their entire enterprise.\n\n" }
+      }
+    },
+    {
+      "id": "87dba861-bbe6-46f0-84c2-c2621d07bca0",
+      "name": "Veracity Deep Search",
+      "urls": {
+        "primary": "veracity-deep-search",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Veracity by DNV GL",
+        "description": "Veracity aims to create an ecosystem to bring together all the key players in the maritime, oil&gas and energy industries, to drive business innovation and digital transformation. We aim to drive down the cost of innovation and collaboration, as well as the cost of deploying new services and solutions.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Deep Search illustration image",
+          "asset": {
+            "_ref": "image-5c2d150bb1d08a48cab99d0b8afa0aa0f60e3162-2000x583-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 82,
+        "summary": { "text": "Deep Search is an enterprise secure solution that lets you perform search analysis for business sensitive data." }
+      }
+    },
+    {
+      "id": "87f63482-cd04-4080-8a6d-3725915c685f",
+      "name": "Maindeck",
+      "urls": {
+        "primary": "maindeck",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Maindeck",
+        "description": "Maindeck is a cloud-based maintenance system empowering the ship manager through all service, maintenance and repair projects. With Maindeck we are offering an application that requires no up-front investments, no installation, no training, and yet with all the functionality and beneﬁts we expect from a maintenance system.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-c534fe31e04c7892ff6d2d1ffae1673442dd5983-300x42-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            },
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            },
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "3D ship model on tablet",
+          "asset": {
+            "_ref": "image-a9a7e137c2b56140dab848a649eae7505588be7b-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 1,
+            "width": 0.089343379978471818,
+            "x": 0.78740581270183,
+            "y": 0.5
+          }
+        },
+        "sorting": 11,
+        "summary": { "text": "Save time and minimise cost on your maintenance projects by collaborating in real time. Maindeck gives you total control of all maintenance projects on both web and mobile." }
+      }
+    },
+    {
+      "id": "887d0af4-2121-4a00-90d0-0036bbadf956",
+      "name": "Umbrellas commercial products",
+      "urls": {
+        "primary": "umbrellas-commercial-products",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Umbrella Corporation",
+        "description": "This test company has been on the market for many DAYS. Used by Thomas Bassetto to test the new feature for the marketplace, it has been known for ... ¯\\_(ツ)_/¯.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-4f5465319b8ac52632ceadb6b1160259a14c6e37-715x227-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "categories": [
+            {
+              "key": "data-management",
+              "name": "Data management"
+            }
+          ],
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ],
+          "types": [
+            {
+              "key": "api",
+              "name": "API"
+            }
+          ]
+        },
+        "label": {
+          "backgroundColor": "#e3d224",
+          "name": "Dummy label",
+          "textColor": "#383d40"
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Modern City",
+          "asset": {
+            "_ref": "image-6ae10fa704d58ce9762603da719bcd6cfc074765-1920x1080-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "We make a lot of stuff for the modern world." }
+      }
+    },
+    {
+      "id": "8cb6dd23-63f8-47a7-829a-98a6f1aa7043",
+      "name": "Oreda@Cloud",
+      "urls": {
+        "primary": "oreda-cloud-offshore-onshore-reliability-data",
+        "aliases": [ "b332b3f9-59bc-48a3-9f7a-86a7ecd1593a" ]
+      },
+      "provider": {
+        "name": "Oreda",
+        "description": "Oreda project was initiated in 1981 and the primary aim was to collect reliability data for safety equipment. As the project became an important source of data, in 1983 it was decided that oil and gas companies should be in charge of the project. To give us some context with our tools, this was also the year where the focus was to collect data from the operation of offshore oil and gas production facilities to improve the basic data.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-521309d1219af26293bf916dffcd0fb78ee0363b-883x150-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Oreda shoreline photo",
+          "asset": {
+            "_ref": "image-467bacba7992f3bf5c974e9aa7cdf64451e4dfa9-1024x352-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.34096351134641156,
+            "width": 0.14316469321851449,
+            "x": 0.095263724434876157,
+            "y": 0.78558247841655549
+          }
+        },
+        "sorting": 69,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-6e2134ea9d379cee6554569261126ae1ac1d5321-940x913-png",
+              "_type": "reference"
+            }
+          },
+          "text": "A comprehensive databank of reliability data collected on Topside & Subsea equipment from offshore & onshore operations in the North Sea, GOM, WOS, Angola, Adriatic, Caspian, etc."
+        }
+      }
+    },
+    {
+      "id": "8e00e1ad-a53c-43f0-bc5d-225b9d3705cc",
+      "name": "EU Energy Efficiency Directive Article 8 compliance plan",
+      "urls": {
+        "primary": "eu-energy-efficiency-directive-article-8-compliance-plan",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Flags from european countries with the EU flag in front",
+          "asset": {
+            "_ref": "image-874052acd5296b6b0a7a59235ce947dfbd92f681-1134x300-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.796131389242261,
+            "width": 0.22282023681377788,
+            "x": 0.15984930032292755,
+            "y": 0.39806569462113051
+          }
+        },
+        "sorting": 6,
+        "summary": { "text": "Reach EU EED Article 8 compliance in all 28 Member States using our Article 8 database and customized compliance reporting service.\n\n" }
+      }
+    },
+    {
+      "id": "92077a1e-229e-4516-a0a6-7a574a3f53a3",
+      "name": "Automation Test Product 4 (NewPurchase)",
+      "urls": {
+        "primary": "automation-test-product-4-newpurchase",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Automation Provider Filter",
+        "description": "Automation Test purpose",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-2b828bf0a614828f2488a89dd6e4c2a032a8711d-433x116-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "mainImage": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-b5fadeb5e9212d2824bb1ee1441a425c884a0809-2248x1500-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 14,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-e3e72b8f3d209c120535dcc11aa87075477a16b9-300x112-png",
+              "_type": "reference"
+            }
+          },
+          "text": "Used for brief, summarized product presentations, such as product cards on category pages."
+        }
+      }
+    },
+    {
+      "id": "96414a35-a1b8-40ed-b234-1564355fd659",
+      "name": "WindGEMINI",
+      "urls": {
+        "primary": "windgemini",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Wind turbine",
+          "asset": {
+            "_ref": "image-7ed77087cbaaac3c059da8d0457ad6f4d2398037-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 17,
+        "summary": { "text": "An online digital twin for your wind farm operations.\n\n" }
+      }
+    },
+    {
+      "id": "9cfa49e8-c59a-4792-b964-41712a8474ec",
+      "name": "MyCertificate",
+      "urls": {
+        "primary": "mycertificate",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Man standing in front of the screen",
+          "asset": {
+            "_ref": "image-1bb5d611ad2d54933af0d28eb5104fc1e8fa2b3b-1024x298-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.54131664317764039,
+            "width": 0.20129171151776096,
+            "x": 0.55059203444564075,
+            "y": 0.37053292347755984
+          }
+        },
+        "sorting": 47,
+        "summary": { "text": "Enables the customer to tailor and generate type certificates for specific wind turbine variants, monitor certification status, define and preview new variants to be certified." }
+      }
+    },
+    {
+      "id": "a4388766-4657-437a-9a96-454899851b8c",
+      "name": "[TC] Tidetech Metocean Data",
+      "urls": {
+        "primary": "tidetech-metocean-data",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Tidetech ",
+        "description": "Tidetech is a privately-owned company based in Australia providing a comprehensive range of weather and ocean data products, primarily for the marine industry.\n\nTidetech's data is used by thousands of ships worldwide to save fuel and reduce emissions. Customers include major shipping lines, weather routing companies and vessel efficiency software and service providers.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9922fcf14390ad8b7303110f88a1f82551a103e5-300x82-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.91887945486993672,
+            "width": 0.92017738359201773,
+            "x": 0.46008869179600886,
+            "y": 0.45943972743496836
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "deep sea",
+          "asset": {
+            "_ref": "image-ec077379c6215f8245acc87821ad4755188062f4-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 11,
+        "summary": { "text": "Tidetech provides high quality metocean data delivered via state-of-the-art cloud-based API services. Accurate and detailed forecast, nowcast and historical data available." }
+      }
+    },
+    {
+      "id": "aa48b17c-8e32-479a-b915-dc16ef02ab98",
+      "name": "EEDI Calculator",
+      "urls": {
+        "primary": "eedi-calculator",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Hull of ship",
+          "asset": {
+            "_ref": "image-3152dfbe189b7c1b8eb4720c048ad4d5a1899680-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 177,
+        "summary": { "text": "The EEDI Calculator is a calculation tool determining a vessel’s attained and required Energy Efficiency Design Index (EEDI) in a smart and time-efficient way." }
+      }
+    },
+    {
+      "id": "af8ecee7-4582-4bc0-b563-a10278d67737",
+      "name": "Safeti Compute",
+      "urls": {
+        "primary": "safeti-compute",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "man talking in walkie talkie",
+          "asset": {
+            "_ref": "image-8b8c0bc9c2be185af95d214787ce398f5ba86afd-1200x350-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 19,
+        "summary": { "text": "The Safeti Compute service is a cloud-based QRA calculation tool designed specifically to run compute intensive QRA studies in an efficient manner.\n\n" }
+      }
+    },
+    {
+      "id": "b3b6b81b-71e2-4bd4-a5f9-8e2513bb207c",
+      "name": "Veracity Adapter for Power BI (VAP)",
+      "urls": {
+        "primary": "veracity-adapter-for-power-bi-vap",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Veracity by DNV GL",
+        "description": "Veracity aims to create an ecosystem to bring together all the key players in the maritime, oil&gas and energy industries, to drive business innovation and digital transformation. We aim to drive down the cost of innovation and collaboration, as well as the cost of deploying new services and solutions.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "label": {
+          "backgroundColor": "#e3d224",
+          "name": "Dummy label",
+          "textColor": "#383d40"
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Eye looking into camera",
+          "asset": {
+            "_ref": "image-ddfa7ae6c9c87e4bfbd92981687f48a181b8e999-1193x351-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.5607449053374064,
+            "width": 0.071583514099783252,
+            "x": 0.70824295010845972,
+            "y": 0.68076644974692668
+          }
+        },
+        "sorting": 57,
+        "summary": { "text": "For companies who have access to data and analytics experts who want to share Power BI reports\n\n" }
+      }
+    },
+    {
+      "id": "b463cd6d-a451-4b59-a2a0-8072d4a7ba89",
+      "name": "Arundo Analytics",
+      "urls": {
+        "primary": "wip-arundo-analytics",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Arundo Analytics",
+        "description": "We focus on deploying advanced data models, and managing their health and performance, so they run like high-reliability websites with seamless results for business users. We can deploy and manage data models on edge devices in remote or rugged areas. With Arundo, industrial operators can finally find value in data.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-0efc8854d2fd440b75c99b690544dc7d8ce48300-300x80-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Blue background with white network lines in a 3D environment",
+          "asset": {
+            "_ref": "image-cf83e9fd408ff6082ea25e01a36fea82952a4384-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.51339132053069148,
+            "width": 0.082040605081440565,
+            "x": 0.8956407688084338,
+            "y": 0.73956645422424461
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "Arundo provides cloud-based and edge-enabled software for deployment and management of enterprise-scale industrial data science solutions\n\n" }
+      }
+    },
+    {
+      "id": "b53f887b-2595-47fe-b1d0-187cac79c371",
+      "name": "ExplEnergy",
+      "urls": {
+        "primary": "explenergy",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "White electric core with blue energy surrounding it",
+          "asset": {
+            "_ref": "image-f5fa2d83d4c4fd2d78e0a01d1ddee8f4eadd09df-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.0480877712797636,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.69667713500456785,
+            "width": 0.1367061356297091,
+            "x": 0.49892357373519913,
+            "y": 0.41492163542811067
+          }
+        },
+        "sorting": 61,
+        "summary": { "text": "Customize your energy value chain and estimate the associated energy flow, CAPEX, OPEX, GHG footprint and cost of output energy.\n\n" }
+      }
+    },
+    {
+      "id": "b78c386f-34f6-43ea-b1b9-207507379318",
+      "name": "[TC] Energy Transition Outlook",
+      "urls": {
+        "primary": "energy-transition-outlook",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Windmills on field",
+          "asset": {
+            "_ref": "image-eee78fbc707a56dc070d71f1a84dfcd898d32170-1945x517-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.55639097744360866,
+            "width": 0.22999999999999957,
+            "x": 0.12007487082147053,
+            "y": 0.47015170532045591
+          }
+        },
+        "sorting": 680,
+        "summary": { "text": "The energy transition outlook is DNV GL’s global and regional forecast of the energy transition to 2050. Access the data behind the forecast." }
+      }
+    },
+    {
+      "id": "b9511d2f-ba49-41a1-b438-bd6fa022bc2b",
+      "name": "GPM Horizon",
+      "urls": {
+        "primary": "gpm-horizon",
+        "aliases": null
+      },
+      "provider": {
+        "name": "GreenPowerMonitor",
+        "description": "GreenPowerMonitor, now part of DNV GL, is an international company that offers products and services in the renewable energy sector. The company offers a market-leading integrated solution set for the management and maintenance of renewable energy installations that includes Hardware, Software and Services unmatched in the industry.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-99e5c404d369dcdcdcb6ca7c2a4b5c041b28cb41-300x50-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-c6c900ade865169119b4eded3e1ec4ebee297e14-1230x395-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.69149153781408279,
+            "width": 0.14747039827771763,
+            "x": 0.62271259418729874,
+            "y": 0.44634635440244957
+          }
+        },
+        "sorting": 8,
+        "summary": { "text": "GPM Horizon is an Online Multi-Technology monitoring asset manager platform for mixed renewable portfolios that includes Solar, Storage and Wind capabilities." }
+      }
+    },
+    {
+      "id": "bb826de9-6493-4ab7-a835-e43b0bff4d3a",
+      "name": "DP Capability Assessment",
+      "urls": {
+        "primary": "dp-capability-assessment",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "3D boat model seen from above",
+          "asset": {
+            "_ref": "image-30593771c0b6d9fedb16217b1585d08ca3f57750-3300x963-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.6461064334901262,
+            "width": 0.16899892357373431,
+            "x": 0.68406889128094817,
+            "y": 0.49631360868218882
+          }
+        },
+        "sorting": 44,
+        "summary": { "text": "\nAssessment of station keeping capability of dynamic positioning vessels according to DNVGL-ST-0111 standard.\n\n" }
+      }
+    },
+    {
+      "id": "be8333ea-7ab6-49d7-9188-2fc7b4a953e7",
+      "name": "Resource Panorama",
+      "urls": {
+        "primary": "resource-panorama",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "map with wind masts solar panel icons on it",
+          "asset": {
+            "_ref": "image-f3ade5fb5e77f1a9e73111a9672154a067a2aa0a-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.62728567062489315,
+            "width": 0.15835140997830816,
+            "x": 0.64208242950108474,
+            "y": 0.45527428047498719
+          }
+        },
+        "sorting": 14,
+        "summary": { "text": "Online data management service for wind and solar power projects. Data are analyzed by DNV GL to exclude bad data and notify clients of measurement issues requiring resolution.\n\n" }
+      }
+    },
+    {
+      "id": "c35b53a3-c785-4848-8510-cf5605a2ac55",
+      "name": "Spottitt Energy",
+      "urls": {
+        "primary": "spottitt-energy",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Spottitt",
+        "description": "Spottitt specializes in the provision of self-service satellite imagery and analytics for the energy, environment and infrastructure sectors.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-bee70a1577cb367639a076a066e5d28279cdbfc8-293x85-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "a satellite's -eye view of the earth",
+          "asset": {
+            "_ref": "image-6198c6fad26a212e041463dcef2a3cc459046ece-1280x853-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.31794539637676889,
+            "width": 0.1568627450980396,
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "sorting": 7,
+        "summary": { "text": "Intuitive access to satellite imagery and complex analyses which enable onshore wind and solar developers to find the best development sites quickly and efficiently in the world." }
+      }
+    },
+    {
+      "id": "c99e55e1-6752-449e-b4cb-36a04e6a0f2c",
+      "name": "Resource Compass",
+      "urls": {
+        "primary": "resource-compass",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "GHI map in red and blue",
+          "asset": {
+            "_ref": "image-5104aeb7d3b36fcb427896538b5d1f86a56bcd9c-2243x1080-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.43703981708732315,
+            "width": 0.19002375296912141,
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "sorting": 72,
+        "summary": { "text": "Purchase location specific wind and solar time series data and MERRA-2 time series.\n\n" }
+      }
+    },
+    {
+      "id": "cffb5023-8d40-45fd-8075-2ad7698acb25",
+      "name": "[TC] MyQRA",
+      "urls": {
+        "primary": "myqra",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "three people discussing the contents of a screen",
+          "asset": {
+            "_ref": "image-06b9ed005ea46925e65a75f34cca3c69bfcad898-1024x682-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.27906195669353551,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.27394499762920793,
+            "width": 0.22039473684210556,
+            "x": 0.43585526315789508,
+            "y": 0.53704362256993832
+          }
+        },
+        "sorting": 114,
+        "summary": { "text": "MyQRA provides access to results and reports related to your quantitative risk assessments (QRA) for offshore and onshore Oil & Gas installations performed by DNV GL.\n\n" }
+      }
+    },
+    {
+      "id": "d10cc7c9-ca42-4035-9233-3479c0e6d03d",
+      "name": "Onix Work",
+      "urls": {
+        "primary": "onix-work",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Onix Work",
+        "description": "Onix Work builds on over 20 years of experience and close collaboration with demanding clients. We digitalize the processes around lifting gear and work equipment both internally in the company and between companies.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e5f5d683d61a766373f8c83e76a4f58ddd0a1efb-180x180-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Man checking the system on mobile and PC",
+          "asset": {
+            "_ref": "image-7289d3be2124a53e2edea05949f954550cf5ff30-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 1,
+            "width": 0.9269662921348315,
+            "x": 0.46348314606741575,
+            "y": 0.5
+          }
+        },
+        "sorting": 12,
+        "summary": { "text": "Cloud-based solution that digitizes the value chain for workers, owners, inspectors and suppliers of lifting equipment." }
+      }
+    },
+    {
+      "id": "d2b737ce-f1b6-403b-a48b-03e1c30e9ffd",
+      "name": "ioCurrents MarineInsight",
+      "urls": {
+        "primary": "iocurrents-marineinsight",
+        "aliases": null
+      },
+      "provider": {
+        "name": "ioCurrents",
+        "description": "ioCurrents, a leader in maritime analytics, has developed MarineInsight™ -- the foremost machine learning-based analytics platform. MarineInsight™ aggregates vessel equipment data into actionable insights for the maritime industry, to improve efficiency, increase safety, and identify and prevent failures, delivering significantly-reduced operating costs and risk profiles for its customers.\n\n\n",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9e99f65047353da86f2fcf052028aa5dadf68f7b-227x46-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Container ship on open sea",
+          "asset": {
+            "_ref": "image-3e2f36171caff6f51f5d437a7ebc319c5631a436-1200x343-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.8715842350763886,
+            "width": 0.12163616792249742,
+            "x": 0.75726587728740524,
+            "y": 0.51888467131229588
+          }
+        },
+        "sorting": 18,
+        "summary": { "text": "Reduce Vessel Operating Costs with Maritime Data Analytics\n\n" }
+      }
+    },
+    {
+      "id": "d4522564-9053-492b-8f01-78becf088978",
+      "name": "Automation Test 02 for Marketplace",
+      "urls": {
+        "primary": "automation-test-02-for-marketplace",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Veracity by DNV GL",
+        "description": "Veracity aims to create an ecosystem to bring together all the key players in the maritime, oil&gas and energy industries, to drive business innovation and digital transformation. We aim to drive down the cost of innovation and collaboration, as well as the cost of deploying new services and solutions.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "mainImage": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e327b9cef04abddbbe1568e440059fa8fde16c77-940x550-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "It is for test Apply for process" }
+      }
+    },
+    {
+      "id": "d6f423c6-1f80-4680-9759-31385a6538e6",
+      "name": "ECO Insight",
+      "urls": {
+        "primary": "eco-insight",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "hand holding pen pointing at map on digital screen",
+          "asset": {
+            "_ref": "image-e2647890e14e31fe2816b1c5c71abcd4935e0476-1134x300-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0.47255113024757806,
+            "right": 0.075349838536060254,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.70642920050885782,
+            "width": 0.12701829924650074,
+            "x": 0.63832077502691154,
+            "y": 0.35321460025442891
+          }
+        },
+        "sorting": 105,
+        "summary": { "text": "ECO Insight is the largest performance solution in shipping with >100 customers and >1.700 vessels. Improve your ships with data without changing crew, onshore staff and vessels." }
+      }
+    },
+    {
+      "id": "dac03152-b174-475d-9bf9-0ef959603e1d",
+      "name": "Temasys Skylink",
+      "urls": {
+        "primary": "temasys-skylink",
+        "aliases": null
+      },
+      "provider": {
+        "name": "Temasys",
+        "description": "Temasys Communications, based in Singapore and Palo Alto (USA), is the leading Communications Platform-as-a-Service (CPaaS) company, providing real-time communication technology and services. Temasys offers the Skylink WebRTC platform, which delivers a secure, reliable and scalable infrastructure that makes it easy for businesses and application developers to embed live voice, video, messaging, file transfer, screen sharing - and more - into their apps and websites. We are also an Appian technology partner working in collaboration to embed real-time co-browsing, live messaging, audio and video calling inside any Appian application.\n\n\n",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-51879a7bb5d36961176624f2f31085760f88083c-300x120-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "hand holding on phone",
+          "asset": {
+            "_ref": "image-26060b15f08c262c45fbde1a50a520da38b8ca9f-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 2,
+        "summary": { "text": "Temasys SDKs and secure, reliable, and scalable infrastructure make it easy to embed live interactive video, voice, chat, data and screen sharing in any web or mobile app, quickly, at any scale.\n\n" }
+      }
+    },
+    {
+      "id": "de3905c7-4118-4ab2-ba43-434c720bd5e2",
+      "name": "Some test",
+      "urls": {
+        "primary": "dummy-something-seomthing",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "mainImage": {
+          "_type": "image",
+          "altText": "Ship in dock",
+          "asset": {
+            "_ref": "image-83b42e6ed932c1450cefe5a41dc964bae74acbc9-530x310-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 0,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-7da62c4fb82fe21d234254a8a09411919c15c9cb-450x450-png",
+              "_type": "reference"
+            }
+          },
+          "text": "DPR solution helps you document all required performance parameters & photos on a collaborative platform. test test test test test test test"
+        }
+      }
+    },
+    {
+      "id": "e0635feb-1c39-4f76-aada-19b6022775d4",
+      "name": "[TC] Alternative Fuels Insight platform (AFI)",
+      "urls": {
+        "primary": "alternative-fuels-insight-platform-afi",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ],
+          "types": [
+            {
+              "key": "software-as-a-service-saas",
+              "name": "Software as a Service (SaaS)"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Coasst line with location tags showing energy icons.",
+          "asset": {
+            "_ref": "image-1e9ab88f80121e421b1d8753f9d5b81d83ffdcf3-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.71102413568166989,
+            "width": 0.30666666666666703,
+            "x": 0.71619047619047549,
+            "y": 0.52283105022831022
+          }
+        },
+        "sorting": 268,
+        "summary": { "text": "A free platform providing a 360-degree view on the uptake and infrastructure for alternative fuels in shipping, assessing their feasibility for existing vessels and newbuilds." }
+      }
+    },
+    {
+      "id": "e1878296-d680-4b7b-8531-f665c5f42436",
+      "name": "Pydome",
+      "urls": {
+        "primary": "pydome",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Energy",
+        "description": "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "categories": [],
+          "industries": [
+            {
+              "key": "energy-and-renewables",
+              "name": "Energy and renewables"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "blue circles connected in a web with lines",
+          "asset": {
+            "_ref": "image-db8cbf23eea5742527fca4765900c3a1d3b2c2e0-799x228-png",
+            "_type": "reference"
+          }
+        },
+        "sorting": 15,
+        "summary": { "text": "Pydome optimizes dispatch to simulate market prices and generation cost/revenue. Results are shown interactively on Power BI.\n\n" }
+      }
+    },
+    {
+      "id": "e2250c96-2f81-43f5-beae-48db8a769738",
+      "name": "Open Data - Ocean Space",
+      "urls": {
+        "primary": "open-data-ocean-space",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Underwater with sunlight shining through",
+          "asset": {
+            "_ref": "image-7aba19f7cc4531e76fb479c99d1f917f0b5313d6-5000x5000-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0.3018433179723502,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.30875576036866359,
+            "width": 0.23963133640553,
+            "x": 0.39861751152073743,
+            "y": 0.27649769585253453
+          }
+        },
+        "sorting": 0,
+        "summary": { "text": "Explore new possibilities through open data - ocean space\n\n" }
+      }
+    },
+    {
+      "id": "e78a1661-03f6-4c41-98ba-fb0b797810b1",
+      "name": "The Real MVP",
+      "urls": {
+        "primary": "the-real-mvp",
+        "aliases": null
+      },
+      "provider": {
+        "name": "MVP",
+        "description": "The real MVP",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-3fde8a8656b8f525104cedc52e6393bdfdfb2455-300x300-png",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": { "sorting": 0 }
+    },
+    {
+      "id": "e955d1ad-924e-4f6e-a707-a45811206320",
+      "name": "Data management maturity self-assessment",
+      "urls": {
+        "primary": "data-management-maturity-self-assessment",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Office desk with multiple screens",
+          "asset": {
+            "_ref": "image-4f91644036e33cc15c7ef13da1f101e594a51bea-1004x680-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.50380302817985356,
+            "width": 0.34992223950233264,
+            "x": 0.31337480559875608,
+            "y": 0.53445812304306572
+          }
+        },
+        "sorting": 108,
+        "summary": { "text": "Data management maturity self-assessment covers eight key issues of data management. It takes approximately 10 minutes and offers an efficient way of evaluating your organization’s maturity level." }
+      }
+    },
+    {
+      "id": "ecbac74f-674b-4c36-bb0b-338f403da610",
+      "name": "Data Quality Assessment",
+      "urls": {
+        "primary": "data-quality-assessment",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Data Quality Assessment",
+          "asset": {
+            "_ref": "image-a29ad4d00fcb9aba988574fdebacca0f0d387de7-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.72626960963827,
+            "width": 0.11733046286329335,
+            "x": 0.65823466092572736,
+            "y": 0.5147962373168502
+          }
+        },
+        "sorting": 9,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-e8b029877d0da7644f794def0d49e49e973cb72e-450x450-png",
+              "_type": "reference"
+            }
+          },
+          "text": "Data Quality Assessment helps evaluate the quality of the data asset, define data quality metrics and perform an assessment."
+        }
+      }
+    },
+    {
+      "id": "f3f6a07c-098c-450b-a0c7-9ed1e79b2d6a",
+      "name": "MRV Monitoring Plan Generator",
+      "urls": {
+        "primary": "mrv-monitoring-plan-generator",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "labyrinth on the sea",
+          "asset": {
+            "_ref": "image-f3248849253284df4d9fe2dc80e50323ff78407b-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 52,
+        "summary": { "text": "The MRV Monitoring Plan Generator supports in preparing proper monitoring plans in a fast and easy manner." }
+      }
+    },
+    {
+      "id": "f513618f-138a-4287-8a0f-ebe1940da84e",
+      "name": "EETA online",
+      "urls": {
+        "primary": "eeta-online",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Screenshot of product showing graph on blue background",
+          "asset": {
+            "_ref": "image-cd4ab10642c562777af1abee39e04f258cb4b9f1-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.48213169391023808,
+            "width": 0.19698600645855771,
+            "x": 0.488159311087191,
+            "y": 0.57028212725503846
+          }
+        },
+        "sorting": 22,
+        "summary": { "text": "Benchmarking of bulkers, tankers and container vessel against their global peers. Cost/benefit assessment of retrofits." }
+      }
+    },
+    {
+      "id": "f5930783-a253-48de-bfd7-dd8a20222e6a",
+      "name": "RSCS+ Route specific container stowage route calculation",
+      "urls": {
+        "primary": "rscs-route-specific-container-stowage-route-calculation",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Container ship",
+          "asset": {
+            "_ref": "image-3eb770a0818d086505fe0619c81fc089dd4ebe42-4266x1422-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.58309719698006024,
+            "width": 0.23861171366594353,
+            "x": 0.56290672451193013,
+            "y": 0.584683381863425
+          }
+        },
+        "sorting": 10,
+        "summary": { "text": "RSCS+ easily calculates acceleration reduction factors for vessels operating on specific trade pattern.\n" }
+      }
+    },
+    {
+      "id": "f64c40ac-4a38-4ab8-8334-3251f0014a42",
+      "name": "SDG Lens",
+      "urls": {
+        "primary": "sdg-lens",
+        "aliases": []
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "all",
+              "name": "All"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "illustration of lens with UN's goals in a circle around it",
+          "asset": {
+            "_ref": "image-76160c4ac6c14200e5fee3579fc971aa622efb17-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.79873426213744259,
+            "width": 0.15618221258134515,
+            "x": 0.65509761388286336,
+            "y": 0.48136428353124466
+          }
+        },
+        "sorting": 136,
+        "summary": { "text": "SDG Lens is a self-assessment tool which allows your company to better understand your potential contribution to the United Nations Sustainable Development Goals (SDGs).\n\n" }
+      }
+    },
+    {
+      "id": "f7a5dceb-0a19-4fbd-aece-b50a0af47749",
+      "name": "PSC Planner",
+      "urls": {
+        "primary": "psc-planner",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Maritime",
+        "description": "DNV GL is the world’s leading classification society and a recognized advisor for the maritime industry. We enhance safety, quality, energy efficiency and environmental performance of the global shipping industry – across all vessel types and offshore structures.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "man walking up stairs onto a ship",
+          "asset": {
+            "_ref": "image-9021f8cced1b7a6039f0b8f8b7bf18bbdcbeade7-1200x350-jpg",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.79285267756409528,
+            "width": 0.23143164693218532,
+            "x": 0.29440258342303549,
+            "y": 0.39642633878204764
+          }
+        },
+        "sorting": 71,
+        "summary": { "text": "The PSC Planner provides an overview of your fleet’s PSC performance. It also supports you in preparing for upcoming PSC inspections by providing simple checklists to identify different focus areas.\n\n" }
+      }
+    },
+    {
+      "id": "fb88a59b-ffa0-4d7c-aed8-01c244869924",
+      "name": "Digital free span assessments",
+      "urls": {
+        "primary": "digital-free-span-assessments",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL Oil & Gas",
+        "description": "As the technical advisor to the oil and gas industry, we bring a broader view to complex business and technology risks in global and local markets.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "oil-and-gas",
+              "name": "Oil and gas"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Underwater pipeline model",
+          "asset": {
+            "_ref": "image-30d91689c696bc144db04dcf4da989d4209b6efd-1200x350-png",
+            "_type": "reference"
+          },
+          "crop": {
+            "_type": "sanity.imageCrop",
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "hotspot": {
+            "_type": "sanity.imageHotspot",
+            "height": 0.60789971110346641,
+            "width": 0.14101184068891215,
+            "x": 0.79171151776103388,
+            "y": 0.32984327085622095
+          }
+        },
+        "sorting": 24,
+        "summary": { "text": "For Pipeline Operators who needs to manage free spanning pipelines offshore, the digital free span assessment handles this in a timely fashion and removes the need to do calculations span-by-span.\n\n" }
+      }
+    },
+    {
+      "id": "fcff75a2-aba4-4f63-a590-0c9d5655163c",
+      "name": "Pre-Approval Screening Service",
+      "urls": {
+        "primary": "pre-approval-screening-service",
+        "aliases": null
+      },
+      "provider": {
+        "name": "DNV GL",
+        "description": "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": {
+          "industries": [
+            {
+              "key": "maritime",
+              "name": "Maritime"
+            }
+          ]
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "Metal rod on top of blueprint paper",
+          "asset": {
+            "_ref": "image-32cefab16942b1ec235b316e764ec987f61dfcba-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 26,
+        "summary": { "text": "Get early warnings about design parameters not fulfilling the relevant rules. Get access to a purpose made tools tuned for your convenience.\n\n" }
+      }
+    },
+    {
+      "id": "vntfzXqRbFBjpb5zvUTmQP",
+      "name": "DUMMY: Test 01",
+      "urls": {
+        "primary": "dummy-test-01",
+        "aliases": []
+      },
+      "provider": {
+        "name": "DUMMY: Provider filter condition",
+        "description": "This is for dummy test filter function only.",
+        "logo": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f98606e2569a8f7d0ab5b22b3387ca219506e5a6-186x67-svg",
+            "_type": "reference"
+          }
+        }
+      },
+      "dynamic": {
+        "categorization": { "types": [] },
+        "label": {
+          "backgroundColor": "#e3d224",
+          "name": "Dummy label",
+          "textColor": "#383d40"
+        },
+        "mainImage": {
+          "_type": "image",
+          "altText": "test ",
+          "asset": {
+            "_ref": "image-ca08c1504afc74b78eaedecf7b559dbe598950e0-1200x350-jpg",
+            "_type": "reference"
+          }
+        },
+        "sorting": 0,
+        "summary": {
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-8c9b9b5dc2f0fb36dce63483a4113bbafec07fe0-492x350-jpg",
+              "_type": "reference"
+            }
+          },
+          "text": "Use a maximum of 100 characters to avoid text being shortened when displayed."
+        }
+      }
+    }
+  ],
+  "endOfResult": true
+}

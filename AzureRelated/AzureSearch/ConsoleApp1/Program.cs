@@ -16,7 +16,7 @@ namespace ConsoleApp1
         private static ISearchServiceClient _searchClient;
         private static ISearchIndexClient _indexClient;
         private static string searchServiceName = "xxx-devtest";
-        private static string apiKey = "";
+        private static string apiKey = "xxx";
         private static string searchIndexName = "productindex";
         private static string scoringProfileName = "scoringProfile";
         static void Main(string[] args)
@@ -82,33 +82,15 @@ namespace ConsoleApp1
                   Name = scoringProfileName,
                   TextWeights = new TextWeights(){
                        Weights = new Dictionary<string,double>{
-                            {nameof(Product.Name),5},
-                            {nameof(Product.Summary),3 }
+                            {nameof(Product.Name),90},
+                            {nameof(Product.Summary),50},
+                            {nameof(Product.AdditionalInfoString),50},
+                            {nameof(Product.Provider),10},
+                            {nameof(Product.ProviderDescription),10},
                        }
                   }
                }
             };
-
-            //var function1 = new FreshnessScoringFunction()
-            //{
-            //    Boost = 20,
-            //    FieldName = "dateadded",
-            //};
-
-            //var function2 = new DistanceScoringFunction()
-            //{
-            //    Boost = 10,
-            //    FieldName = "geolocation",
-            //};
-
-            //var function3 = new MagnitudeScoringFunction()
-            //{
-            //    Boost = 1000,
-            //    FieldName = "rating",
-            //};
-
-            //scoringProfile.Functions = new List<ScoringFunction>() {function1,function2,function3 };
-
 
             return scoringProfiles;
         }
@@ -143,7 +125,8 @@ namespace ConsoleApp1
             parameters = new SearchParameters()
             {
                 ScoringProfile = scoringProfileName,
-                Select = new[] { "ProductId", "Provider","Summary", "ProviderDescription", "Name", "Tags", "Slug", "Category", "Rating" },
+                SearchFields = new[] {nameof(Product.Name), nameof(Product.Category) },
+                Select = new[] {nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
             };
             results = _indexClient.Documents.Search<Product>(param, parameters);
             WriteProducts(results);
@@ -155,21 +138,23 @@ namespace ConsoleApp1
             new SearchParameters()
             {
                 Filter = "Rating gt 3",
-                Select = new[] { "ProductId", "Provider", "Summary", "ProviderDescription", "Name", "Tags", "Slug", "Category", "Rating" }
+                ScoringProfile = scoringProfileName,
+                Select = new[] { nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
             };
             results = _indexClient.Documents.Search<Product>(param, parameters);
             WriteProducts(results);
 
 
             //-top 2 results
-            Console.WriteLine("Search top 2: ");
+            Console.WriteLine("Search top 5: ");
             parameters = new SearchParameters()
             {
-                OrderBy = new[] { "Rating desc" },
-                Select = new[] { "ProductId", "Provider", "Summary", "ProviderDescription", "Name", "Tags", "Slug", "Category", "Rating" },
-                Top = 2
+                //OrderBy = new[] { "Rating desc" },
+                Select = new[] { nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
+                Top = 5
             };
-            results = _indexClient.Documents.Search<Product>("*", parameters);
+            //results = _indexClient.Documents.Search<Product>("*", parameters);
+            results = _indexClient.Documents.Search<Product>(param, parameters);
             WriteProducts(results);
             Console.ForegroundColor = ConsoleColor.Green;
 
@@ -216,15 +201,16 @@ namespace ConsoleApp1
             foreach (SearchResult<Product> result in searchResults.Results)
             {
                 Console.WriteLine(result.Document);
-                Console.WriteLine("Product Id:{0}  Name:{1}  Slug:{2}  Category:{3}  Provider:{4}   Summary:{5}  ProviderDescriptioni:{6}  Rating:{7}", 
+                Console.WriteLine("Product Id:  {0} \r\n Name:{1} \r\n Category:  {2} \r\n Provider:  {3} \r\n Summary:  {4} \r\n ProviderDescriptioni:  {5} \r\n AdditionalInfoString:  {6} \r\n Rating:  {7}", 
                     result.Document.ProductId, 
                     result.Document.Name, 
-                    result.Document.Slug,
                     result.Document.Category,
                     result.Document.Provider,
                     result.Document.Summary,
                     result.Document.ProviderDescription,
+                    result.Document.AdditionalInfoString,
                     result.Document.Rating);
+                Console.WriteLine("--------------------------------------------------------");
             }
             if (searchResults.Count == 0)
             {
@@ -260,86 +246,93 @@ namespace ConsoleApp1
                     Select = new[] { "ProductId", "Slug", "Rating" },
                     Top = 2
                 };
-            results = indexClient.Documents.Search<Product>("boutique", parameters);
+            results = indexClient.Documents.Search<Product>("bran", parameters);
             WriteProducts(results);
         }
 
 
         private static void UploadProducts(ISearchIndexClient indexClient)
         {
-            var actions = new IndexAction<Product>[] {
-                   IndexAction.Upload(
-                        new Product(){
-                       ProductId = "025a5011-d880-446b-a592-a1f6afb9113a",
-                       Slug = "smart-cable-guard-bran",
-                       Summary="smart cavle guard is a good product",
-                       ProviderDescription = "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
-                       Category="Monitoring,energey",
-                       Tags = new[]{ "green","healthy"},
-                       IsPopular = true,
-                       Rating  = 5,
-                       Name = "Smart Cable Guard",
-                       Provider = "DNV GL Energy"
-                    }
-                  ),
-                  IndexAction.Upload(
-                     new Product(){
-                       ProductId = "032f4ed3-e332-4f5e-88fe-320601f0006d",
-                       Slug = "t-rex",
-                       Summary = "T-REX is a platform for financial modeling, analytics, collaboration, and data tools to optimize the investment lifecycle of renewable energy assets.",
-                       ProviderDescription = "T-REX is the leading provider of managed data services and financial software for renewable energy markets. With T-REX, professionals can analyze and accurately price the risk associated with issuing and investing in renewables. By eliminating manual processes and automating workflow, T-REX enhances efficiency and transparency across the entire investment lifecycle, from developers to lenders to the end investor.",
-                       Category="Monitoring,Data management,energey",
-                       Tags = new[]{ "great","healthy"},
-                       IsPopular = true,
-                       Rating  = 4,
-                       Name = "T-REX for Energy Project Finance",
-                       Provider = "T-REX"
-                    }
-                  ),
-                 IndexAction.Upload(
-                     new Product(){
-                       ProductId = "0bce69ff-33cd-437f-975e-84f6e7e66918",
-                       Slug = "automation-test-01-for-marketplace",
-                       Summary="",
-                       ProviderDescription = "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
-                       Category="Monitoring",
-                       Tags = new[]{ "great"},
-                       IsPopular = false,
-                       Rating  = 3,
-                       Name = "Automation Test 01 for Marketplace",
-                       Provider = "DNV GL"
-                    }
-                  ),
-                 IndexAction.Upload(
-                     new Product(){
-                       ProductId = "1fd8f385-385a-4bcf-9c86-54e2277ca980",
-                       Slug = "shipweight",
-                       Summary="",
-                       ProviderDescription = "BAS Engineering has been in the business of weight engineering for more than 20 years, serving designers, yards and navies all over the world.  ShipWeight has been our main product from the very start of the company.",
-                       Category="energey",
-                       Tags = new[]{ "great"},
-                       IsPopular = false,
-                       Rating  = 2,
-                       Name = "ShipWeight",
-                       Provider = "ShipWeight"
-                    }
-                  ),
-                  IndexAction.Upload(
-                     new Product(){
-                       ProductId = "2c49251c-38ad-4d69-b283-2f1f9ddf3fcb",
-                       Slug = "tcarta-bathymetry",
-                       Summary="",
-                       ProviderDescription = "TCarta’s mission is to improve geo-data accessibility and availability through use of innovative technologies. With an experienced team of data scientists, project managers, GIS professionals, and satellite remote sensing experts, TCarta are now leveraging their heritage and success within the marine sector to land and air applications.",
-                       Category="test",
-                       Tags = new[]{ "great"},
-                       IsPopular = false,
-                       Rating  = 1,
-                       Name = "TCarta Bathymetry",
-                       Provider = "TCarta"
-                    }
-                  )
-            };
+            List<Product> plist = ProductUtility.GetProductList();
+            //var actions = new IndexAction<Product>[] {
+            //       IndexAction.Upload(
+            //            new Product(){
+            //           ProductId = "025a5011-d880-446b-a592-a1f6afb9113a",
+            //           Slug = "smart-cable-guard-bran",
+            //           Summary="smart cavle guard is a good product",
+            //           ProviderDescription = "2300 energy experts in DNV GL deliver world-renowned testing and game-changing expertise for the energy value chain, including renewables and energy efficiency.",
+            //           Category="Monitoring,energey",
+            //           Tags = new[]{ "green","healthy"},
+            //           IsPopular = true,
+            //           Rating  = 5,
+            //           Name = "Smart Cable Guard",
+            //           Provider = "DNV GL Energy"
+            //        }
+            //      ),
+            //      IndexAction.Upload(
+            //         new Product(){
+            //           ProductId = "032f4ed3-e332-4f5e-88fe-320601f0006d",
+            //           Slug = "t-rex",
+            //           Summary = "T-REX is a platform for financial modeling, analytics, collaboration, and data tools to optimize the investment lifecycle of renewable energy assets.",
+            //           ProviderDescription = "T-REX is the leading provider of managed data services and financial software for renewable energy markets. With T-REX, professionals can analyze and accurately price the risk associated with issuing and investing in renewables. By eliminating manual processes and automating workflow, T-REX enhances efficiency and transparency across the entire investment lifecycle, from developers to lenders to the end investor.",
+            //           Category="Monitoring,Data management,energey",
+            //           Tags = new[]{ "great","healthy"},
+            //           IsPopular = true,
+            //           Rating  = 4,
+            //           Name = "T-REX for Energy Project Finance",
+            //           Provider = "T-REX"
+            //        }
+            //      ),
+            //     IndexAction.Upload(
+            //         new Product(){
+            //           ProductId = "0bce69ff-33cd-437f-975e-84f6e7e66918",
+            //           Slug = "automation-test-01-for-marketplace",
+            //           Summary="",
+            //           ProviderDescription = "Driven by our purpose of safeguarding life, property and the environment, DNV GL enables organizations to advance the safety and sustainability of their business. We provide classification, technical assurance, software and independent expert advisory services to the maritime, oil & gas and energy industries.",
+            //           Category="Monitoring",
+            //           Tags = new[]{ "great"},
+            //           IsPopular = false,
+            //           Rating  = 3,
+            //           Name = "Automation Test 01 for Marketplace",
+            //           Provider = "DNV GL"
+            //        }
+            //      ),
+            //     IndexAction.Upload(
+            //         new Product(){
+            //           ProductId = "1fd8f385-385a-4bcf-9c86-54e2277ca980",
+            //           Slug = "shipweight",
+            //           Summary="",
+            //           ProviderDescription = "BAS Engineering has been in the business of weight engineering for more than 20 years, serving designers, yards and navies all over the world.  ShipWeight has been our main product from the very start of the company.",
+            //           Category="energey",
+            //           Tags = new[]{ "great"},
+            //           IsPopular = false,
+            //           Rating  = 2,
+            //           Name = "ShipWeight",
+            //           Provider = "ShipWeight"
+            //        }
+            //      ),
+            //      IndexAction.Upload(
+            //         new Product(){
+            //           ProductId = "2c49251c-38ad-4d69-b283-2f1f9ddf3fcb",
+            //           Slug = "tcarta-bathymetry",
+            //           Summary="",
+            //           ProviderDescription = "TCarta’s mission is to improve geo-data accessibility and availability through use of innovative technologies. With an experienced team of data scientists, project managers, GIS professionals, and satellite remote sensing experts, TCarta are now leveraging their heritage and success within the marine sector to land and air applications.",
+            //           Category="test",
+            //           Tags = new[]{ "great"},
+            //           IsPopular = false,
+            //           Rating  = 1,
+            //           Name = "TCarta Bathymetry",
+            //           Provider = "TCarta"
+            //        }
+            //      )
+            //};
+            var actions = new List<IndexAction<Product>> { };
 
+            foreach(var item in plist)
+            {
+                actions.Add(IndexAction.Upload(item));
+            }
+            
 
             var batch = IndexBatch.New(actions);
             try

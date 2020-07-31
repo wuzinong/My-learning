@@ -28,7 +28,9 @@ namespace ConsoleApp1
                         AdditionalInfoString="",
                         Provider = item.provider?.name,
                         ProviderDescription = item.provider?.description,
-                        Rating = item.dynamic?.sorting
+                        Rating = item.dynamic?.sorting,
+                        //mainImage = item.dynamic?.mainImage,
+                        //logo = item.provider?.logo
                     };
 
                     if(!string.IsNullOrEmpty(item.tagline))
@@ -52,6 +54,30 @@ namespace ConsoleApp1
                                 sb.Append(" " + section.heading);
                             }
                         });
+                    }
+
+                    if(item.dynamic != null && item.dynamic.categorization != null)
+                    {
+                        List<string> list = new List<string>();
+                        item.dynamic.categorization.industries?.ForEach(industry =>
+                        {
+                            list.Add(industry.key);
+                        });
+                        product.Industry = list;
+                        list = new List<string>();
+
+                        item.dynamic.categorization.categories?.ForEach(category =>
+                        {
+                            list.Add(category.key);
+                        });
+                        product.Category = list;
+                        list = new List<string>();
+
+                        item.dynamic.categorization.types?.ForEach(type =>
+                        {
+                            list.Add(type.key);
+                        });
+                        product.ProductType = list;
                     }
 
                     product.AdditionalInfoString = sb.ToString();

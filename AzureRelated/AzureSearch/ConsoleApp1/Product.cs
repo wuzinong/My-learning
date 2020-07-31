@@ -2,6 +2,7 @@
 using Microsoft.Azure.Search.Models;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace ConsoleApp1
@@ -37,7 +38,13 @@ namespace ConsoleApp1
         public string Slug { get; set; }
 
         [IsSearchable, IsFilterable, IsFacetable]
-        public string Category { get; set; }
+        public List<string> Category { get; set; }
+
+        [IsSearchable, IsFilterable, IsFacetable]
+        public List<string> Industry { get; set; }
+
+        [IsSearchable, IsFilterable, IsFacetable]
+        public List<string> ProductType { get; set; }
 
         [IsSearchable, IsFilterable, IsFacetable]
         public string[] Tags { get; set; }
@@ -48,7 +55,9 @@ namespace ConsoleApp1
         [IsFilterable, IsSortable, IsFacetable]
         public double? Rating { get; set; }
 
+        //public Image mainImage { get; set; }
 
+        //public Image logo { get; set; }
         //public ProductPresentation Presentation { get; set; }
     }
 }

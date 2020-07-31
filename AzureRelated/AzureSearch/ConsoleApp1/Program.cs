@@ -15,8 +15,8 @@ namespace ConsoleApp1
     {
         private static ISearchServiceClient _searchClient;
         private static ISearchIndexClient _indexClient;
-        private static string searchServiceName = "xxx-devtest";
-        private static string apiKey = "xxx";
+        private static string searchServiceName = "as-asdf";
+        private static string apiKey = "asdfadf";
         private static string searchIndexName = "productindex";
         private static string scoringProfileName = "scoringProfile";
         static void Main(string[] args)
@@ -46,19 +46,21 @@ namespace ConsoleApp1
             Console.WriteLine("Demo one: Search hotel information begin:");
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("search index name:{0}", indexName);
-            Console.WriteLine("{0}", "Deleting index...\n");
-            DeleteIndexIfExists(indexName, _searchClient);
+            //Console.WriteLine("search index name:{0}", indexName);
+            //Console.WriteLine("{0}", "Deleting index...\n");
+            //DeleteIndexIfExists(indexName, _searchClient);
 
-            Console.WriteLine("{0}", "Creating index...\n");
-            CreateProductIndex(indexName, _searchClient);
+            //Console.WriteLine("{0}", "Creating index...\n");
+            //CreateProductIndex(indexName, _searchClient);
 
-            Console.WriteLine("{0}", "Uploading documents...\n");
-            UploadProducts(_indexClient);
+            //Console.WriteLine("{0}", "Uploading documents...\n");
+            //UploadProducts(_indexClient);
 
             // Uncomment next 2 lines in "3 - Search an index"
             //Console.WriteLine("{0}", "Searching index...\n");
             //RunProductQueries(_indexClient);
+
+
             ShowTip();
             Console.WriteLine("{0}", "Input something to search...\n");
 
@@ -104,45 +106,110 @@ namespace ConsoleApp1
 
         private static void Search(string param)
         {
+            string condition = param;
+            string filterBy = string.Empty;
+            string filterIndustry = string.Empty;
+            string filterCategory = string.Empty;
+            string filterType = string.Empty;
             SearchParameters parameters;
             DocumentSearchResult<Product> results;
 
-            List<ScoringProfile> sp = GetScoringProfile();
+            string[] sl = param.Split(':');
+            if (sl.Length > 1)
+            {
+                condition = sl[0];
+                filterBy = sl[1];
+                string[] filterList = filterBy.Split('|');
+                for(var i = 0; i < filterList.Count(); i++)
+                {
+                    if (i == 0)
+                    {
+                        filterIndustry = filterList[i];
+                    }
+                    if (i == 1)
+                    {
+                        filterCategory = filterList[i];
+                    }
+                    if (i == 2)
+                    {
+                        filterType = filterList[i];
+                    }
+                }
+            }
+
 
             Console.ForegroundColor = ConsoleColor.White;
             // Query 1 
-            Console.WriteLine("Trying to search: "+param);
+            Console.WriteLine("Trying to search something with product type: " + condition);
 
-            parameters = new SearchParameters();
-            results = _indexClient.Documents.Search<Product>(param, parameters);
+            parameters = new SearchParameters()
+            {
+                Top = 5,
+                //Facets = new[] {nameof(Product.Category)}.ToList()
+            };
+            if (!string.IsNullOrEmpty(filterBy))
+            {
+                StringBuilder filter = new StringBuilder();
+                if (!string.IsNullOrEmpty(filterIndustry))
+                {
+                    filter.Append($"Industry/any(Industry:search.in(Industry,'{filterIndustry}',','))");
+                    if (!string.IsNullOrEmpty(filterCategory) || !string.IsNullOrEmpty(filterType))
+                    {
+                        filter.Append(" and ");
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(filterCategory))
+                {
+                    filter.Append($"Category/any(Category:search.in(Category,'{filterCategory}',','))");
+                    if (!string.IsNullOrEmpty(filterType))
+                    {
+                        filter.Append(" and ");
+                    }
+                }
+               
+                if (!string.IsNullOrEmpty(filterType))
+                {
+                    filter.Append($"ProductType/any(ProductType:search.in(ProductType,'{filterType}',','))");
+                }
+                parameters.Filter = filter.ToString();
+                //parameters.Filter = $"ProductType/any(ProductType:search.in(ProductType,'{filterBy}',','))";
+                //parameters.Filter = $"Industry/any(Industry:search.in(Industry,'{filterBy}',','))";
+                //parameters.Filter = $"Category/any(Category:search.in(Category,'{filterBy}',','))";
+                //parameters.Filter = $"Category/any(Category:search.ismatch(Category,'{filterBy}','full','all'))";
+            }
+            results = _indexClient.Documents.Search<Product>(condition, parameters);
+
 
             Console.WriteLine("Search results: ");
             WriteProducts(results);
 
 
-            //Only search in c
-            Console.WriteLine("Only search in product name and Category: ");
-            parameters = new SearchParameters()
-            {
-                ScoringProfile = scoringProfileName,
-                SearchFields = new[] {nameof(Product.Name), nameof(Product.Category) },
-                Select = new[] {nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
-            };
-            results = _indexClient.Documents.Search<Product>(param, parameters);
-            WriteProducts(results);
+            ////Only search in c
+            //Console.WriteLine("Only search in product name and Category: ");
+            //parameters = new SearchParameters()
+            //{
+            //    ScoringProfile = scoringProfileName,
+            //    SearchFields = new[] {nameof(Product.Name), nameof(Product.Category) },
+            //    Top = 5,
+            //    Select = new[] {nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
+            //};
+            //results = _indexClient.Documents.Search<Product>(condition, parameters);
+            //WriteProducts(results);
 
 
-            //-filtered
-            Console.WriteLine("Filter on ratings greater then 3: ");
-            parameters =
-            new SearchParameters()
-            {
-                Filter = "Rating gt 3",
-                ScoringProfile = scoringProfileName,
-                Select = new[] { nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
-            };
-            results = _indexClient.Documents.Search<Product>(param, parameters);
-            WriteProducts(results);
+            ////-filtered
+            //Console.WriteLine("Filter on ratings greater then 3: ");
+            //parameters =
+            //new SearchParameters()
+            //{
+            //    Filter = "Rating gt 3",
+            //    Top = 5,
+            //    ScoringProfile = scoringProfileName,
+            //    Select = new[] { nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
+            //};
+            //results = _indexClient.Documents.Search<Product>(condition, parameters);
+            //WriteProducts(results);
 
 
             //-top 2 results
@@ -150,11 +217,12 @@ namespace ConsoleApp1
             parameters = new SearchParameters()
             {
                 //OrderBy = new[] { "Rating desc" },
+                ScoringProfile = scoringProfileName,
                 Select = new[] { nameof(Product.ProductId), nameof(Product.Provider), nameof(Product.Summary), nameof(Product.ProviderDescription), nameof(Product.Name), nameof(Product.Tags), nameof(Product.Slug), nameof(Product.Category), nameof(Product.Rating), nameof(Product.AdditionalInfoString) },
                 Top = 5
             };
             //results = _indexClient.Documents.Search<Product>("*", parameters);
-            results = _indexClient.Documents.Search<Product>(param, parameters);
+            results = _indexClient.Documents.Search<Product>(condition, parameters);
             WriteProducts(results);
             Console.ForegroundColor = ConsoleColor.Green;
 
@@ -201,15 +269,19 @@ namespace ConsoleApp1
             foreach (SearchResult<Product> result in searchResults.Results)
             {
                 Console.WriteLine(result.Document);
-                Console.WriteLine("Product Id:  {0} \r\n Name:{1} \r\n Category:  {2} \r\n Provider:  {3} \r\n Summary:  {4} \r\n ProviderDescriptioni:  {5} \r\n AdditionalInfoString:  {6} \r\n Rating:  {7}", 
+                Console.WriteLine("Product Id:  {0} \r\n Name:{1} \r\n Category:  {2} \r\n Provider:  {3} \r\n Summary:  {4} \r\n ProviderDescriptioni:  {5} \r\n AdditionalInfoString:  {6} \r\n Rating:  {7} \r\n Industry:  {8} \r\n ProductType:  {9}  \r\n Score:  {10}", 
                     result.Document.ProductId, 
-                    result.Document.Name, 
-                    result.Document.Category,
+                    result.Document.Name,
+                    result.Document.Category != null? string.Join(",", result.Document.Category):"",
                     result.Document.Provider,
                     result.Document.Summary,
                     result.Document.ProviderDescription,
                     result.Document.AdditionalInfoString,
-                    result.Document.Rating);
+                    result.Document.Rating,
+                    result.Document.Industry != null? string.Join(",", result.Document.Industry):"",
+                    result.Document.ProductType != null? string.Join(",", result.Document.ProductType):"",
+                    result.Score
+                    );
                 Console.WriteLine("--------------------------------------------------------");
             }
             if (searchResults.Count == 0)

@@ -1,3 +1,7 @@
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-powershell
+
+Power Shell
+
 //Quickstart: Upload, download, and list blobs with PowerShell
 
 1. Sign in to Azure
@@ -82,3 +86,98 @@ azcopy copy 'C:\mydirectory\myfile.txt' 'https://mystorageaccount.blob.core.wind
 9.Clean up resources
 
 Remove-AzResourceGroup -Name $resourceGroup
+
+
+
+
+
+
+
+
+
+
+CLI:
+
+1. Install the Azure cli locally and login
+
+az login
+
+
+2. Create a resource group
+
+az group create \
+    --name <resource-group> \
+    --location <location>
+
+
+3. Create a storage account
+
+az storage account create \
+    --name <storage-account> \
+    --resource-group <resource-group> \
+    --location <location> \
+    --sku Standard_ZRS \
+    --encryption-services blob 
+
+
+4. Create a container
+
+az storage container create \
+    --account-name <storage-account> \
+    --name <container> \
+    --auth-mode login
+
+5. Upload a blob
+
+az storage blob upload \
+    --account-name <storage-account> \
+    --container-name <container> \
+    --name helloworld \
+    --file helloworld \
+    --auth-mode login
+
+
+6. List the blobs in a container
+
+az storage blob list \
+    --account-name <storage-account> \
+    --container-name <container> \
+    --output table \
+    --auth-mode login
+
+
+7. Download a blob 
+az storage blob download \
+    --account-name <storage-account> \
+    --container-name <container> \
+    --name helloworld \
+    --file ~/destination/path/for/file \
+    --auth-mode login
+
+
+8.Data transfer with AzCopy
+azcopy login
+azcopy copy 'C:\myDirectory\myTextFile.txt' 'https://mystorageaccount.blob.core.windows.net/mycontainer/myTextFile.txt'
+
+
+
+
+c# sample
+
+
+string connectionString = Environment.GetEnvivonmentVariable("AZURE_STORAGE_CONNECTION_STRING");
+
+BlobServiceClient BlobServiceClient = new BlobServiceClient(connectionString);
+string containerName = "quickstartblobs"+Giud.NewGiud().ToString();
+BlobContainerClient containerClient = await blobServiceClient.CreateBlobContainerAsync(containerName);
+
+//upload blobs to a container
+
+string localPath = "./data/";
+string fileName = "quickstart"+Guid.NewGiud().ToString()+".txt";
+string localFilePath = Path.Combine(localPath,fileName);
+await File.WriteAllTextAsync(localFilePath,"helloworld");
+BlobClient blobClient = containerClient.GetBlobClient(fileName);
+using FileStream uploadFileStream = File.OpenRead(localFilePath);
+await blobClient.UploadAsync(uploadFileStream,true);
+uploadFileStream.Close();

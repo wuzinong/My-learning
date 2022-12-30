@@ -41,6 +41,41 @@ export default [
     },
   },
   {
+    url: RegExp("/api/user" + ".*"),
+    method: "get",
+    response: ({ query }) => {
+      return {
+        code: 0,
+        data: Mock.mock({
+          "id|+1": 1,
+          "name|+1": [
+            "Peter",
+            "John",
+            "Linda",
+            "Simon",
+            "Diego",
+            "Silva",
+            "Adam",
+            "Davis",
+            "Wilson",
+            "Karida",
+            "Michaela",
+            "Lindsay",
+            "Mabel",
+            "Lisa",
+            "Madge",
+            "Cora",
+            "Marcia",
+            "Nicole",
+          ],
+          "gender|+1": ["male", "female"],
+          "age|1-50": 0,
+          "city|+1": ["Oslo", "Shanghai"],
+        }),
+      };
+    },
+  },
+  {
     url: "/api/post",
     method: "post",
     timeout: 2000,

@@ -1,5 +1,6 @@
 import { FC } from "react";
 import styled from "styled-components";
+import axios from "axios";
 
 const Title = styled.h1`
   font-size: 20px;

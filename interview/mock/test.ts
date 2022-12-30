@@ -4,7 +4,7 @@ import Mock from "mockjs";
 const Random = Mock.Random;
 export default [
   {
-    url: "/api/get",
+    url: "/api/users",
     method: "get",
     response: ({ query }) => {
       return {

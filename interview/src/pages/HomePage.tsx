@@ -7,11 +7,16 @@ const Title = styled.h1`
   text-align: center;
 `;
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 const HomePage: FC = () => {
   return (
-    <div>
+    <Wrapper>
       <Title>This is home page</Title>
-    </div>
+    </Wrapper>
   );
 };
 

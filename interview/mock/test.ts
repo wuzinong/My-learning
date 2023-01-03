@@ -8,7 +8,7 @@ export default [
     method: "get",
     response: ({ query }) => {
       return {
-        code: 0,
+        code: 200,
         data: Mock.mock({
           "list|1-10": [
             {
@@ -73,6 +73,17 @@ export default [
           "city|+1": ["Oslo", "Shanghai"],
         }),
       };
+    },
+  },
+  {
+    url: "/api/login",
+    method: "post",
+    timeout: 2000,
+    response: {
+      code: 200,
+      data: {
+        login: true,
+      },
     },
   },
   {

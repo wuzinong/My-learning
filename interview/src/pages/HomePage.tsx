@@ -15,11 +15,11 @@ const Wrapper = styled.div`
 
 const HomePage: FC = () => {
   // TODO
-  // 1. Calling  /api/users to get users
-  // 2. Show the user list below
-  // 3. Create a user details page which shos the user name and gender
-  // 4. Add Like to the user list which would direct user to the user details page
-  // 5. Add a common header and footer for this website
+  // 1. Add a header and footer for this website
+  // 2. Calling /api/users to get users
+  // 3. Show the user list below
+  // 4. Create a user details page which shows the user name and gender (/api/user?id=xxx)
+  // 5. Add Link to the user list which would direct user to the user details page
 
   return (
     <Wrapper>

@@ -1,6 +1,7 @@
 import { UserConfigExport, ConfigEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import { viteMockServe } from "vite-plugin-mock";
+import basicSsl from "@vitejs/plugin-basic-ssl";
 
 export default ({ command }: ConfigEnv): UserConfigExport => {
   // According to the project configuration. Can be configured in the .env file
@@ -8,6 +9,7 @@ export default ({ command }: ConfigEnv): UserConfigExport => {
   return {
     plugins: [
       react(),
+      basicSsl(),
       viteMockServe({
         mockPath: "mock",
         localEnabled: command === "serve",

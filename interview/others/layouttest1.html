@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 50%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      button {
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+      @media screen and (max-width: 1450px) {
+        .container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        button {
+          grid-column-start: 3;
+          grid-column-end: 4;
+        }
+      }
+      @media screen and (max-width: 1000px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        button {
+          grid-column-start: 2;
+          grid-column-end: 3;
+        }
+      }
+      @media screen and (max-width: 450px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+        }
+        button {
+          grid-column-start: 1;
+          grid-column-end: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" /><input type="text" /><input type="text" /><input
+        type="text"
+      /><input type="text" /><input type="text" /><input type="text" /><input
+        type="text"
+      /><input type="text" />
+      <button>test button</button>
+    </div>
+  </body>
+</html>

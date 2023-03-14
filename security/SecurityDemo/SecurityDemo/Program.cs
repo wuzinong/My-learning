@@ -21,7 +21,8 @@ builder.Services.AddAntiforgery(options =>
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
 });
 builder.Services.AddControllersWithViews(options => {
-         options.Filters.Add(new ValidateAntiForgeryTokenAttribute());
+    //options.Filters.Add(new ValidateAntiForgeryTokenAttribute());
+    //options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
          options.Filters.Add(new AntiforgeryResultFilter());
      });
 builder.Services.AddSingleton<IAntiforgeryAdditionalDataProvider, AntiforgeryAdditionalDataProvider>();

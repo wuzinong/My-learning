@@ -2,9 +2,9 @@
 
 namespace SecurityDemo.Controllers
 {
-    [ApiController]
+    //[ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : Controller
     {
         public class MyComments
         {
@@ -33,6 +33,7 @@ namespace SecurityDemo.Controllers
 
         [HttpPost]
         //[IgnoreAntiforgeryToken]
+        [ValidateAntiForgeryToken]
         public List<MyComments> Post([FromBody]MyComments comments)
         {
             //if (!string.IsNullOrEmpty(comments.name) && comments.name.Length > 1 && !string.IsNullOrEmpty(comments.message))

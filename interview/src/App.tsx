@@ -4,6 +4,7 @@ import Layout from "./pages/common/layout/layout";
 import reactLogo from "./assets/react.svg";
 import HomePage from "./pages/HomePage";
 import Scroll from "./pages/Scroll";
+import ProductList from "./Mine/ProductList";
 import axios from "axios";
 
 const App: FC = () => {
@@ -13,6 +14,7 @@ const App: FC = () => {
         <Route element={<Layout />} path="/">
           <Route element={<HomePage />} index />
           <Route element={<Scroll />} path="/scroll" />
+          <Route element={<ProductList />} path="/productlist" />
         </Route>
       </Routes>
     </BrowserRouter>

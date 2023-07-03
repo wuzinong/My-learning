@@ -1,6 +1,11 @@
 import { MockMethod } from "vite-plugin-mock";
 import Mock from "mockjs";
 
+export interface Product {
+  internalName: string;
+  productVariants: any[];
+}
+
 const Random = Mock.Random;
 export default [
   {

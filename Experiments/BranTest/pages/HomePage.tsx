@@ -1,23 +1,43 @@
 import React, {useState} from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Image, StyleSheet, Button, Text, Error} from 'react-native';
 import {WebView} from 'react-native-webview';
 
 type NavBar = {
   path: any;
   isActive: boolean;
+  name: string;
 };
 
 function HomePage(): JSX.Element {
+  const ip = '10.128.20.39:1234';
+  //const ip = 'https://storedevtest.veracity.com';
+  const [navUri, setNavUrl] = useState(`${ip}/cms`);
   const [nav, setNav] = useState<NavBar[]>([
-    {path: require(`../assets/images/globe.png`), isActive: true},
-    {path: require(`../assets/images/books.png`), isActive: false},
-    {path: require(`../assets/images/checklist.png`), isActive: false},
-    {path: require(`../assets/images/account.png`), isActive: false},
+    {
+      path: require(`../assets/images/globe.png`),
+      name: 'cmc',
+      isActive: true,
+    },
+    {
+      path: require(`../assets/images/books.png`),
+      name: 'library',
+      isActive: false,
+    },
+    {
+      path: require(`../assets/images/checklist.png`),
+      name: 'checklist',
+      isActive: false,
+    },
+    {
+      path: require(`../assets/images/account.png`),
+      name: 'account',
+      isActive: false,
+    },
   ]);
-  const ip = '10.128.209.210';
+
   return (
     <View style={{flex: 1}}>
-      <WebView source={{uri: `${ip}:1234/cmc`}} style={{flex: 1}} />
+      <WebView source={{uri: navUri}} style={{flex: 1}} />
       <View
         style={{
           justifyContent: 'space-between',
@@ -29,7 +49,27 @@ function HomePage(): JSX.Element {
         {nav.map(item => {
           const source = `../assets/images/${item.path}.png`;
           console.log('source ', source);
-          return <Image style={styles.img} source={item.path} />;
+          return (
+            <View>
+              <Image style={styles.img} source={item.path} />
+              <Button
+                title="click me"
+                onPress={() => {
+                  if (item.name === 'account') {
+                    setNavUrl(
+                      `https://idtest.veracity.com/sign-up?returnurl=${navUri}`,
+                    );
+                  } else if (item.name === 'cmc') {
+                    setNavUrl(`${ip}/cmc`);
+                  } else if (item.name === 'library') {
+                    setNavUrl(`${ip}/library`);
+                  } else if (item.name === 'checklist') {
+                    setNavUrl(`${ip}/checklist`);
+                  }
+                }}
+              />
+            </View>
+          );
         })}
       </View>
     </View>

@@ -14,7 +14,6 @@ const App: FC = () => {
         <Route element={<Layout />} path="/">
           <Route element={<HomePage />} index />
           <Route element={<Scroll />} path="/scroll" />
-          <Route element={<ProductList />} path="/productlist" />
         </Route>
       </Routes>
     </BrowserRouter>

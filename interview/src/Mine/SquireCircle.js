@@ -4,6 +4,8 @@ const UP = "up";
 const DOWN = "down";
 const LEFT = "left";
 const RIGHT = "right";
+let started = false;
+let interval = null;
 
 const wrapper = {
   display: "flex",
@@ -17,6 +19,15 @@ const box = {
 const circle = {
   backgroundColor: "olive",
   borderRadius: "50%",
+};
+
+const ColorCode = () => {
+  var makingColorCode = "0123456789ABCDEF";
+  var finalCode = "#";
+  for (var counter = 0; counter < 6; counter++) {
+    finalCode = finalCode + makingColorCode[Math.floor(Math.random() * 16)];
+  }
+  return finalCode;
 };
 
 const getRandomPos = (num, pickNum, needsDouble = true) => {
@@ -46,7 +57,11 @@ const getRanomDirection = (PointMap, index) => {
   if (PointMap[index] === "bottomLeft") direction = [RIGHT, UP];
   if (PointMap[index] === "bottomRight") direction = [LEFT, UP];
   const arr = getRandomPos(direction.length, 1, false);
-  return direction[arr[0]];
+  const result = direction[arr[0]];
+
+  // console.log("-----------");
+  // console.log("From ", PointMap[index], "-", index, "---to ", result);
+  return result;
 };
 
 const Circle = ({ st, i }) => {
@@ -56,12 +71,18 @@ const Circle = ({ st, i }) => {
       data-index={i}
       style={{
         ...st,
+        backgroundColor: `${ColorCode()}`,
+        textAlign: "center",
       }}
-    ></div>
+    >
+      {i}
+    </div>
   );
 };
 
-const playCircle = (num) => {
+const playCircle = (num, size) => {
+  started = true;
+
   const PointMap = {};
   const arr = new Array(num * num).fill(0);
 
@@ -75,41 +96,65 @@ const playCircle = (num) => {
     //special points
     if (i === 0) direction = "topLeft";
     if (i === num - 1) direction = "topRight";
-    if (i === num * num - 1) direction = "bottomLeft";
-    if (i === num * (num - 1)) direction = "bottomRight";
+    if (i === num * num - 1) direction = "bottomRight";
+    if (i === num * (num - 1)) direction = "bottomLeft";
 
     PointMap[i] = direction;
   });
 
-  const dom = document.querySelectorAll(".circle");
+  const dom = document.getElementsByClassName("circle");
   const circles = Array.prototype.slice.call(dom, 0);
-  setInterval(() => {
+  interval = setInterval(() => {
     circles.forEach((c) => {
+      debugger;
       //moving
-      let index = c.getAttribute("data-index");
+      let index = Number(c.getAttribute("data-index"));
+      let newIndex = null;
       const direction = getRanomDirection(PointMap, index);
-      console.log("index ", index, direction);
-      console.log("transform ", c.style.transform);
-      //Moving animation
+      // console.log("previsous index ", index, direction);
+      // console.log("transform ", c.style.transform);
+      const numArr = c.style.transform.match(/[-]?[0-9][0-9]*/g);
 
-      //Set updated Index
-
-      //Collision detection
-      const temp = PointMap[index];
-      if (!temp) {
+      let [tX, tY] = numArr ?? [0, 0];
+      if (direction === UP) {
+        newIndex = index - num;
+        tY -= size;
       }
-      c.style.transform = `translate(20px, 10px)`;
+      if (direction === DOWN) {
+        newIndex = index + num;
+        tY = tY - 0 + size;
+      }
+      if (direction === LEFT) {
+        newIndex = index - 1;
+        tX -= size;
+      }
+      if (direction === RIGHT) {
+        newIndex = index + 1;
+        tX = tX - 0 + size;
+      }
+      if (newIndex > num * num - 1 || newIndex < 0) return;
+      // console.log("Now index ", newIndex);
+
+      //Move Circle
+      c.style.transform = `translate(${tX ?? 0}px, ${tY ?? 0}px)`;
+      console.log("c.style.transform  ", c.style.transform);
+      console.log("end ==========================================");
+      // setTimeout(() => {
+      //   clearInterval(interval);
+      // }, 4000);
+      //Set updated Index
+      c.setAttribute("data-index", newIndex);
+      //Collision detection
     });
-  }, 1500);
+  }, 3000);
 };
 
 const Stag = ({ a, b }) => {
   const size = 30;
-  const [randomNums] = useState(getRandomPos(a, b));
-  // a = 8;
+  const randomNums = getRandomPos(a, b);
   const arr = new Array(a * a).fill(0);
   useEffect(() => {
-    playCircle(a);
+    if (!started) playCircle(a, size);
   }, [a]);
   return (
     <div
@@ -126,7 +171,6 @@ const Stag = ({ a, b }) => {
             data-index={index}
             style={{ ...box, ...{ width: `${size}px`, height: `${size}px` } }}
           >
-            {index}
             {showCircle && (
               <Circle
                 i={index}
@@ -144,7 +188,7 @@ const Stag = ({ a, b }) => {
 };
 
 export default function App() {
-  const [a, setA] = useState(3);
+  const [a, setA] = useState(5);
   const [b, setB] = useState(2);
   const [num, setNum] = useState(0);
   const MemoStag = useMemo(() => <Stag a={a} b={b} />, [num]);
@@ -156,11 +200,17 @@ export default function App() {
     }
   };
   const start = () => {
+    started = false;
+    clearInterval(interval);
     if (!a || !b) {
       console.error("please input number");
       return;
     }
     setNum(Math.random());
+  };
+  const stop = () => {
+    started = false;
+    clearInterval(interval);
   };
   return (
     <div className="App">
@@ -185,6 +235,7 @@ export default function App() {
             style={{ width: "40%" }}
           />
           <button onClick={start}>Start</button>
+          <button onClick={stop}>Stop</button>
         </div>
         {MemoStag}
       </div>

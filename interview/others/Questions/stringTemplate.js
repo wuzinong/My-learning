@@ -15,7 +15,7 @@ HTMLElement.prototype.styles = function () {
 };
 
 HTMLElement.prototype.props = function () {
-  const propString = generateString(arguments);
+  const propString = generateString(arguments)[0];
   propString
     .split('\n')
     .map((it) => {

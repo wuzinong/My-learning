@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .text-container{
+        height:100px;
+        overflow:hidden;
+      }
+      .text-container::before{
+        content:'';
+        display:block;
+        height:80px;
+      }
+      .content:{
+        line-height:25px;
+        margin-top:-80px;
+      }
+      .more{
+        float:right;
+        background:#f40;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="text-container">
+            <div class="more">...</div>
+            <div class="content">random text sadfasf asdfas adsf adf adf adf adf aasdf a adf ad ad asdfadsf a dfad  ad fad  ad faad a dfaf  ad fa ad fa a adf a adf asf a asdf</div>
+        </div>
+    </div>
+  </body>
+</html>

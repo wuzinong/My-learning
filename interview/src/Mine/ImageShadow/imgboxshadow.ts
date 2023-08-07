@@ -32,8 +32,8 @@ const createHTML = (width: number, height: number, bmp: Uint8ClampedArray) => {
         .shadow-img .inner {
             width:1px;
             height:1px;
-            box-shadow:${shadowCSSFragments.join(',')};
             transition:1.5s;
+            box-shadow:${shadowCSSFragments.join(',')};
         }
         .shadow-img:hover .inner{
             box-shadow:${shadowCSSHover.join(',')};

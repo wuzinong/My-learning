@@ -8,6 +8,7 @@ import ProductList from './Mine/ProductList';
 import ReactPdfDemo from './Mine/PdfPage/ReactPdfDemo';
 import HtmlCanvasDemo from './Mine/PdfPage/HtmlCanvasDemo';
 import ImageShadow from './Mine/ImageShadow';
+import DragGrid from './pages/DragGrid/DragGrid';
 
 const App: FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: FC = () => {
           <Route element={<ReactPdfDemo />} path='/reactpdf' />
           <Route element={<HtmlCanvasDemo />} path='/html2canvas' />
           <Route element={<ImageShadow />} path='/imageshadow' />
+          <Route element={<DragGrid />} path='/draggrid' />
         </Route>
       </Routes>
     </BrowserRouter>

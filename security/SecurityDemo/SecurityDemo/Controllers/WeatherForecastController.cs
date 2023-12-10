@@ -32,8 +32,7 @@ namespace SecurityDemo.Controllers
         }
 
         [HttpPost]
-        //[IgnoreAntiforgeryToken]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public List<MyComments> Post([FromBody]MyComments comments)
         {
             //if (!string.IsNullOrEmpty(comments.name) && comments.name.Length > 1 && !string.IsNullOrEmpty(comments.message))

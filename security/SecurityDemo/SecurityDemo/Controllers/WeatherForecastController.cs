@@ -32,17 +32,17 @@ namespace SecurityDemo.Controllers
         }
 
         [HttpPost]
-        //[ValidateAntiForgeryToken]
-        public List<MyComments> Post([FromBody]MyComments comments)
+        [ValidateAntiForgeryToken]
+        public IActionResult Post([FromBody]MyComments comments)
         {
-            //if (!string.IsNullOrEmpty(comments.name) && comments.name.Length > 1 && !string.IsNullOrEmpty(comments.message))
-            //{
+            if (!string.IsNullOrEmpty(comments.name) && comments.name.Length > 1 && !string.IsNullOrEmpty(comments.message))
+            {
                 myComments.Add(comments);
-                return null;
-            //}
+                return Ok();
+            }
 
-            //throw new BadHttpRequestException("servier side error, you failed to bypass the validation. Maybe try with other methods to attach the system.");
-            
+            return BadRequest("You failed to bypass the validation. Try again to attach the system");
+
         }
     }
 }

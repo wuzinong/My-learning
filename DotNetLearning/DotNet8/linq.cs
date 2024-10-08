@@ -109,3 +109,6 @@ collection.Sum().Dump();//21
 
 IEmumerable<object> collection = [1,2,3,4,5,6];
 collection.Sum(x=>(int)x).Dump();//21
+
+
+//Aggregate -> js 中的reduce

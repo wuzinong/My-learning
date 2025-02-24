@@ -1,0 +1,9 @@
+### Open in VS Code extension: Rest Client
+@hostname = localhost
+@port = 3000
+@host = {{hostname}}:{{port}}/api
+@contentType = application/json
+@createdAt = {{$datetime iso8601}}
+
+### Signatory
+GET https://{{host}}/getProjectList

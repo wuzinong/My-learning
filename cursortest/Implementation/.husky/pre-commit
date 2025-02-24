@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# whether git has bash
+if [ -f /usr/bin/bash ]; then
+	cd "$(dirname -- "$0")"
+  cd ..
+	npm run lint && npm run tslint
+else
+	echo "no bash"
+fi

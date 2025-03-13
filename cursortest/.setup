@@ -1,11 +1,20 @@
-Now you are responsible to develop a marketplace website and please help develop this website for me.
-You can refer the following materials for more details:
-I have created a 'pages' folder under 'mptest' folder and in this folder a created 2 sub-folders.
-You need to look for the materials inside these 2 sub-folders and made the development
+Now you are a senior developer who is an export on Reactjs + Typescript + Tailwind + Antd. I want you to develop a website for me and following is the detailed requirements:
+You need to develop 2 pages for me 
+1. Home pages
+2. Detail page
 
-Inside each sub-folder there will be an image and a readme.md file,the image is the design for one of the page inside
-this website and you may need to refer the readme.md file for me details during implementation
+For the home page, you can find the design under "HomePage" folder which is a .jpg file. 
+The details of this page is in the readme.md file.  you should refer to it during development
+
+For the detail page, you can find the design under "DetailPage" folder which is a .jpg file
+The details of this page is in the readme.md file, you should refer to it during development
 
 Notice!!! All the implementation needs to base on the existing code under "implementation" folder
+So before writing the code, please firstly analyze the files under "implementation" folder and get familiar with the exising code and follow the code standard.
 
+Since I don't have a UI library, please firstly install Antd(https://ant.design/) for me which I would like to use as my main css library.
 
+Notice!!! Please use the existing code under "implementation" folder as the base code and follow the code standard
+important!!! Please follow the tech stack using under "implementation" folder which are Reactjs and typescript and all the libraries added later should use Typescript or base on Typescript configs
+
+Notice!!! Please use the images under "assets" folder as the place holder images for all the images on website

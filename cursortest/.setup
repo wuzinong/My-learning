@@ -4,10 +4,10 @@ You need to develop 2 pages for me (You are allowed to split big task to small o
 1. Home pages
 2. Detail page
 
-For the home page, you can find the design under "HomePage" folder which is a .jpg file (hompage.jpg).
+For the home page, you can find the design under "./HomePage/homepage.jpg".
 The details of this page is in the readme.md file. you should refer to it during development
 
-For the detail page, you can find the design under "DetailPage" folder which is a .png file (detailpage.png)
+For the detail page, you can find the design under "./DetailPage/detailpage.png".
 The details of this page is in the readme.md file, you should refer to it during development
 
 Notice!!! All the implementation needs to base on the existing code under "implementation" folder

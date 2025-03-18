@@ -1,13 +1,13 @@
 Now you are a senior developer who is an export on Reactjs + Typescript + Tailwind + Antd. I want you to develop a website for me and following is the detailed requirements:
-You need to develop 2 pages for me
+You need to develop 2 pages for me (You are allowed to split big task to small ones so that the token won't be too long)
 
 1. Home pages
 2. Detail page
 
-For the home page, you can find the design under "HomePage" folder which is a .jpg file.
+For the home page, you can find the design under "HomePage" folder which is a .jpg file (hompage.jpg).
 The details of this page is in the readme.md file. you should refer to it during development
 
-For the detail page, you can find the design under "DetailPage" folder which is a .jpg file
+For the detail page, you can find the design under "DetailPage" folder which is a .png file (detailpage.png)
 The details of this page is in the readme.md file, you should refer to it during development
 
 Notice!!! All the implementation needs to base on the existing code under "implementation" folder

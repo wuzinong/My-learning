@@ -5,12 +5,14 @@ You need to develop 2 pages for me (You are allowed to split big task to small o
 2. Detail page
 
 For the home page, you can find the design under "./HomePage/homepage.jpg".
+In case you can't analyze pictures please find the specifications in './HomePage/nodesign.md' for the detailed needs
 The details of this page is in the readme.md file. you should refer to it during development
 
 For the detail page, you can find the design under "./DetailPage/detailpage.png".
+In case you can't analyze pictures please find the specifications in './DetailPage/nodesign.md' for the detailed needs
 The details of this page is in the readme.md file, you should refer to it during development
 
-Notice!!! All the implementation needs to base on the existing code under "implementation" folder
+Notice!!! All the implementation needs to base on the existing code under "./implementation" folder
 So before writing the code, please firstly analyze the files under "implementation" folder and get familiar with the exising code and follow the code standard.
 
 Since I don't have a UI library, please firstly install Antd(https://ant.design/) for me which I would like to use as my main css library.

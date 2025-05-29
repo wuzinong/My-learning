@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MCP SSE Test</title>
+  </head>
+  <body>
+    <h1>MCP SSE Test</h1>
+    <div id="messages"></div>
+
+    <script>
+      const messagesDiv = document.getElementById('messages');
+
+      function appendMessage(text) {
+        const p = document.createElement('p');
+        p.textContent = text;
+        messagesDiv.appendChild(p);
+      }
+
+      function connectToMCP() {
+        const evtSource = new EventSource('https://localhost:64969/');
+
+        evtSource.onopen = function () {
+          appendMessage('MCP Connection opened');
+        };
+
+        evtSource.onmessage = function (event) {
+          appendMessage('MCP Message: ' + event.data);
+          try {
+            const data = JSON.parse(event.data);
+            appendMessage('Parsed data: ' + JSON.stringify(data, null, 2));
+          } catch (e) {
+            // If not JSON, display as is
+          }
+        };
+
+        evtSource.onerror = function (err) {
+          appendMessage('MCP Error: ' + err);
+          evtSource.close();
+          // Try to reconnect after 5 seconds
+          setTimeout(connectToMCP, 5000);
+        };
+      }
+
+      // Start the MCP connection
+      connectToMCP();
+    </script>
+  </body>
+</html>

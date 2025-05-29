@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        color: #1e1e1e;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px;
+        border-bottom: 1px solid #d9d9d9;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .logo img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .nav-pills {
+        display: flex;
+        gap: 8px;
+      }
+
+      .nav-pill {
+        padding: 8px 16px;
+        background: #f5f5f5;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+
+      .nav-pill:hover {
+        background: #e3e3e3;
+      }
+
+      .auth-buttons {
+        display: flex;
+        gap: 12px;
+      }
+
+      .auth-button {
+        padding: 8px 16px;
+        border: 1px solid #767676;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .auth-button:first-child {
+        background: #e3e3e3;
+      }
+
+      .auth-button:last-child {
+        background: #2c2c2c;
+        color: white;
+        border-color: #2c2c2c;
+      }
+
+      .hero {
+        background: url('hero-bg.jpg') center/cover;
+        padding: 160px 24px;
+        text-align: center;
+      }
+
+      .hero-title {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        margin: 0;
+        color: #0c0c0d;
+      }
+
+      .hero-subtitle {
+        font-size: 32px;
+        line-height: 1.2;
+        margin: 8px 0 32px;
+        color: #0c0c0d;
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+      }
+
+      .cta-button {
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .cta-button:first-child {
+        background: #e3e3e3;
+        border: 1px solid #767676;
+      }
+
+      .cta-button:last-child {
+        background: #2c2c2c;
+        color: white;
+        border: 1px solid #2c2c2c;
+      }
+
+      .content {
+        padding: 64px;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 64px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .card-icon {
+        width: 40px;
+        height: 40px;
+        background: #1e1e1e;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card-icon img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .card-title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        margin: 0;
+      }
+
+      .card-text {
+        font-size: 16px;
+        line-height: 1.4;
+        color: #757575;
+        margin: 0;
+      }
+
+      footer {
+        padding: 32px;
+        border-top: 1px solid #d9d9d9;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 32px;
+      }
+
+      .footer-section {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .footer-title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 0;
+      }
+
+      .footer-link {
+        font-size: 16px;
+        line-height: 1.4;
+        color: #1e1e1e;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      .footer-link:hover {
+        color: #2c2c2c;
+      }
+
+      .social-icons {
+        display: flex;
+        gap: 16px;
+        margin-top: 16px;
+      }
+
+      .social-icon {
+        width: 24px;
+        height: 24px;
+        fill: #1e1e1e;
+        transition: fill 0.2s;
+      }
+
+      .social-icon:hover {
+        fill: #2c2c2c;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.svg" alt="Company Logo" />
+        <span>Company Name</span>
+      </div>
+      <nav class="nav-pills" aria-label="Main navigation">
+        <div class="nav-pill" tabindex="0">Products</div>
+        <div class="nav-pill" tabindex="0">Solutions</div>
+        <div class="nav-pill" tabindex="0">Community</div>
+        <div class="nav-pill" tabindex="0">Resources</div>
+        <div class="nav-pill" tabindex="0">Pricing</div>
+        <div class="nav-pill" tabindex="0">Contact</div>
+      </nav>
+      <div class="auth-buttons">
+        <button class="auth-button" type="button">Sign in</button>
+        <button class="auth-button" type="button">Register</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero-title">Your Title Here</h1>
+      <p class="hero-subtitle">Your subtitle here</p>
+      <div class="cta-buttons">
+        <button class="cta-button" type="button">Primary CTA</button>
+        <button class="cta-button" type="button">Secondary CTA</button>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <img src="icon1.svg" alt="Feature 1 Icon" />
+          </div>
+          <h3 class="card-title">Card Title 1</h3>
+          <p class="card-text">
+            Card description text goes here. This can be a short description of
+            the feature or benefit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icon2.svg" alt="Feature 2 Icon" />
+          </div>
+          <h3 class="card-title">Card Title 2</h3>
+          <p class="card-text">
+            Card description text goes here. This can be a short description of
+            the feature or benefit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icon3.svg" alt="Feature 3 Icon" />
+          </div>
+          <h3 class="card-title">Card Title 3</h3>
+          <p class="card-text">
+            Card description text goes here. This can be a short description of
+            the feature or benefit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icon4.svg" alt="Feature 4 Icon" />
+          </div>
+          <h3 class="card-title">Card Title 4</h3>
+          <p class="card-text">
+            Card description text goes here. This can be a short description of
+            the feature or benefit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icon5.svg" alt="Feature 5 Icon" />
+          </div>
+          <h3 class="card-title">Card Title 5</h3>
+          <p class="card-text">
+            Card description text goes here. This can be a short description of
+            the feature or benefit.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icon6.svg" alt="Feature 6 Icon" />
+          </div>
+          <h3 class="card-title">Card Title 6</h3>
+          <p class="card-text">
+            Card description text goes here. This can be a short description of
+            the feature or benefit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 class="footer-title">Use cases</h4>
+          <a href="#" class="footer-link">UI design</a>
+          <a href="#" class="footer-link">UX design</a>
+          <a href="#" class="footer-link">Wireframing</a>
+          <a href="#" class="footer-link">Diagramming</a>
+          <a href="#" class="footer-link">Brainstorming</a>
+          <a href="#" class="footer-link">Online whiteboard</a>
+          <a href="#" class="footer-link">Team collaboration</a>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-title">Explore</h4>
+          <a href="#" class="footer-link">Design</a>
+          <a href="#" class="footer-link">Prototyping</a>
+          <a href="#" class="footer-link">Development features</a>
+          <a href="#" class="footer-link">Design systems</a>
+          <a href="#" class="footer-link">Collaboration features</a>
+          <a href="#" class="footer-link">Design process</a>
+          <a href="#" class="footer-link">FigJam</a>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-title">Resources</h4>
+          <a href="#" class="footer-link">Blog</a>
+          <a href="#" class="footer-link">Best practices</a>
+          <a href="#" class="footer-link">Colors</a>
+          <a href="#" class="footer-link">Color wheel</a>
+          <a href="#" class="footer-link">Support</a>
+          <a href="#" class="footer-link">Developers</a>
+          <a href="#" class="footer-link">Resource library</a>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-title">Company</h4>
+          <a href="#" class="footer-link">About us</a>
+          <a href="#" class="footer-link">Careers</a>
+          <a href="#" class="footer-link">Press</a>
+          <a href="#" class="footer-link">Contact</a>
+          <div class="social-icons">
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="4" y="4" width="16" height="16" />
+            </svg>
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <polygon points="12,2 22,22 2,22" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,8 +1,7 @@
-# BDD Testing Expert Skill
-
-## Description
-
-Expert skill for implementing Behavior-Driven Development (BDD) testing using Cucumber and other BDD frameworks. Helps teams bridge the gap between business requirements (user stories, acceptance criteria, shared language from DDD) and automated testing using Given-When-Then executable specifications.
+---
+name: behavior driven test
+description: Expert skill for implementing Behavior-Driven Development (BDD) testing using Cucumber and other BDD frameworks. Helps teams bridge the gap between business requirements (user stories, acceptance criteria, shared language from DDD) and automated testing using Given-When-Then executable specifications.
+---
 
 ## Instructions
 
@@ -542,3 +541,7 @@ Please identify:
 4. **Executable Specifications**: Scenarios must be both readable and runnable
 5. **Maintainability**: Invest in reusable steps and clear organization to reduce long-term costs
 6. **DDD Integration**: Use the shared language (ubiquitous language) from Domain-Driven Design in your scenarios
+
+## Additional Resources
+
+For complete, ready-to-use component examples, see [USAGE-EXAMPLES.md](./references/USAGE-EXAMPLES.md) in this skill folder.

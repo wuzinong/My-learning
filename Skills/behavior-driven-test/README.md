@@ -353,4 +353,4 @@ Remember: BDD is about **collaboration and shared understanding**, not just test
 
 **Version:** 1.1.0  
 **Last Updated:** January 20, 2026  
-**Author:** AI Workshop
+**Author:** Bran

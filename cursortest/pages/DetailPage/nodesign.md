@@ -1,1 +1,0 @@
-Please refer to this link and implment the same layout for me https://storetest.test.com/dnv-noble-denton-marine-services-warranty-standard

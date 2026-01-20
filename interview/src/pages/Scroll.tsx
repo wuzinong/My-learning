@@ -199,15 +199,15 @@ const Test = (props: any) => {
                 </p>
                 <ul>
                   <li>
-                    a) Modify, adapt, decompile, disassemble or reverse engineer
+                    a Modify, adapt, decompile, disassemble or reverse engineer
                     the Product, Documentation, layouts, pictures or designs;
                     <a
                       id='here'
-                      href='https://www.dnvgl.com/software/software-services/software-support.html'
+                      href='https://www.TESTgl.com/software/software-services/software-support.html'
                       rel='noreferrer'
                       target='_blank'
                     >
-                      https://www.dnvgl.com/software/software-services/software-support.html
+                      https://www.TESTgl.com/software/software-services/software-support.html
                     </a>{' '}
                   </li>
                   <li>
@@ -296,15 +296,15 @@ const Test = (props: any) => {
                   Agreement.
                 </p>
                 <p>
-                  3.4 testGL reserves the right to, and Customer agrees that DNV
-                  GL may, increase the SLA fee each year by a maximum of (i) the
-                  Norwegian Statistisk Sentralbyrå (Statistics Norway) Wage
-                  index “Professional, scientific and technical activities” or
-                  (ii) 5%, whichever is the greater.
+                  3.4 testGL reserves the right to, and Customer agrees that
+                  TEST GL may, increase the SLA fee each year by a maximum of
+                  (i) the Norwegian Statistisk Sentralbyrå (Statistics Norway)
+                  Wage index “Professional, scientific and technical activities”
+                  or (ii) 5%, whichever is the greater.
                 </p>
                 <p>
                   3.5 If the Customer fails to fulfil its obligations to pay the
-                  invoices from DNV&nbsp;GL in accordance with Article 3.3, the
+                  invoices from TEST&nbsp;GL in accordance with Article 3.3, the
                   Customer shall pay interest on all overdue amounts at (i) a
                   rate of 1% per month or part thereof, or (ii) the highest rate
                   permitted according to the law designated in Article&nbsp;16
@@ -439,10 +439,10 @@ const Test = (props: any) => {
                   the type of license.
                 </p>
                 <p>
-                  6.3 DNV, testGL and the testGL figure mark are trademarks held
-                  by testGL. This Agreement does not imply any license to use
-                  these trademarks unless explicitly agreed in writing between
-                  the parties.
+                  6.3 TEST, testGL and the testGL figure mark are trademarks
+                  held by testGL. This Agreement does not imply any license to
+                  use these trademarks unless explicitly agreed in writing
+                  between the parties.
                 </p>
                 <p>
                   <strong>7. Audit</strong>
@@ -469,7 +469,7 @@ const Test = (props: any) => {
                   promptly either purchase the necessary number of licenses for
                   the relevant time-period or stop the unauthorized use and
                   return any unauthorized copies and related material to testGL.
-                  In case of unreported usage the Customer shall reimburse DNV
+                  In case of unreported usage the Customer shall reimburse TEST
                   GL for its cost and expenses related to the audit.
                 </p>
                 <p>
@@ -598,9 +598,9 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   12.1 testGL shall be entitled to assign its rights and
-                  obligations under this Agreement to any company within the DNV
-                  GL Group. Customer shall be informed of such assignment in
-                  writing.
+                  obligations under this Agreement to any company within the
+                  TEST GL Group. Customer shall be informed of such assignment
+                  in writing.
                 </p>
                 <p>
                   12.2 Customer may not delegate any of its obligations or

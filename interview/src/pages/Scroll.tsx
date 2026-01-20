@@ -1,5 +1,5 @@
-import { useState } from "react";
-import styled from "styled-components";
+import { useState } from 'react';
+import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
@@ -74,9 +74,9 @@ const Test = (props: any) => {
               <div>
                 <p>
                   These terms and conditions constitutes the Agreement
-                  (“Agreement”) between (i) DNV GL AS (hereinafter “
-                  <strong>DNV GL</strong>”) and (ii) Customer, and shall govern
-                  DNV GL’s provision of a license to use (the “License”) the
+                  (“Agreement”) between (i) testGL AS (hereinafter “
+                  <strong>testGL</strong>”) and (ii) Customer, and shall govern
+                  testGL’s provision of a license to use (the “License”) the
                   software requested by Customer (the “<strong>Product</strong>
                   ”). This Agreement shall supersede and invalidate all prior
                   representations, including any pre-existing agreements between
@@ -105,9 +105,9 @@ const Test = (props: any) => {
                   consultancy services.
                 </p>
                 <p>
-                  DNV GL AS is a Norwegian registered limited company,
+                  testGL AS is a Norwegian registered limited company,
                   registration number 945 748 931, with headquarters at
-                  Veritasveien 1, 1322 Høvik. DNV GL AS holds necessary rights
+                  Veritasveien 1, 1322 Høvik. testGL AS holds necessary rights
                   to the Product.
                 </p>
                 <p>
@@ -125,14 +125,14 @@ const Test = (props: any) => {
                   other subsidiaries thereof.
                 </p>
                 <p>
-                  1.3 DNV GL Group: means (i) DNV GL, all its direct and
-                  indirect owner and its affiliates and (ii) DNV GL’s
+                  1.3 testGL Group: means (i) testGL, all its direct and
+                  indirect owner and its affiliates and (ii) testGL’s
                   subcontractors (of any tier) and their affiliates.
                 </p>
                 <p>
-                  1.4 Documentation: means DNV GL’s on-line instruction and
+                  1.4 Documentation: means testGL’s on-line instruction and
                   information guides and manuals for the Product as published
-                  from time to time by DNV GL.
+                  from time to time by testGL.
                 </p>
                 <p>
                   1.5 Dongle: A hardware safety key that must be inserted into
@@ -142,7 +142,7 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   1.6 Service Level Agreement, hereafter referred to as SLA:
-                  Means the maintenance and support services provided by DNV GL
+                  Means the maintenance and support services provided by testGL
                   as set out herein.
                 </p>
                 <p>
@@ -166,7 +166,7 @@ const Test = (props: any) => {
                   <strong>2. License Grant and License Restrictions</strong>
                 </p>
                 <p>
-                  2.1 DNV GL grants Customer a limited, non-transferable,
+                  2.1 testGL grants Customer a limited, non-transferable,
                   non-exclusive right to use the Product as set out in this
                   Agreement. The license shall be restricted to the type of
                   license and agreed number of users as agreed in this
@@ -186,7 +186,7 @@ const Test = (props: any) => {
                   and under the direct control of Customer.
                 </p>
                 <p>
-                  2.4 DNV GL, or its licensors, own and at all times retain all
+                  2.4 testGL, or its licensors, own and at all times retain all
                   intellectual property rights, including patent, copyright,
                   trade secret, trademark and other proprietary rights, in and
                   to the Product and/or Documentation.
@@ -202,17 +202,17 @@ const Test = (props: any) => {
                     a) Modify, adapt, decompile, disassemble or reverse engineer
                     the Product, Documentation, layouts, pictures or designs;
                     <a
-                      id="here"
-                      href="https://www.dnvgl.com/software/software-services/software-support.html"
-                      rel="noreferrer"
-                      target="_blank"
+                      id='here'
+                      href='https://www.dnvgl.com/software/software-services/software-support.html'
+                      rel='noreferrer'
+                      target='_blank'
                     >
                       https://www.dnvgl.com/software/software-services/software-support.html
-                    </a>{" "}
+                    </a>{' '}
                   </li>
                   <li>
                     b) Provide for interoperability with its own software or
-                    hardware systems without first notifying DNV GL.
+                    hardware systems without first notifying testGL.
                   </li>
                   <li>
                     c) Create derivative works based on the Product or
@@ -234,13 +234,13 @@ const Test = (props: any) => {
                     than the authorized Customer site.
                   </li>
                   <li>
-                    g) Use the DNV GL logo, or any logos or trademarks held by
-                    the DNV GL Group, in the conduct of Customer's business;
+                    g) Use the testGL logo, or any logos or trademarks held by
+                    the testGL Group, in the conduct of Customer's business;
                   </li>
                   <li>
                     h) Rebrand, or otherwise use the Product in Customer's
-                    business without DNV GL's explicit written consent and
-                    proper attribution to DNV GL or DNV GL's proprietary rights
+                    business without testGL's explicit written consent and
+                    proper attribution to testGL or testGL's proprietary rights
                     and/or.
                   </li>
                   <li>
@@ -268,12 +268,12 @@ const Test = (props: any) => {
                   including all modifications, customizations, bug fixes,
                   updates or any other programs or materials developed during
                   the performance of any maintenance service or otherwise
-                  provided by DNV GL, shall not transfer to Customer and shall
-                  remain solely with DNV GL.
+                  provided by testGL, shall not transfer to Customer and shall
+                  remain solely with testGL.
                 </p>
                 <p>
                   2.9 No Product is or may be licensed without an initial
-                  corresponding applicable SLA between DNV GL and the Customer
+                  corresponding applicable SLA between testGL and the Customer
                   during the license period.
                 </p>
                 <p>
@@ -285,10 +285,10 @@ const Test = (props: any) => {
                   parties.
                 </p>
                 <p>
-                  3.2 Customer shall effect payment as agreed to DNV GL, or
-                  another legal entity within the DNV GL Group if specified as
+                  3.2 Customer shall effect payment as agreed to testGL, or
+                  another legal entity within the testGL Group if specified as
                   payee on the invoice, for the fees reffered to in Article 3.1
-                  to DNV GL’s bank account stated on the invoice.
+                  to testGL’s bank account stated on the invoice.
                 </p>
                 <p>
                   3.3 The fee for the License and the SLA shall be due and
@@ -296,7 +296,7 @@ const Test = (props: any) => {
                   Agreement.
                 </p>
                 <p>
-                  3.4 DNV GL reserves the right to, and Customer agrees that DNV
+                  3.4 testGL reserves the right to, and Customer agrees that DNV
                   GL may, increase the SLA fee each year by a maximum of (i) the
                   Norwegian Statistisk Sentralbyrå (Statistics Norway) Wage
                   index “Professional, scientific and technical activities” or
@@ -325,25 +325,25 @@ const Test = (props: any) => {
                   License Period, to be charged at the then current rates.
                 </p>
                 <p>
-                  4.3 DNV GL shall be entitled to terminate this Agreement
+                  4.3 testGL shall be entitled to terminate this Agreement
                   without cause with 60 (sixty) days written notice prior to
                   renewal.
                 </p>
                 <p>
-                  4.4 In the event that DNV GL has reason to believe that an
+                  4.4 In the event that testGL has reason to believe that an
                   infringement could exist, or if there are allegations that the
                   Product or the SLA infringe third party intellectual property
-                  rights, DNV GL shall be entitled to terminate the Agreement
+                  rights, testGL shall be entitled to terminate the Agreement
                   with immediate effect. In such case Customer’s sole remedy and
-                  DNV GL’s entire liability shall be limited to the restitution
-                  of the license fee(s) paid to DNV GL for the 12 (twelve)
+                  testGL’s entire liability shall be limited to the restitution
+                  of the license fee(s) paid to testGL for the 12 (twelve)
                   months immediately preceding such termination, and CUSTOMER
                   RELEASES, WAIVES, AND DISCHARGES ALL OTHER CLAIMS OF ANY KIND
-                  OR NATURE AGAINST THE DNV GL GROUP OF COMPANIES WHETHER IN
+                  OR NATURE AGAINST THE testGL GROUP OF COMPANIES WHETHER IN
                   CONTRACT, TORT OR OTHERWISE.
                 </p>
                 <p>
-                  4.5 DNV GL may terminate this Agreement with immediate effect
+                  4.5 testGL may terminate this Agreement with immediate effect
                   if the Customer fails to pay the fee for Licenses, SLA or any
                   other sum due hereunder.
                 </p>
@@ -361,15 +361,15 @@ const Test = (props: any) => {
                   Article 4, and to the extent allowed by applicable mandatory
                   law, all rights granted hereunder shall immediately terminate
                   and all Product, Documentation and other proprietary
-                  Information of DNV GL in the possession of Customer or under
-                  its control, shall be immediately returned to DNV GL.
+                  Information of testGL in the possession of Customer or under
+                  its control, shall be immediately returned to testGL.
                 </p>
                 <p>
                   <strong>5. Confidentiality</strong>
                 </p>
                 <p>
                   5.1 Customer shall at all times protect the secrecy of, and
-                  avoid disclosure and unauthorized use of, DNV GL’s
+                  avoid disclosure and unauthorized use of, testGL’s
                   Confidential Information.
                 </p>
                 <p>
@@ -381,7 +381,7 @@ const Test = (props: any) => {
                   contemplated hereunder.
                 </p>
                 <p>
-                  5.3 DNV GL may, subject to this Agreement, share Confidential
+                  5.3 testGL may, subject to this Agreement, share Confidential
                   Information and results of audits with its parent, parent
                   subsidiaries, subsidiaries affiliates and licensors for the
                   purpose of administering and performing its obligations
@@ -403,21 +403,21 @@ const Test = (props: any) => {
                   5.5 Customer acknowledges and agrees that irrespective of
                   whether identified as confidential or not, the Agreement, the
                   Product and Documentation are all Confidential Information of
-                  DNV GL and/or its licensors.
+                  testGL and/or its licensors.
                 </p>
                 <p>
-                  5.6 DNV GL shall have the right to make reference to the
+                  5.6 testGL shall have the right to make reference to the
                   Customer’s name in proposals or other similar submissions made
                   to other prospective customers. Unless otherwise agreed, any
-                  other publications related to DNV GL’s provision of services
+                  other publications related to testGL’s provision of services
                   to the Customer under this Agreement shall be subject to the
                   Customer’s prior approval.
                 </p>
                 <p>
-                  5.7 DNV GL is continuously improving its services to the
+                  5.7 testGL is continuously improving its services to the
                   industry to fulfill its purpose, which is to safeguard life,
                   property and the environment. For this purpose, the customer
-                  acknowledges that DNV GL shall hold a right to use and process
+                  acknowledges that testGL shall hold a right to use and process
                   any information generated or collected under or in connection
                   with this Agreement in an anonymized and aggregated form.
                 </p>
@@ -425,7 +425,7 @@ const Test = (props: any) => {
                   <strong>6. Intellectual Property Rights</strong>
                 </p>
                 <p>
-                  6.1 As between Customer and DNV GL, DNV GL owns all
+                  6.1 As between Customer and testGL, testGL owns all
                   intellectual property rights, including patent, copyright,
                   trade secret, trademark and other proprietary rights, in and
                   to the Product, Documentation and/or services provided in
@@ -435,12 +435,12 @@ const Test = (props: any) => {
                 <p>
                   6.2 Customer shall hold a limited, restricted,
                   non-transferrable, non-exclusive right to use Documentation
-                  provided by DNV GL for the duration of the SLA, regardless of
+                  provided by testGL for the duration of the SLA, regardless of
                   the type of license.
                 </p>
                 <p>
-                  6.3 DNV, DNV GL and the DNV GL figure mark are trademarks held
-                  by DNV GL. This Agreement does not imply any license to use
+                  6.3 DNV, testGL and the testGL figure mark are trademarks held
+                  by testGL. This Agreement does not imply any license to use
                   these trademarks unless explicitly agreed in writing between
                   the parties.
                 </p>
@@ -453,27 +453,27 @@ const Test = (props: any) => {
                   set out in this Agreement.
                 </p>
                 <p>
-                  7.2 DNV GL shall have the right at its own expense, during
+                  7.2 testGL shall have the right at its own expense, during
                   Customer’s normal business hours and upon giving Customer a
                   reasonable prior written notice, to audit Customer’s records
                   and systems, including, but not limited to, individual
                   computers, to verify Customer’s compliance with the Agreement.
                 </p>
                 <p>
-                  7.3 Customer grants DNV GL the right to include functions in
-                  the Product which inform DNV GL of Customer’s compliance with
+                  7.3 Customer grants testGL the right to include functions in
+                  the Product which inform testGL of Customer’s compliance with
                   the requirements set out herein.
                 </p>
                 <p>
                   7.4 If the Audit reveals any unreported usage, Customer shall
                   promptly either purchase the necessary number of licenses for
                   the relevant time-period or stop the unauthorized use and
-                  return any unauthorized copies and related material to DNV GL.
+                  return any unauthorized copies and related material to testGL.
                   In case of unreported usage the Customer shall reimburse DNV
                   GL for its cost and expenses related to the audit.
                 </p>
                 <p>
-                  7.5 DNV GL reserves all rights in case the Audit reveals
+                  7.5 testGL reserves all rights in case the Audit reveals
                   breach(es) of the Agreement other than as set out in Article
                   7.4.
                 </p>
@@ -486,7 +486,7 @@ const Test = (props: any) => {
                 <p>
                   <strong>
                     8.1.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN
-                    NO EVENT SHALL DNV GL OR THE DNV GL GROUP BE LIABLE FOR ANY
+                    NO EVENT SHALL testGL OR THE testGL GROUP BE LIABLE FOR ANY
                     SPECIAL, INCIDENTIAL, PUNITIVE, INDIRECT, OR CONSEQUENTIAL
                     DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES
                     FOR LOSS OF PROFITS, LOSS OF REVENUE, LOSS OF USE, LOSS OF
@@ -495,7 +495,7 @@ const Test = (props: any) => {
                     WHATSOEVER) HOWSOEVER CAUSED AND REGARDLESS OF THE THEORY OF
                     LIABILITY, ARISING OUT OF OR IN ANY WAY RELATED TO THIS
                     AGREEMENT OR THE USE OF OR INABILITY TO USE THE PRODUCT OR
-                    DOCUMENTATION, EVEN IF DNV GL HAS BEEN ADVISED OF THE
+                    DOCUMENTATION, EVEN IF testGL HAS BEEN ADVISED OF THE
                     POSSIBILITY OF SUCH DAMAGES.
                   </strong>
                 </p>
@@ -504,16 +504,16 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   <strong>
-                    8.2.1 DNV GL AND DNV GL GROUP'S MAXIMUM CUMULATIVE LIABILITY
+                    8.2.1 testGL AND testGL GROUP'S MAXIMUM CUMULATIVE LIABILITY
                     TO CUSTOMER AND CUSTOMER GROUP FOR DAMAGES ARISING OUT OF OR
                     RELATING TO THIS AGREEMENT INCLUDING ANY AND ALL USE OF THE
                     PRODUCT AND/OR DOCUMENTATION, WHETHER BASED UPON CONTRACT,
                     TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR ANY OTHER
                     BASIS FOR LIABILITY, SHALL NOT EXCEED THE AMOUNTS ACTUALLY
-                    PAID BY CUSTOMER TO DNV GL FOR THE PREVIOUS TWELVE (12)
+                    PAID BY CUSTOMER TO testGL FOR THE PREVIOUS TWELVE (12)
                     MONTH PERIOD UNDER THIS AGREEMENT. THIS LIMITATION SHALL NOT
                     APPLY IN THE EVENT OF GROSS NEGLIGENCE OR WILLFUL MISCONDUCT
-                    BY DNV GL SENIOR MANAGEMENT OR SENIOR TECHNICAL PERSONNEL.
+                    BY testGL SENIOR MANAGEMENT OR SENIOR TECHNICAL PERSONNEL.
                   </strong>
                 </p>
                 <p>
@@ -521,17 +521,17 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   <strong>
-                    9.1 CUSTOMER SHALL INDEMNIFY, DEFENDAND HOLD HARMLESS DNV GL
-                    AND THE DNV GL GROUP AGAINST ANY AND ALL CLAIMS MADE BY
-                    OTHER COMPANIES IN THE CUSTOMER GROUP AGAINST DNV GL AND/OR
-                    THE DNV GL GROUP BASED UPON DNV GL’S PERFORMANCE OR
+                    9.1 CUSTOMER SHALL INDEMNIFY, DEFENDAND HOLD HARMLESS testGL
+                    AND THE testGL GROUP AGAINST ANY AND ALL CLAIMS MADE BY
+                    OTHER COMPANIES IN THE CUSTOMER GROUP AGAINST testGL AND/OR
+                    THE testGL GROUP BASED UPON testGL’S PERFORMANCE OR
                     NON-PERFORMANCE OF ITS OBLIGATIONS UNDER THIS AGREEMENT.
                   </strong>
                 </p>
                 <p>
                   <strong>
-                    9.2 CUSTOMER SHALL INDEMNIFY, DEFENDAND HOLD HARMLESS DNV GL
-                    AND THE DNV GL GROUP AGAINST DAMAGES AND ANY ASSOCIATED
+                    9.2 CUSTOMER SHALL INDEMNIFY, DEFENDAND HOLD HARMLESS testGL
+                    AND THE testGL GROUP AGAINST DAMAGES AND ANY ASSOCIATED
                     LEGAL COST THAT MAY BE AWARDED OR AGREED TO BE PAID TO ANY
                     THIRD PARTY IN RESPECT OF ANY CLAIM OR ACTION CAUSED BY OR
                     ARISING FROM CUSTOMER’S OR CUSTOMER GROUP'S USE OF THE
@@ -540,12 +540,12 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   <strong>
-                    9.3 DNV GL WILL INDEMNIFY CUSTOMER AGAINST DAMAGES AND
+                    9.3 testGL WILL INDEMNIFY CUSTOMER AGAINST DAMAGES AND
                     REASONABLE LEGAL EXPENSE THAT MAY BE FINALLY AWARDED BY A
                     COURT OF COMPETENT JURISDICTION TO ANY THIRD PARTY RESULTING
                     FROM A CLAIM OR ACTION FOR INFRINGEMENT OF ANY THIRD PARTY
                     INTELLECTUAL PROPERTY RIGHT RESULTING FROM CUSTOMER'S USE OF
-                    THE PRODUCT IN ITS ORIGINAL, AS-PROVIDED BY DNV GL FORM.
+                    THE PRODUCT IN ITS ORIGINAL, AS-PROVIDED BY testGL FORM.
                   </strong>
                 </p>
                 <p>
@@ -557,7 +557,7 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   10.2 All and any errors in Product shall be governed by the
-                  SLA, and{" "}
+                  SLA, and{' '}
                   <strong>
                     CUSTOMER RELEASES AND WAIVES ALL CLAIMS FOR REMEDIES BASED
                     UPON BREACH OF CONTRACT WITH RESPECT TO SUCH ERRORS.
@@ -570,7 +570,7 @@ const Test = (props: any) => {
                   defects in materials, design and workmanship are excluded. THE
                   WARRANTIES AND REMEDIES SET FORTH IN THIS AGREEMENT ARE
                   EXCLUSIVE AND IN LIEU OF ALL OTHERS, ORAL OR WRITTEN, EXPRESS,
-                  IMPLIED OR STATUTORY, LEGAL OR EQUITABLE.DNV GL MAKES NO OTHER
+                  IMPLIED OR STATUTORY, LEGAL OR EQUITABLE.testGL MAKES NO OTHER
                   REPRESENTATIONS, WARRANTIES OR INDEMNITIES, WHETHER EXPRESS,
                   IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO THE IMPLIED
                   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
@@ -579,7 +579,7 @@ const Test = (props: any) => {
                   DEALING OR USAGE OF TRADE ARE HEREBY EXCLUDED
                 </p>
                 <p>
-                  10.4 DNV GL does not warrant (i) any results or suitability of
+                  10.4 testGL does not warrant (i) any results or suitability of
                   results from Customer’s use of the Productand Documentation,
                   or (ii) that the operation of the Product will be
                   uninterrupted or error free, or (iii) that the functions
@@ -589,7 +589,7 @@ const Test = (props: any) => {
                   <strong>11. Sub-contractors</strong>
                 </p>
                 <p>
-                  11.1 DNV GL shall be entitled to delegate all or parts of the
+                  11.1 testGL shall be entitled to delegate all or parts of the
                   performance of the services under this Agreement to
                   sub-contractors.
                 </p>
@@ -597,7 +597,7 @@ const Test = (props: any) => {
                   <strong>12. Assignment</strong>
                 </p>
                 <p>
-                  12.1 DNV GL shall be entitled to assign its rights and
+                  12.1 testGL shall be entitled to assign its rights and
                   obligations under this Agreement to any company within the DNV
                   GL Group. Customer shall be informed of such assignment in
                   writing.
@@ -645,10 +645,10 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   14.1 Customer agrees to maintain a market standard general
-                  liability insurance. Any insurance maintained by DNV GL shall
+                  liability insurance. Any insurance maintained by testGL shall
                   not affect the insurance company's right to rely on the
                   limitations of liability andexclusions of remedy set out in
-                  this Agreement to the same extent as DNV GL.
+                  this Agreement to the same extent as testGL.
                 </p>
                 <p>
                   <strong>15. Severability</strong>
@@ -709,7 +709,7 @@ const Test = (props: any) => {
                   in software, supporting documentation, and technical data are
                   governed by the restrictions in the Technical Data Commercial
                   Items clause at DFARS 252.227-7015 and DFARS 227.7202.
-                  Manufacturer is DNV GL.
+                  Manufacturer is testGL.
                 </p>
                 <p></p>
                 <p>
@@ -745,7 +745,7 @@ const Test = (props: any) => {
                     handling and software deficiencies, as applicable to the
                     Product.
                   </li>
-                  <li>c) Access to DNV GL’s customer portal.</li>
+                  <li>c) Access to testGL’s customer portal.</li>
                   <li>d) Invitation to Software conferences.</li>
                   <li>
                     e) Support is limited to purchased modules and does NOT
@@ -761,25 +761,25 @@ const Test = (props: any) => {
                 </p>
                 <p>2.3 New Software Releases</p>
                 <p>
-                  DNV GL will on a regular basis issue new versions of the
+                  testGL will on a regular basis issue new versions of the
                   Product which may incorporate ordinary software improvements,
                   deficiency resolutions and revised User Documentation.
                 </p>
                 <p>2.4 Technical Support Service</p>
                 <p>
-                  2.4.1 DNV GL reserves the right to terminate support related
+                  2.4.1 testGL reserves the right to terminate support related
                   to products not upgraded to the latest version during the last
                   3 years, provided such upgrades are made available to
                   Customer.
                 </p>
                 <p>
                   2.4.2 Customer may register a request (issues) via the
-                  Customer Portal or DNV GL may register each support request
+                  Customer Portal or testGL may register each support request
                   from Customer and issue unique reference identification via
                   e-mail. A registered support request becomes a case in the
                   system and it has a unique identifier.The unique identifier
                   and further responses will be sent to Customer’s relevant
-                  technical contact. Follow-up response by DNV GL to convey
+                  technical contact. Follow-up response by testGL to convey
                   status of the support resolution is guaranteed on the Customer
                   Portal according to severity of problem as specified in
                   Article 2.7 below.
@@ -788,49 +788,49 @@ const Test = (props: any) => {
                 <p>
                   2.5.1 In the event that Product does not work in accordance
                   with the Product description, Customer shall report the
-                  deficiency to DNV GL.Deficiency reports shall include
-                  sufficient documentation for DNV GL to recreate the reported
+                  deficiency to testGL.Deficiency reports shall include
+                  sufficient documentation for testGL to recreate the reported
                   deficiency and efficiently investigate the cause of the
                   deficiency and its resolution.
                 </p>
                 <p>
-                  2.5.2 Upon receipt of deficiency reports DNV GL is obligated
+                  2.5.2 Upon receipt of deficiency reports testGL is obligated
                   to start investigations without undue delay and provide if
                   possible a workaround or solution, in line with service
                   priorities described in article 2.7 below. If a solution
                   cannot be provided, the software deficiencies will be logged
-                  in the DNV GL’s change management tool and considered for
+                  in the testGL’s change management tool and considered for
                   future release.
                 </p>
                 <p>
-                  2.5.3 DNV GL shall upon request be given remote access to
+                  2.5.3 testGL shall upon request be given remote access to
                   Customer’s computing environment with sufficient administrator
                   rights to investigate the cause of deficiency directly on
                   Customer’s databases.
                 </p>
                 <p>
-                  2.5.4 If support requires a VPN connection, a DNV GL Software
+                  2.5.4 If support requires a VPN connection, a testGL Software
                   VPN account must be established.
                 </p>
                 <p>
-                  2.5.5 If DNV GL concludes that the deficiency cannot be
+                  2.5.5 If testGL concludes that the deficiency cannot be
                   resolved using remote connection, Customer shall send all
-                  requested documentation, filesand database backups to DNV GL
-                  for debugging at DNV GL’s premises.
+                  requested documentation, filesand database backups to testGL
+                  for debugging at testGL’s premises.
                 </p>
                 <p>
                   2.5.6 If Customer fails to supply required documentation,
                   files and databases or the remote access cannot be established
-                  due to reasons outside DNV GL’s control, DNV GL cannot be held
+                  due to reasons outside testGL’s control, testGL cannot be held
                   liable if follow-up response priorities are not met.
                 </p>
                 <p>
-                  2.5.7 DNV GL may choose, in its sole discretion, to only issue
+                  2.5.7 testGL may choose, in its sole discretion, to only issue
                   software patches related to the latest release of the Product.
                 </p>
                 <p>2.6 Service Priorities</p>
                 <p>
-                  DNV GL shall provide follow-up response and resolution in
+                  testGL shall provide follow-up response and resolution in
                   accordance with severity of the Customer’s issue as specified
                   below.
                 </p>
@@ -839,7 +839,7 @@ const Test = (props: any) => {
                   may affect work schedule.
                 </p>
                 <p>
-                  DNV GL shall, at its discretion, work on a correction of the
+                  testGL shall, at its discretion, work on a correction of the
                   fault or find workaround as fast as possible within normal
                   working hours and may include resolutions to these issues in a
                   future release of Licensed Software and/or associated
@@ -850,7 +850,7 @@ const Test = (props: any) => {
                   schedule.
                 </p>
                 <p>
-                  DNV GL shall prioritize cases, at its discretion, and work on
+                  testGL shall prioritize cases, at its discretion, and work on
                   a correction of the fault or find workaround within normal
                   working hours and include resolutions to the cases in a future
                   release of Product and/or associated documentation.
@@ -860,12 +860,12 @@ const Test = (props: any) => {
                   severely hinders day-to-day work.
                 </p>
                 <p>
-                  DNV GL shall start work within next working day and continue
+                  testGL shall start work within next working day and continue
                   during normal working hours until the fault is corrected or an
                   interim workaround or software patch is provided.
                 </p>
                 <p>
-                  DNV GL shall, at its discretion, include resolutions to
+                  testGL shall, at its discretion, include resolutions to
                   priority very high cases in a future release of the Product
                   and/or associated documentation.
                 </p>
@@ -875,33 +875,33 @@ const Test = (props: any) => {
                 <p>
                   3.1 Customer shall, in case of user base of more than 6
                   people, appoint one person acting as primary technical contact
-                  towards DNV GL regarding the scope of Services, see Article
+                  towards testGL regarding the scope of Services, see Article
                   2.1 above.
                 </p>
                 <p>
                   3.2 Customer shall maintain a list of contact details as
                   included in article 5.3 below for personnel entitled to
-                  contact DNV GL. Customer shall promptly inform DNV GL about
+                  contact testGL. Customer shall promptly inform testGL about
                   changes to this list.
                 </p>
                 <p>
                   3.3 Customer shall ensure that technical personnel are
                   available to provide information and assistance whenever
-                  required by DNV GL in the course of investigating cases.
+                  required by testGL in the course of investigating cases.
                 </p>
                 <p>
                   3.4 Customer shall maintain a list of contact details for
                   personnel operating the Product and shall ensure all personnel
-                  operating the Product, are trained by DNV GL or DNV GL’s
+                  operating the Product, are trained by testGL or testGL’s
                   representative.
                 </p>
                 <p>
-                  3.5 If Customer decides not to use DNV GL to install or
+                  3.5 If Customer decides not to use testGL to install or
                   upgrade to new versions of the Product, Customer shall be
                   responsible (i) for certifying its relevant personnel and (ii)
                   to document installations and upgrades of the Product
-                  according to DNV GL’s procedures.Such documentation shall be
-                  approved by DNV GL before any support may be given.
+                  according to testGL’s procedures.Such documentation shall be
+                  approved by testGL before any support may be given.
                 </p>
                 <p>
                   3.6 Customer is responsible for operating backup procedures
@@ -916,7 +916,7 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   3.8 Customer shall ensure that the system software platform is
-                  compatible with DNV GL’s software and hardware requirements
+                  compatible with testGL’s software and hardware requirements
                   for the installed version of the Product
                 </p>
                 <p>
@@ -929,7 +929,7 @@ const Test = (props: any) => {
                 </p>
                 <p>
                   In addition to Services resulting from obligations as stated
-                  in Article &lrm;2 above, DNV GL will, at Customer’s request
+                  in Article &lrm;2 above, testGL will, at Customer’s request
                   and cost, support and advise Customer in training, practical
                   use and operation of the Product. Such services may include:
                 </p>
@@ -946,21 +946,21 @@ const Test = (props: any) => {
                 <p>• Assistance related to disaster recovery.</p>
                 <p>
                   The further scope and terms of such additional services shall
-                  be agreed between DNV GL and the Customer, and are subject to
+                  be agreed between testGL and the Customer, and are subject to
                   a separate agreement between the parties.
                 </p>
                 <p>
                   <strong>5. Contact details</strong>
                 </p>
-                <p>5.1 DNV GL’s contact information:</p>
+                <p>5.1 testGL’s contact information:</p>
                 <p>
-                  The global website DNV GL’s world-wide contact details.The
+                  The global website testGL’s world-wide contact details.The
                   global website also includes instructions to Customer on how
-                  to register named users in DNV GL’s Customer Portal.
+                  to register named users in testGL’s Customer Portal.
                 </p>
-                <p>5.2 Information from DNV GL</p>
+                <p>5.2 Information from testGL</p>
                 <p>
-                  DNV GL will keep Customer updated on important product
+                  testGL will keep Customer updated on important product
                   information, via Customer Portal or e-mail.
                 </p>
               </div>
@@ -987,7 +987,7 @@ const Scroll = () => {
     <>
       {show && <Test setShow={setShow} />}
       <a
-        href="#here"
+        href='#here'
         onClick={() => {
           setShow(true);
         }}

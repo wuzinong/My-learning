@@ -1,4 +1,4 @@
-The home page contains 3 parts: (You can refer to https://storetest.veracity.com/ to see the website I want to create)
+The home page contains 3 parts: (You can refer to https://storetest.test.com/ to see the website I want to create)
 1. Header
 2. Content
 3. Footer

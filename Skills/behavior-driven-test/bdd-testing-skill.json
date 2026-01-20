@@ -1,0 +1,332 @@
+{
+    "name": "BDD Testing Expert",
+    "version": "1.1.0",
+    "description": "Expert skill for implementing Behavior-Driven Development (BDD) testing using Cucumber and other BDD frameworks. Helps create executable specifications with Given-When-Then syntax that bridge business requirements and technical implementation.",
+    "category": "Testing & Quality Assurance",
+    "tags": [
+        "BDD",
+        "Cucumber",
+        "Gherkin",
+        "Testing",
+        "Acceptance Criteria",
+        "User Stories",
+        "Domain-Driven Design",
+        "Test Automation",
+        "Quality Assurance"
+    ],
+    "systemPrompt": "You are an expert in Behavior-Driven Development (BDD) testing, specializing in helping teams bridge the gap between business requirements (user stories, acceptance criteria) and automated testing using frameworks like Cucumber, SpecFlow, Behave, and others.\n\n## Your Core Expertise:\n\n### 1. BDD Philosophy & Shared Language\n- You understand the connection between Domain-Driven Design (DDD) ubiquitous language and BDD specifications\n- You help teams create a shared vocabulary between business stakeholders, developers, and testers\n- You translate user stories and acceptance criteria into executable BDD scenarios\n- You ensure scenarios are business-readable and technically executable\n\n### 2. Gherkin Scenario Creation\n- You write clear, maintainable Given-When-Then scenarios that focus on business behavior\n- You create scenarios that are independent, atomic, and reusable\n- You use Scenario Outlines for data-driven testing with parameterized examples\n- You organize features by business capability, not technical structure\n\n### 3. Test Implementation Patterns\n- You create reusable step definitions that hide technical complexity\n- You follow the principle: scenarios describe WHAT to test, steps implement HOW\n- You promote step reusability across multiple scenarios (target: 3-5 scenarios per step)\n- You implement proper test isolation, setup, and teardown patterns\n\n### 4. Multi-Framework Support\n- **Cucumber (JavaScript/TypeScript)**: Cucumber.js, Webdriver.io integration\n- **SpecFlow (.NET)**: C# step definitions with Visual Studio integration\n- **Behave (Python)**: Python step definitions with Behave framework\n- **pytest-bdd (Python)**: Lightweight Python BDD approach\n- **Cypress/Playwright**: Modern web testing with BDD style\n\n### 5. AI-Enhanced BDD Practices\n- **Scenario Generation**: Use AI to generate comprehensive scenarios from requirements, including edge cases\n- **Test Data Generation**: Create diverse, boundary-value test data for Scenario Outlines\n- **Step Optimization**: Identify and consolidate duplicate steps, build centralized libraries\n- **Redundancy Detection**: Find overlapping scenarios and suggest consolidation\n- **Consistency Checking**: Ensure vocabulary uniformity across scenarios\n\n### 6. Advanced Patterns\n- **API Contract Testing**: Define request/response contracts as executable specifications\n- **Living Documentation**: Maintain feature files as the primary source of truth\n- **Acceptance Criteria Mapping**: Link scenarios directly to user story acceptance criteria\n- **Test Pyramid Integration**: Guide appropriate use of BDD at integration/E2E levels\n\n### 7. Best Practices You Enforce\n- Use business-readable language (avoid technical jargon and implementation details)\n- Keep scenarios focused on a single behavior\n- Write independent scenarios that can run in any order\n- Reuse steps across scenarios (avoid duplication)\n- Use concrete, specific examples (not vague abstractions)\n- Keep scenarios concise (typically 3-5 steps)\n- Use tags for organization (@smoke, @critical, @regression)\n- Include meaningful feature descriptions\n\n### 8. Anti-Patterns You Prevent\n- Implementation details in scenarios (e.g., \"click button with id='btn-123'\")\n- Multiple behaviors tested in one scenario\n- Technical jargon that business stakeholders can't understand\n- Dependencies between scenarios\n- Overly broad or overly narrow scenarios\n- Testing UI elements instead of business behavior\n- Hard-coded data without context\n- Over-parameterized steps that reduce readability\n\n### 9. Team Adoption Support\n- Help establish shared step libraries and naming conventions\n- Provide metrics: coverage %, step reusability, test execution time, pass rate\n- Guide DevOps integration: CI/CD pipelines, parallel execution, selective test runs\n- Support stakeholder reviews and feedback loops\n- Create team style guides and governance models\n\n### 10. Domain Expertise\nYou provide tailored examples across domains:\n- E-Commerce (shopping cart, checkout, product catalog)\n- Healthcare (appointments, medical records, patient management)\n- Banking (transfers, accounts, transactions)\n- SaaS (authentication, subscriptions, user management)\n- APIs (CRUD operations, contract testing)\n- Mobile (user interactions, offline behavior)\n\n## How You Help Users:\n\n1. **Convert Requirements to Tests**: Transform user stories and acceptance criteria into executable BDD scenarios\n2. **Write Scenarios**: Create Given-When-Then scenarios that are clear and maintainable\n3. **Generate Step Definitions**: Produce implementation code for any supported framework\n4. **Refactor Existing Tests**: Improve clarity, remove duplication, enhance reusability\n5. **Review & Critique**: Evaluate BDD specifications against best practices\n6. **Educate Teams**: Explain BDD concepts and adoption strategies\n7. **Optimize Test Suites**: Identify redundancies, improve execution speed, enhance coverage\n8. **AI Assistance**: Provide prompts and guidance for AI-assisted scenario generation and optimization\n\n## Your Communication Style:\n\n- Use clear, concrete examples from the user's domain\n- Explain WHY certain practices matter, not just WHAT to do\n- Provide before/after examples when suggesting improvements\n- Reference relevant patterns and templates from the knowledge base\n- Offer actionable next steps and incremental improvements\n- Balance business readability with technical correctness\n\n## Key Principles:\n\n1. **Business Value First**: Every scenario must describe valuable business behavior\n2. **Shared Understanding**: Scenarios are a collaboration tool between business, dev, and QA\n3. **Living Documentation**: Feature files should be the single source of truth for behavior\n4. **Executable Specifications**: Scenarios must be both readable and runnable\n5. **Maintainability**: Invest in reusable steps and clear organization to reduce long-term costs",
+    "capabilities": [
+        "Transform user stories and acceptance criteria into BDD scenarios",
+        "Write Given-When-Then scenarios in Gherkin syntax",
+        "Create Scenario Outlines with data tables for parameterized testing",
+        "Generate step definitions for Cucumber, SpecFlow, Behave, pytest-bdd",
+        "Refactor existing test scenarios to follow BDD best practices",
+        "Identify and consolidate duplicate steps across scenarios",
+        "Design reusable step libraries for team-wide use",
+        "Map scenarios to acceptance criteria for traceability",
+        "Detect redundant scenarios and suggest consolidation",
+        "Ensure vocabulary consistency across feature files",
+        "Create API contract tests using BDD",
+        "Implement test hooks, context management, and async patterns",
+        "Provide domain-specific examples (e-commerce, healthcare, banking, SaaS, APIs)",
+        "Generate comprehensive edge cases and boundary conditions",
+        "Create diverse test data for data-driven scenarios",
+        "Optimize test execution speed and pipeline integration",
+        "Establish team adoption metrics and governance models",
+        "Support CI/CD integration and parallel test execution"
+    ],
+    "supportedFrameworks": [
+        {
+            "name": "Cucumber (JavaScript/TypeScript)",
+            "language": "JavaScript/TypeScript",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".steps.js / .steps.ts",
+            "useCase": "Web and API testing, full-stack applications"
+        },
+        {
+            "name": "SpecFlow",
+            "language": "C# (.NET)",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".cs",
+            "useCase": ".NET applications, Visual Studio integration"
+        },
+        {
+            "name": "Behave",
+            "language": "Python",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".py",
+            "useCase": "Python applications, simple setup"
+        },
+        {
+            "name": "pytest-bdd",
+            "language": "Python",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".py",
+            "useCase": "Lightweight Python BDD with pytest integration"
+        },
+        {
+            "name": "Cypress (with Cucumber preprocessor)",
+            "language": "JavaScript/TypeScript",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".js / .ts",
+            "useCase": "Modern frontend E2E testing"
+        },
+        {
+            "name": "Playwright (with Cucumber)",
+            "language": "JavaScript/TypeScript/Python",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".js / .ts / .py",
+            "useCase": "Cross-browser testing, modern web automation"
+        },
+        {
+            "name": "Serenity BDD",
+            "language": "Java",
+            "fileExtension": ".feature",
+            "stepDefinitionExtension": ".java",
+            "useCase": "Enterprise Java projects, screenplay pattern"
+        }
+    ],
+    "scenarioPatterns": {
+        "basic_scenario": {
+            "description": "Simple scenario with linear flow",
+            "template": "Feature: [Feature Name]\n  As a [role]\n  I want to [action]\n  So that [business value]\n\n  Scenario: [Clear behavior description]\n    Given [initial context/precondition]\n    When [action/trigger]\n    Then [expected outcome]\n    And [additional verification]"
+        },
+        "scenario_outline": {
+            "description": "Data-driven scenario with multiple examples",
+            "template": "Feature: [Feature Name]\n\n  Scenario Outline: [Generic description with variables]\n    Given [context with <variable>]\n    When [action with <variable>]\n    Then [outcome should be <expected>]\n\n    Examples:\n      | variable | expected |\n      | value1   | result1  |\n      | value2   | result2  |"
+        },
+        "background": {
+            "description": "Shared preconditions for all scenarios in a feature",
+            "template": "Feature: [Feature Name]\n\n  Background:\n    Given [shared precondition for all scenarios]\n    And [another shared setup]\n\n  Scenario: [First scenario]\n    When [action]\n    Then [outcome]\n\n  Scenario: [Second scenario]\n    When [different action]\n    Then [different outcome]"
+        },
+        "api_contract": {
+            "description": "API testing with request/response validation",
+            "template": "Feature: [API Resource] Management\n\n  Scenario: [HTTP Method] [Resource] successfully\n    Given the API is available\n    When I send a [METHOD] request to \"[endpoint]\" with:\n      | field  | value  |\n      | field1 | value1 |\n    Then the response status should be [status_code]\n    And the response should contain:\n      | field       | value       |\n      | field_name  | field_value |"
+        },
+        "error_handling": {
+            "description": "Error scenarios and validation",
+            "template": "Feature: [Feature Name]\n\n  Scenario: Handle [error condition]\n    Given [setup that leads to error]\n    When [action that triggers error]\n    Then [error should be displayed]\n    And [system should remain stable]\n    And [user should be able to recover]"
+        }
+    },
+    "bestPractices": [
+        "Use active voice and third person (\"the user clicks\" not \"I click\")",
+        "Keep scenarios focused on single business behavior",
+        "Write independent scenarios that can run in any order",
+        "Reuse steps across multiple scenarios (target: 3-5 scenarios per step)",
+        "Use concrete, specific examples rather than vague abstractions",
+        "Organize features by business capability, not technical architecture",
+        "Keep scenarios concise (typically 3-5 steps per scenario)",
+        "Include clear Given (setup), When (action), Then (verification) structure",
+        "Use tags for organization (@smoke, @critical, @regression, @wip)",
+        "Review scenarios with non-technical stakeholders for clarity",
+        "Maintain consistency in vocabulary (create a shared glossary)",
+        "Include feature descriptions with business context",
+        "Use Scenario Outlines to eliminate duplicate scenarios",
+        "Implement proper test data management and cleanup",
+        "Use Background for shared preconditions within a feature",
+        "Create centralized step libraries for team-wide reuse",
+        "Link scenarios to user stories and acceptance criteria for traceability",
+        "Treat feature files as living documentation (keep them up-to-date)"
+    ],
+    "antiPatterns": [
+        "Including implementation details (\"click button with id 'btn-123'\")",
+        "Testing multiple behaviors in one scenario",
+        "Using technical jargon not understood by business stakeholders",
+        "Creating dependencies between scenarios (order-dependent tests)",
+        "Writing overly broad scenarios that test too much",
+        "Writing overly narrow scenarios that test trivial behavior",
+        "Testing UI elements instead of business behavior",
+        "Duplicating steps instead of reusing them",
+        "Using hard-coded data without explaining context",
+        "Making scenarios too long (more than 10 steps is usually a code smell)",
+        "Skipping Given preconditions (assuming state from previous tests)",
+        "Over-parameterizing steps to the point of unreadability",
+        "Mixing assertions in a single Then step without clarity",
+        "Forgetting to clean up test data in hooks",
+        "Confusing mocking strategies (inconsistent use of real vs. mocked services)",
+        "Not linking scenarios to acceptance criteria",
+        "Allowing feature files to become outdated",
+        "Missing Background when multiple scenarios share setup"
+    ],
+    "stepDefinitionTemplates": {
+        "javascript_cucumber": {
+            "given": "const { Given } = require('@cucumber/cucumber');\n\nGiven('the user is on the {string} page', async function (pageName) {\n  await this.page.goto(`/${pageName}`);\n});",
+            "when": "const { When } = require('@cucumber/cucumber');\n\nWhen('the user enters {string} in the {string} field', async function (value, fieldName) {\n  await this.page.fill(`[name=\"${fieldName}\"]`, value);\n});",
+            "then": "const { Then } = require('@cucumber/cucumber');\nconst { expect } = require('@playwright/test');\n\nThen('the {string} should be displayed', async function (elementText) {\n  await expect(this.page.locator(`text=${elementText}`)).toBeVisible();\n});"
+        },
+        "python_behave": {
+            "given": "from behave import given\n\n@given('the user is on the \"{page_name}\" page')\ndef step_user_on_page(context, page_name):\n    context.browser.get(f'/{page_name}')",
+            "when": "from behave import when\n\n@when('the user enters \"{value}\" in the \"{field_name}\" field')\ndef step_enter_value(context, value, field_name):\n    field = context.browser.find_element_by_name(field_name)\n    field.send_keys(value)",
+            "then": "from behave import then\n\n@then('the \"{text}\" should be displayed')\ndef step_verify_text(context, text):\n    element = context.browser.find_element_by_xpath(f\"//*[contains(text(), '{text}')]\")\n    assert element.is_displayed()"
+        },
+        "csharp_specflow": {
+            "given": "[Given(@\"the user is on the \"\"(.*)\"\" page\")]\npublic void GivenTheUserIsOnPage(string pageName)\n{\n    _driver.Navigate().GoToUrl($\"/{pageName}\");\n}",
+            "when": "[When(@\"the user enters \"\"(.*)\"\" in the \"\"(.*)\"\" field\")]\npublic void WhenTheUserEntersValueInField(string value, string fieldName)\n{\n    var field = _driver.FindElement(By.Name(fieldName));\n    field.SendKeys(value);\n}",
+            "then": "[Then(@\"the \"\"(.*)\"\" should be displayed\")]\npublic void ThenTheTextShouldBeDisplayed(string text)\n{\n    var element = _driver.FindElement(By.XPath($\"//*[contains(text(), '{text}')]\"));\n    Assert.IsTrue(element.Displayed);\n}"
+        }
+    },
+    "domainExamples": {
+        "ecommerce": {
+            "userStory": "As a customer, I want to add items to my shopping cart so that I can purchase multiple products together",
+            "acceptanceCriteria": [
+                "User can add product to empty cart",
+                "Cart displays correct quantity and total price",
+                "User can add same product multiple times (quantity increases)",
+                "User receives confirmation when item is added"
+            ],
+            "bddScenario": "Feature: Shopping Cart Management\n  As a customer\n  I want to add items to my shopping cart\n  So that I can purchase multiple products together\n\n  Scenario: Add single item to empty cart\n    Given the user is viewing a product priced at $29.99\n    And the shopping cart is empty\n    When the user clicks the \"Add to Cart\" button\n    Then the cart should contain 1 item\n    And the cart total should be $29.99\n    And a confirmation message should be displayed\n\n  Scenario: Add multiple quantities of same item\n    Given the cart contains 1 \"Wireless Mouse\" priced at $29.99\n    When the user adds another \"Wireless Mouse\" to the cart\n    Then the cart should contain 2 \"Wireless Mouse\" items\n    And the cart total should be $59.98"
+        },
+        "banking": {
+            "userStory": "As a customer, I want to transfer money between my accounts so that I can manage my funds efficiently",
+            "acceptanceCriteria": [
+                "User can transfer funds from account with sufficient balance",
+                "Source account balance decreases by transfer amount",
+                "Destination account balance increases by transfer amount",
+                "Transfer is declined if insufficient funds",
+                "User receives confirmation of successful transfer"
+            ],
+            "bddScenario": "Feature: Account-to-Account Transfer\n  As a customer\n  I want to transfer money between my accounts\n  So that I can manage my funds efficiently\n\n  Scenario: Successfully transfer funds between own accounts\n    Given the user has Account A with balance $1,000\n    And the user has Account B with balance $500\n    When the user transfers $300 from Account A to Account B\n    Then Account A balance should be $700\n    And Account B balance should be $800\n    And a transfer confirmation should be displayed\n    And a transaction record should be created\n\n  Scenario: Decline transfer with insufficient funds\n    Given the user's checking account has balance $100\n    When the user attempts to transfer $200 to savings account\n    Then the transfer should be declined\n    And an error message should explain insufficient funds\n    And account balances should remain unchanged"
+        },
+        "api": {
+            "userStory": "As an API consumer, I want to create and retrieve user resources so that I can manage user data",
+            "acceptanceCriteria": [
+                "POST /api/users creates a new user and returns 201",
+                "GET /api/users/{id} retrieves existing user and returns 200",
+                "GET /api/users/{id} returns 404 for non-existent user",
+                "Response includes all required fields",
+                "Invalid data returns 400 with validation errors"
+            ],
+            "bddScenario": "Feature: User API Management\n  As an API consumer\n  I want to create and retrieve user resources\n  So that I can manage user data through the API\n\n  Scenario: Create new user successfully\n    Given the API is available\n    When I send a POST request to \"/api/users\" with:\n      | field     | value              |\n      | name      | John Doe           |\n      | email     | john@example.com   |\n      | role      | customer           |\n    Then the response status should be 201\n    And the response should contain a user ID\n    And the response should include:\n      | field     | value              |\n      | name      | John Doe           |\n      | email     | john@example.com   |\n\n  Scenario: Retrieve existing user\n    Given a user exists with ID \"123\"\n    When I send a GET request to \"/api/users/123\"\n    Then the response status should be 200\n    And the response should contain user details\n\n  Scenario: Handle non-existent user\n    When I send a GET request to \"/api/users/99999\"\n    Then the response status should be 404\n    And the response should contain an error message"
+        }
+    },
+    "aiIntegrationPrompts": {
+        "generateScenarios": "I have the following user story and acceptance criteria:\n\nUser Story: [paste user story]\n\nAcceptance Criteria:\n[paste acceptance criteria]\n\nPlease generate comprehensive BDD scenarios in Gherkin format that:\n1. Cover all acceptance criteria\n2. Include happy path scenarios\n3. Include edge cases and boundary conditions\n4. Include error handling scenarios\n5. Use clear Given-When-Then structure\n6. Follow BDD best practices",
+        "generateTestData": "I need test data for the following scenario:\n\n[paste scenario]\n\nPlease generate a Scenario Outline with Examples table that includes:\n1. Valid test cases (at least 3)\n2. Invalid test cases (at least 3)\n3. Boundary conditions (at least 2)\n4. Edge cases (at least 2)\n\nEnsure diverse and realistic data.",
+        "optimizeSteps": "Here are my current step definitions:\n\n[paste step definitions or summary]\n\nPlease analyze for:\n1. Duplicate or near-duplicate steps that could be consolidated\n2. Common patterns that could be abstracted\n3. Steps that could use better parameterization\n4. Suggested refactoring with examples\n5. Estimated reduction in unique steps",
+        "detectRedundancy": "I have the following scenarios:\n\n[paste scenarios]\n\nPlease identify:\n1. Truly redundant scenarios that can be removed\n2. Scenarios with significant overlap that could be consolidated\n3. Scenarios that could be combined using Scenario Outline\n4. Coverage gaps (behaviors not tested)\n5. Recommended final scenario count"
+    },
+    "teamAdoptionGuidance": {
+        "phase1_foundation": {
+            "duration": "2-4 weeks",
+            "activities": [
+                "Train team on BDD philosophy and Given-When-Then format",
+                "Establish shared vocabulary and glossary",
+                "Create first feature files for 2-3 high-priority user stories",
+                "Implement basic step definitions",
+                "Set up test execution in local environment",
+                "Review scenarios with business stakeholders"
+            ],
+            "successCriteria": [
+                "Team can write basic Given-When-Then scenarios",
+                "Business stakeholders can read and validate scenarios",
+                "Tests execute successfully in local environment",
+                "At least 10 scenarios created and reviewed"
+            ]
+        },
+        "phase2_expansion": {
+            "duration": "1-2 months",
+            "activities": [
+                "Build centralized step library",
+                "Establish naming conventions and style guide",
+                "Integrate tests into CI/CD pipeline",
+                "Create scenarios for all new user stories",
+                "Implement hooks for test setup/teardown",
+                "Track metrics: coverage %, step reusability, execution time"
+            ],
+            "successCriteria": [
+                "50+ scenarios covering major features",
+                "Step reusability rate of 3+ scenarios per step",
+                "Tests run automatically in CI/CD",
+                "Test execution time under 10 minutes",
+                "All new features have BDD scenarios before implementation"
+            ]
+        },
+        "phase3_optimization": {
+            "duration": "Ongoing",
+            "activities": [
+                "Use AI to identify redundancies and suggest consolidation",
+                "Optimize slow-running tests (parallel execution, selective runs)",
+                "Implement living documentation generation",
+                "Create traceability to requirements",
+                "Conduct regular scenario review sessions",
+                "Measure and improve test pyramid balance"
+            ],
+            "successCriteria": [
+                "90%+ acceptance criteria coverage",
+                "95%+ test pass rate",
+                "Test execution under 5 minutes (with parallel execution)",
+                "Scenarios serve as primary documentation",
+                "Team velocity stable or improved with BDD"
+            ]
+        }
+    },
+    "metrics": {
+        "coverage": {
+            "scenario_coverage": "Percentage of acceptance criteria with corresponding scenarios (Target: 90%+)",
+            "feature_completion": "Percentage of features with complete BDD scenarios",
+            "traceability": "Percentage of scenarios linked to user stories"
+        },
+        "quality": {
+            "step_reusability": "Average number of scenarios per step definition (Target: 3-5)",
+            "unique_steps": "Total number of unique step definitions (Lower is better)",
+            "maintenance_ratio": "Number of scenario changes per code change (Lower is better)"
+        },
+        "execution": {
+            "pass_rate": "Percentage of scenarios passing consistently (Target: 95%+)",
+            "execution_time": "Total time to run all scenarios (Target: <10 min for full suite)",
+            "failure_analysis": "Root causes of failing scenarios tracked and resolved"
+        },
+        "adoption": {
+            "stakeholder_engagement": "Frequency of business stakeholder reviews",
+            "developer_adoption": "Percentage of team writing BDD scenarios",
+            "proficiency": "Team self-assessment of BDD skills (tracked quarterly)"
+        }
+    },
+    "quickReference": {
+        "gherkinKeywords": {
+            "Feature": "Describes a business capability or feature",
+            "Scenario": "A single behavior test case",
+            "Scenario Outline": "Parameterized scenario with data table",
+            "Given": "Initial setup or precondition",
+            "When": "Action or event trigger",
+            "Then": "Expected outcome or result",
+            "And": "Additional step (can be Given, When, or Then)",
+            "But": "Negative assertion or exception",
+            "Background": "Shared setup steps for all scenarios in a feature",
+            "Examples": "Data table for Scenario Outline parameters",
+            "@tag": "Metadata for organizing and filtering scenarios"
+        },
+        "commonTags": {
+            "@smoke": "Quick sanity tests for critical paths",
+            "@regression": "Full regression test suite",
+            "@critical": "High-priority business-critical scenarios",
+            "@wip": "Work in progress (often excluded from CI)",
+            "@slow": "Long-running tests (run separately)",
+            "@api": "API-level tests",
+            "@ui": "UI-level tests",
+            "@integration": "Integration tests"
+        }
+    },
+    "references": [
+        {
+            "title": "BDD Implementation Guide",
+            "type": "internal",
+            "description": "Comprehensive guide for implementing BDD in your organization"
+        },
+        {
+            "title": "BDD Quick Reference",
+            "type": "internal",
+            "description": "Fast lookup guide for Gherkin syntax and common patterns"
+        },
+        {
+            "title": "BDD Scenarios Examples",
+            "type": "internal",
+            "description": "Ready-to-use scenario templates across 8+ domains"
+        },
+        {
+            "title": "BDD AI Integration Prompts",
+            "type": "internal",
+            "description": "15 practical AI prompts for scenario generation and optimization"
+        }
+    ]
+}

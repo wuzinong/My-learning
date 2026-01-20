@@ -30,4 +30,4 @@ builder.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
 }
 });
 
-Make sure your applicationUrl is set correctly under launchSettings.json if you need to integrate with a logged-in only websites which integrates with the veracity SSO
+Make sure your applicationUrl is set correctly under launchSettings.json if you need to integrate with a logged-in only websites which integrates with the test SSO

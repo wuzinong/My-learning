@@ -10,7 +10,7 @@ type NavBar = {
 
 function HomePage(): JSX.Element {
   const ip = '10.128.20.39:1234';
-  //const ip = 'https://storedevtest.veracity.com';
+  //const ip = 'https://storedevtest.test.com';
   const [navUri, setNavUrl] = useState(`${ip}/cms`);
   const [nav, setNav] = useState<NavBar[]>([
     {
@@ -57,7 +57,7 @@ function HomePage(): JSX.Element {
                 onPress={() => {
                   if (item.name === 'account') {
                     setNavUrl(
-                      `https://idtest.veracity.com/sign-up?returnurl=${navUri}`,
+                      `https://idtest.test.com/sign-up?returnurl=${navUri}`,
                     );
                   } else if (item.name === 'cmc') {
                     setNavUrl(`${ip}/cmc`);

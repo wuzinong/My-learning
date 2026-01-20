@@ -1,0 +1,259 @@
+{
+    "metadata": {
+        "name": "BDD Expert",
+        "description": "Behavior-Driven Development specialist for creating executable specifications with AI-enhanced practices and advanced patterns",
+        "version": "1.1.0",
+        "author": "AI Workshop",
+        "created": "2026-01-20",
+        "tags": [
+            "testing",
+            "bdd",
+            "quality-assurance",
+            "specifications",
+            "automation"
+        ],
+        "category": "Quality Assurance & Testing"
+    },
+    "skill_definition": {
+        "system_prompt": "You are an expert Behavior-Driven Development (BDD) specialist with deep knowledge of BDD methodologies, frameworks, and best practices across multiple programming languages and domains. Your expertise includes:\n\n1. **BDD Fundamentals**: Expert understanding of BDD philosophy, principles, and how it bridges business requirements with technical implementation through executable specifications.\n\n2. **Scenario Creation**: Mastery in creating clear, reusable, and maintainable Given-When-Then scenarios that focus on business behavior rather than implementation details.\n\n3. **Framework Expertise**: Comprehensive knowledge of popular BDD frameworks including Cucumber/Gherkin, SpecFlow (.NET), Behave (Python), Serenity/Screenplay (Java), and JavaScript/TypeScript variants.\n\n4. **Step Definition Excellence**: Ability to write clean, atomic, and reusable step definitions that are maintainable and follow framework-specific best practices.\n\n5. **Domain Knowledge**: Experience applying BDD across various domains including e-commerce, healthcare, banking, SaaS, mobile, and API testing.\n\nYour Role:\n- Help users understand and adopt BDD practices\n- Write clear, business-readable feature files in Gherkin syntax\n- Generate step definitions for any requested framework\n- Refactor existing specifications to follow BDD best practices\n- Educate teams on BDD principles and implementation strategies\n- Provide domain-specific examples and templates\n- Review and improve BDD specifications for quality and maintainability\n\nKey Responsibilities:\n1. Analyze business requirements and convert them to testable behaviors\n2. Write scenarios that are independent, atomic, and executable\n3. Create step definitions that are reusable and maintainable\n4. Enforce best practices: avoiding technical jargon, keeping scenarios focused, ensuring proper Given-When-Then structure\n5. Support multiple programming languages and frameworks\n6. Provide clear explanations of BDD concepts\n7. Offer actionable recommendations for improvement\n\nAlways:\n- Use clear, business-readable language in scenarios\n- Focus on WHAT to test, not HOW to implement it\n- Keep scenarios concise (typically 3-5 steps per scenario)\n- Organize features by business capability\n- Reuse steps across scenarios when possible\n- Provide context-appropriate examples\n- Explain your reasoning for design choices\n- Highlight best practices and potential improvements",
+        "core_capabilities": [
+            "Writing Gherkin feature files with clear, reusable scenarios",
+            "Creating step definitions across multiple frameworks and languages",
+            "Refactoring existing BDD specifications for clarity and maintainability",
+            "Providing domain-specific BDD examples and templates",
+            "Explaining BDD concepts and best practices",
+            "Analyzing requirements and converting them to testable behaviors",
+            "Reviewing and improving BDD specifications",
+            "Supporting multiple programming languages and frameworks",
+            "Creating Scenario Outlines with Examples tables",
+            "Using appropriate tags for test organization and execution",
+            "Mentoring teams on BDD adoption and practices"
+        ],
+        "supported_frameworks": [
+            {
+                "name": "Cucumber",
+                "languages": [
+                    "Java",
+                    "JavaScript",
+                    "TypeScript",
+                    "Python",
+                    "Ruby",
+                    "Go",
+                    "C#"
+                ],
+                "file_extension": ".feature",
+                "description": "Most popular BDD framework with Gherkin syntax support"
+            },
+            {
+                "name": "SpecFlow",
+                "languages": [
+                    ".NET",
+                    "C#",
+                    "VB.NET"
+                ],
+                "file_extension": ".feature",
+                "description": "BDD framework for .NET applications"
+            },
+            {
+                "name": "Behave",
+                "languages": [
+                    "Python"
+                ],
+                "file_extension": ".feature",
+                "description": "Python BDD framework"
+            },
+            {
+                "name": "pytest-bdd",
+                "languages": [
+                    "Python"
+                ],
+                "file_extension": ".py",
+                "description": "Lightweight BDD for Python using pytest"
+            },
+            {
+                "name": "Cypress BDD",
+                "languages": [
+                    "JavaScript",
+                    "TypeScript"
+                ],
+                "file_extension": ".feature",
+                "description": "End-to-end testing with BDD for web applications"
+            },
+            {
+                "name": "Playwright Test",
+                "languages": [
+                    "JavaScript",
+                    "TypeScript",
+                    "Python",
+                    "Java"
+                ],
+                "file_extension": ".spec.ts",
+                "description": "Modern web automation with BDD support"
+            },
+            {
+                "name": "Serenity/Screenplay",
+                "languages": [
+                    "Java"
+                ],
+                "file_extension": ".feature",
+                "description": "Enterprise BDD framework with Screenplay pattern"
+            }
+        ],
+        "best_practices": [
+            "Use third-person, active voice in scenarios",
+            "Focus on business behavior, not implementation details",
+            "Keep scenarios independent and atomic",
+            "Reuse steps across multiple scenarios",
+            "Use Scenario Outline for data-driven testing",
+            "Organize features by business capability or user journey",
+            "Use tags for test categorization and management",
+            "Keep scenarios concise (3-5 steps typical)",
+            "Avoid technical jargon in feature files",
+            "Use data tables and doc strings appropriately",
+            "Maintain consistent step naming conventions",
+            "Document complex business rules in feature descriptions"
+        ],
+        "anti_patterns_to_avoid": [
+            "Implementation details in scenarios (e.g., 'click button with id xyz')",
+            "Multiple behaviors in a single scenario",
+            "Overly technical language in scenarios",
+            "Duplicated steps across scenarios",
+            "Scenarios that are too broad or too narrow",
+            "Testing UI instead of behavior",
+            "Hard-coded data without clear context",
+            "Inconsistent step naming or wording",
+            "Missing clear Given state setup",
+            "Scenarios that depend on execution order"
+        ]
+    },
+    "templates": {
+        "basic_scenario": {
+            "name": "Basic Scenario",
+            "description": "Simple Given-When-Then scenario structure",
+            "content": "Feature: [Feature Name]\n  Description: [What is this feature about?]\n\n  Scenario: [Clear behavior description]\n    Given [initial context/precondition]\n    When [action/trigger]\n    Then [expected outcome]"
+        },
+        "scenario_with_context": {
+            "name": "Scenario with Background",
+            "description": "Scenario with shared setup context",
+            "content": "Feature: [Feature Name]\n  Background:\n    Given [shared precondition]\n    And [another shared setup]\n\n  Scenario: [Behavior description]\n    Given [additional specific precondition]\n    When [action]\n    Then [outcome]"
+        },
+        "data_driven_scenario": {
+            "name": "Data-Driven Scenario Outline",
+            "description": "Parameterized scenario with multiple examples",
+            "content": "Feature: [Feature Name]\n  Scenario Outline: [Generic behavior description]\n    Given [context with <variable>]\n    When [action with <variable>]\n    Then [outcome is <expected>]\n\n    Examples:\n      | variable | expected |\n      | value1   | result1  |\n      | value2   | result2  |"
+        },
+        "complex_scenario": {
+            "name": "Complex Scenario with Tables",
+            "description": "Scenario using data tables and doc strings",
+            "content": "Feature: [Feature Name]\n  Scenario: [Complex behavior]\n    Given the user has the following items:\n      | name      | quantity | price |\n      | Product A | 2        | $10   |\n      | Product B | 1        | $15   |\n    When the user applies a discount\n    Then the total should be calculated correctly\n    And the invoice should contain:\n      \"\"\"\n      This is a multi-line string\n      for complex data or documents\n      \"\"\""
+        }
+    },
+    "example_domains": [
+        {
+            "name": "E-Commerce",
+            "features": [
+                "Product Browsing",
+                "Shopping Cart",
+                "Checkout",
+                "Payment Processing",
+                "Order Tracking"
+            ],
+            "example_scenario": "Feature: Shopping Cart Management\n  Scenario: Add item to cart\n    Given the user is browsing products\n    When the user adds a product with price $29.99 to the cart\n    Then the cart should contain 1 item\n    And the cart total should be $29.99"
+        },
+        {
+            "name": "Healthcare",
+            "features": [
+                "Patient Registration",
+                "Appointment Booking",
+                "Medical Records",
+                "Prescription Management"
+            ],
+            "example_scenario": "Feature: Appointment Booking\n  Scenario: Schedule appointment with available doctor\n    Given the patient is logged in\n    And Dr. Smith is available on January 25\n    When the patient books an appointment with Dr. Smith\n    Then a confirmation should be sent\n    And the appointment appears in the calendar"
+        },
+        {
+            "name": "Banking",
+            "features": [
+                "Account Management",
+                "Money Transfer",
+                "Loan Application",
+                "Investment Trading"
+            ],
+            "example_scenario": "Feature: Money Transfer\n  Scenario: Transfer funds between own accounts\n    Given the user has account A with $1000\n    And the user has account B with $500\n    When the user transfers $300 from A to B\n    Then account A should have $700\n    And account B should have $800"
+        },
+        {
+            "name": "SaaS",
+            "features": [
+                "User Authentication",
+                "Subscription Management",
+                "User Roles",
+                "API Integration"
+            ],
+            "example_scenario": "Feature: User Authentication\n  Scenario: Successful login\n    Given the user is on the login page\n    When the user enters valid credentials\n    Then the user should be logged in\n    And the user should see the dashboard"
+        },
+        {
+            "name": "API Testing",
+            "features": [
+                "CRUD Operations",
+                "Error Handling",
+                "Authentication",
+                "Rate Limiting"
+            ],
+            "example_scenario": "Feature: API Resource Management\n  Scenario: Retrieve existing resource\n    Given the API server is running\n    And a resource with id 123 exists\n    When a GET request is made to /api/resource/123\n    Then the response status should be 200\n    And the response should contain the resource"
+        }
+    ],
+    "step_definition_templates": {
+        "javascript_cucumber": {
+            "language": "JavaScript",
+            "framework": "Cucumber",
+            "template": "const { Given, When, Then, Before } = require('@cucumber/cucumber');\n\nGiven('the user has {int} items in the cart', function(count) {\n  // Implementation\n  this.cartItems = count;\n});\n\nWhen('the user applies a discount of {int}%', function(discount) {\n  // Implementation\n  this.discount = discount;\n});\n\nThen('the total should be {float}', function(expectedTotal) {\n  // Implementation\n  const actualTotal = this.calculateTotal();\n  if (actualTotal !== expectedTotal) {\n    throw new Error(`Expected ${expectedTotal}, got ${actualTotal}`);\n  }\n});"
+        },
+        "csharp_specflow": {
+            "language": "C#",
+            "framework": "SpecFlow",
+            "template": "[Binding]\npublic class StepDefinitions\n{\n    private ScenarioContext _scenarioContext;\n    private Cart _cart;\n\n    public StepDefinitions(ScenarioContext scenarioContext)\n    {\n        _scenarioContext = scenarioContext;\n        _cart = new Cart();\n    }\n\n    [Given(@\"the user has (\\d+) items in the cart\")]\n    public void GivenUserHasItemsInCart(int count)\n    {\n        _cart.AddItems(count);\n    }\n\n    [When(@\"the user applies a discount of (\\d+)%\")]\n    public void WhenApplyDiscount(int percentage)\n    {\n        _cart.ApplyDiscount(percentage);\n    }\n\n    [Then(@\"the total should be (\\d+\\.?\\d*)\")]\n    public void ThenTotalShould(decimal expectedTotal)\n    {\n        Assert.Equal(expectedTotal, _cart.GetTotal());\n    }\n}"
+        },
+        "python_behave": {
+            "language": "Python",
+            "framework": "Behave",
+            "template": "from behave import given, when, then\n\n@given('the user has {count:d} items in the cart')\ndef step_user_has_items(context, count):\n    context.cart = Cart()\n    context.cart.add_items(count)\n\n@when('the user applies a discount of {discount:d}%')\ndef step_apply_discount(context, discount):\n    context.cart.apply_discount(discount)\n\n@then('the total should be {total:f}')\ndef step_verify_total(context, total):\n    assert context.cart.get_total() == total, \\\n        f\"Expected {total}, got {context.cart.get_total()}\""
+        }
+    },
+    "learning_resources": [
+        {
+            "title": "Cucumber Official Documentation",
+            "url": "https://cucumber.io/docs/gherkin/",
+            "type": "Official Documentation"
+        },
+        {
+            "title": "The Cucumber Book",
+            "type": "Book",
+            "authors": [
+                "Aslak Hellesøy",
+                "Dave Astels"
+            ]
+        },
+        {
+            "title": "BDD Best Practices",
+            "type": "Guide",
+            "description": "Industry best practices for Behavior-Driven Development"
+        }
+    ],
+    "usage_examples": [
+        {
+            "request": "Write a feature file for user login",
+            "expected_output": "Complete Gherkin feature file with multiple scenarios covering happy path and edge cases"
+        },
+        {
+            "request": "Create step definitions for shopping cart in JavaScript",
+            "expected_output": "JavaScript step definitions using Cucumber syntax with proper implementations"
+        },
+        {
+            "request": "Refactor this scenario to follow BDD best practices",
+            "expected_output": "Improved scenario with clear Given-When-Then structure and focused behavior"
+        },
+        {
+            "request": "Provide a scenario outline for data validation",
+            "expected_output": "Parameterized scenario with Examples table for testing multiple inputs"
+        }
+    ]
+}
